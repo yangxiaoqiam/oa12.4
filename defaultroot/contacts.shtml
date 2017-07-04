@@ -46,9 +46,6 @@
       </div>
     </div>
   </div>
-  <div> 
-   这 是一个 测试 测试 测试
-  </div>
   <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
   <script type="text/javascript" src="scripts/static/template.custom.js"></script>
   <script type="text/javascript" src="scripts/plugins/zTree_v3/jquery.ztree.core-3.5.js"></script>
