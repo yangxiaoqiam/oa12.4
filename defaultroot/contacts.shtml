@@ -47,7 +47,7 @@
     </div>
   </div>
   <div> 
-    test  dd
+   这 是一个 测试 测试 测试
   </div>
   <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
   <script type="text/javascript" src="scripts/static/template.custom.js"></script>
