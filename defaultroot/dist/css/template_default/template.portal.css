@@ -5877,6 +5877,12 @@ h5 {
 .entrance-infoset {
   width: 600px;
 }
+.entrance-infoset.entrance-infoshow {
+  width: auto;
+}
+.entrance-infoset.entrance-infoshow table tr td {
+  padding: 0 ;
+}
 .entrance-infoset .grid-container {
   border: 1px solid #d4d4d4;
   padding: 3px 0;
