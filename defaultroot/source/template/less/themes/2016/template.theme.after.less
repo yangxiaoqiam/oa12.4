@@ -79,6 +79,9 @@
 			color:@global-color;
 		}
       
+      .wh-header{
+      	border-bottom:3px solid @global-color;
+      }
 
        // 头部选中效果
 	    .wh-hd-l-nav dd.on{
@@ -114,9 +117,6 @@
 		        }
 		    }
 		 }
-    
-
-
 
 	  //流程场景
 
@@ -1260,7 +1260,12 @@
 		.wh-org-tree{
 			border-color: @global-color-gray-d;
 			.wh-l-msg{
-				border-color: @global-color;  
+				border-color: @global-color; 
+				a{
+					i.fa{
+						 color:@global-color; 
+					}
+				}  
 			}
 		}
 		//领导日程
@@ -1280,10 +1285,12 @@
 
 
       //首页新闻图片切换
-	    .news-pic .hd ul li.on{
+	    .news-pic .hd ul li{
+	    	 border:1px solid @global-color;
+	    	&.on{
 	    	 background:@global-color;
-	    }
-      
+	        }
+	     }   
 
      //新增工作汇报姓名
 	   .wh-new-work{
@@ -1304,8 +1311,6 @@
 	   }
  
 
-
- 
 	 // 纯色背景文件办理提醒
 
 	  .wh-file-handle-purebackground{
@@ -1318,9 +1323,7 @@
 	  	  }
 	  }
       
-       
-         // 单行文件办理提醒
-
+      // 单行文件办理提醒
      .wh-file-handle-one {
 		    ul {
 		        li {
@@ -1354,11 +1357,8 @@
 		    }
 		}
 
-   
 
-
-       // 单行文件办理提醒
-
+      // 单行文件办理提醒
      .wh-file-handle-one {
 		    ul {
 		        li {
@@ -1369,9 +1369,7 @@
 		    }
 		}
 
-
 	 // 纯色背景快捷入口
-
 	 .wh-quick-entry-purbackground{
 	  	  ul{
 	  	  	  li{
@@ -1381,52 +1379,41 @@
 	  	  	  }
 	  	  }
 	  }
-    
-
-    
+        
     //单行快捷入口
-		.wh-quick-entry-column1 {
-			    ul {
-			        li {
-			            a {
-			                background: @global-color-l;
-			                em{
-			                	 i{
-			                	 	 color:@global-color; 
-			                	 }
-			                }
-			                &.on,&:hover {
-			                    background: @global-color;
-			                    color: #fff;
-			                    i {
-			                        color: #fff;
-			                    }
-			                }
-			            }
-			        }
-			    }
-			}
-        
-        
-      
-    
-
-		  &.theme-newa{
-		  	    .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-		       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus, 
-		        .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover{
-		               border-top: 2px solid @global-color;
+	.wh-quick-entry-column1 {
+		    ul {
+		        li {
+		            a {
+		                background: @global-color-l;
+		                em{
+		                	 i{
+		                	 	 color:@global-color; 
+		                	 }
+		                }
+		                &.on,&:hover {
+		                    background: @global-color;
+		                    color: #fff;
+		                    i {
+		                        color: #fff;
+		                    }
+		                }
+		            }
 		        }
+		    }
+		}
 
-		        .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li,
-		       .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li, 
-		        .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
-		        	      border-bottom: 0 none;
-		               border-top: 2px solid #f6f6f6;
-		        }
-		   
-		  }
-
+		//头部导航快捷方式
+		.wh-quick-entry-topnav li{
+			&.bgcolor-f15949 a p.fafa{background:#f15949;}
+			&.bgcolor-1c8fe0 a p.fafa{background:#1c8fe0;}
+			&.bgcolor-29ab91 a p.fafa{background:#29ab91;}
+			&.bgcolor-f39826 a p.fafa{background:#f39826;}
+			&.bgcolor-917cff a p.fafa{background:#917cff;}
+			&.bgcolor-f15949 a p.fafa{background:#f15949;}
+		}
+ 
+    // }结束符
 	}
 }
 
