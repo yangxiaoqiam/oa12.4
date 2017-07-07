@@ -301,7 +301,16 @@
                
                 </td>
                 <td width="65%" class="portal-column-td" zone="B">
-              <!--领导日程-->
+
+                <!--  导航下拉菜单快捷入口  -->
+                    <div class="wh-portal-info-box">
+                        <!--#include file="platform/portal/portal-i-tools.html"-->
+                        <div class="wh-portal-info">
+                            <!--#include file="platform/portal/wh-quick-entry-topnav.html"-->
+                        </div>
+                    </div>
+
+                <!--领导日程-->
                     <div class="wh-portal-info-box">
                         <!--#include file="platform/portal/portal-i-tools.html"-->
                         <div class="wh-portal-info">
