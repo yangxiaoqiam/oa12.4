@@ -442,8 +442,6 @@ module.exports = function(grunt) {
   // 创建Release
   grunt.registerTask('release', ['copy:tfonts','copy:timg','less','cssmin']);
   // 默认任务
-  grunt.registerTask('default', ['build-js', 'build-css', 'copy']);
-  // 登录
-  grunt.registerTask('css', ['build-css', 'copy']);
+  grunt.registerTask('default', ['build-js', 'build-css', 'copy']); 
 
 };
