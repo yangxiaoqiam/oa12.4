@@ -5872,7 +5872,7 @@ h5 {
   width: auto;
 }
 .entrance-infoset.entrance-infoshow table tr td {
-  padding: 0 ;
+  padding: 0;
 }
 .entrance-infoset .grid-container {
   border: 1px solid #d4d4d4;
@@ -5894,7 +5894,7 @@ h5 {
   font-weight: bold;
 }
 .entrance-infoset table tr td {
-  padding: 5px 0 5px 10px ;
+  padding: 5px 0 5px 10px;
   vertical-align: top;
 }
 .entrance-infoset table tr td input.titlename {
@@ -5921,6 +5921,9 @@ h5 {
 }
 .entrance-infoset table tr td .grid-stack-item.grid-address .grid-stack-item-content {
   background: url("../../images/media/grid-address.png") center center no-repeat #1981cc;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-interoffice .grid-stack-item-content {
+  background: url("../../images/media/grid-interoffice.png") center center no-repeat #1981cc;
 }
 .entrance-infoset table tr td .grid-stack-item.grid-car .grid-stack-item-content {
   background: url("../../images/media/grid-car.png") center center no-repeat #7a60cb;
@@ -5959,7 +5962,37 @@ h5 {
   background: url("../../images/media/grid-knowledge.png") center center no-repeat #1981cc;
 }
 .entrance-infoset table tr td .grid-stack-item.grid-customize .grid-stack-item-content {
-  background: url("../../images/media/grid-customize.png") center center no-repeat #7a60cb;
+  background: url("../../images/media/grid-customize.png") center center no-repeat #e06961;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-filemana .grid-stack-item-content {
+  background: url("../../images/media/grid-filemana.png") center center no-repeat #f4a23b;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-eledoc .grid-stack-item-content {
+  background: url("../../images/media/grid-eledoc.png") center center no-repeat #39a0d2;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-locationsev .grid-stack-item-content {
+  background: url("../../images/media/grid-locationsev.png") center center no-repeat #7a60cb;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-message .grid-stack-item-content {
+  background: url("../../images/media/grid-message.png") center center no-repeat #1981cc;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-workflow .grid-stack-item-content {
+  background: url("../../images/media/grid-workflow.png") center center no-repeat #e06961;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-relamana .grid-stack-item-content {
+  background: url("../../images/media/grid-relamana.png") center center no-repeat #f4a23b;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-docmana .grid-stack-item-content {
+  background: url("../../images/media/grid-docmana.png") center center no-repeat #39a0d2;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-relamana .grid-stack-item-content {
+  background: url("../../images/media/grid-relamana.png") center center no-repeat #7a60cb;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-sysmana .grid-stack-item-content {
+  background: url("../../images/media/grid-sysmana.png") center center no-repeat #1981cc;
+}
+.entrance-infoset table tr td .grid-stack-item.grid-budgetmana .grid-stack-item-content {
+  background: url("../../images/media/grid-budgetmana.png") center center no-repeat #e06961;
 }
 .wh-quick-entry-topnav {
   font-size: 0;
