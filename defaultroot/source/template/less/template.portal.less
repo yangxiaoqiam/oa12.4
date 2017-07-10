@@ -5187,8 +5187,191 @@ h5 {
         }
     }
 }
+.grid-stack.grid-stack-animate .grid-stack-item.ui-draggable-dragging,
+.grid-stack.grid-stack-animate .grid-stack-item.ui-resizable-resizing,
+.grid-stack.grid-stack-animate .grid-stack-item.grid-stack-placeholder {
+  -webkit-transition: left 0s, top 0s, height 0s, width 0s;
+  -moz-transition: left 0s, top 0s, height 0s, width 0s;
+  -ms-transition: left 0s, top 0s, height 0s, width 0s;
+  -o-transition: left 0s, top 0s, height 0s, width 0s;
+  transition: left 0s, top 0s, height 0s, width 0s;
+}
 
+.grid-stack.grid-stack-one-column-mode {
+  height: auto !important;
+}
 
+.grid-stack.grid-stack-one-column-mode > .grid-stack-item {
+  position: relative !important;
+  width: auto !important;
+  left: 0 !important;
+  top: auto !important;
+  margin-bottom: 20px;
+  max-width: none !important;
+}
+
+.grid-stack.grid-stack-one-column-mode > .grid-stack-item > .ui-resizable-handle {
+  display: none;
+}
+ 
+.entrance-infoset{
+    &.entrance-infoshow{
+        width: auto;
+        table{
+            tr{
+                td{
+                    padding: 0 ;
+                }
+            }
+        }
+    }
+  width: 600px; 
+  .grid-container{
+    border: 1px solid #d4d4d4; 
+    padding: 3px 0;
+  } 
+  table{
+    width: 100%;
+    .wh-choose-info-box{
+      cursor: pointer;
+    }
+    tr {
+        th {
+            width: 17%;
+            text-align: right;
+            em {
+                color: #505050;
+                font-size: 14px;
+                font-weight: bold;
+            } 
+        }
+        td {
+            padding: 5px 0 5px 10px ;
+            vertical-align: top; 
+            input.titlename{
+                display: inline-block;
+                width: 200px;
+                height: 25px;
+                line-height: 25px; 
+            }
+            .grid-stack-item{
+              .grid-stack-item-content{  
+                span{
+                  font-size: 14px;
+                  color: #fff; 
+                  position: absolute;
+                  left: 5px;
+                  bottom: 0;
+                }
+              }
+              &.grid-personal{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-personal.png") center center no-repeat #e06961;
+                  
+                } 
+              }
+              &.grid-email{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-email.png") center center no-repeat #e06961;
+                   
+                } 
+              }
+              &.grid-process{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-process.png") center center no-repeat #7dc03b;
+                  
+                } 
+              }
+              &.grid-address{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-address.png") center center no-repeat #1981cc;
+                  
+                } 
+              }
+              &.grid-car{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-car.png") center center no-repeat #7a60cb;
+                  
+                }
+              }
+              &.grid-home{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-home.png") center center no-repeat #f4a23b;
+                  
+                }
+              }
+              &.grid-doc{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-doc.png") center center no-repeat #e06961;
+                  
+                }
+              }
+              &.grid-meeting{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-doc.png") center center no-repeat #1981cc;
+                  
+                }
+              }
+              &.grid-attendance{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-attendance.png") center center no-repeat #7a60cb;
+                  
+                }
+              }
+              &.grid-forum{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-forum.png") center center no-repeat #e06961;
+                  
+                }
+              }
+              &.grid-human{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-human.png") center center no-repeat #39a0d2;
+                  
+                }
+              }
+              &.grid-tasktodo{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-tasktodo.png") center center no-repeat #1981cc;
+                  
+                }
+              }
+              &.grid-wblog{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-wblog.png") center center no-repeat #e06961;
+                  
+                }
+              }
+              &.grid-library{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-library.png") center center no-repeat #f4a23b;
+                  
+                }
+              }
+              &.grid-info{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-info.png") center center no-repeat #39a0d2;
+                  
+                }
+              }
+              &.grid-knowledge{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-knowledge.png") center center no-repeat #1981cc;
+                  
+                }
+              }
+              &.grid-customize{
+                .grid-stack-item-content{
+                  background: url("../../images/media/grid-customize.png") center center no-repeat #7a60cb;
+                  
+                }
+            }
+        }
+    }
+}
+}
+}
+ 
 //顶部导航快捷入口
 .wh-quick-entry-topnav {
     font-size: 0;
@@ -5236,7 +5419,7 @@ h5 {
                         line-height: 54px;
                     }
                 }
-                &.title {
+        &.title {
                     display: block;
                     height: 20px;
                     line-height: 20px;

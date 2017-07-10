@@ -14,7 +14,7 @@
 <div class="entrance-infoset">
   <table>
     <tr>
-      <th><em>标题名称1111111</em></th>
+      <th><em>标题名称</em></th>
       <td>
         <input type="text" name="titlename" class="titlename" />
       </td>
@@ -108,9 +108,10 @@
     $('.grid-stack').gridstack({ 
        cellHeight: 95,  //one cell height
        verticalMargin :3, //vertical gap size
-       minWidth: 500 //<500 the grid will be shown in one-column mode
+       minWidth: 500, //<500 the grid will be shown in one-column mode 
+
     });
-    // load widget
+    // load widget  
     grid = $('.grid-stack').data('gridstack');  
     new function(){
       this.serialized_data = [
@@ -129,7 +130,7 @@
         _.each(items, function (node) {
 
           var gridEle = '<div id="'+node.id+'" class="grid-stack-item '+node.id+'" ><div class="grid-stack-item-content"><span>'+node.value+'</span></div></div>'; 
-            grid.addWidget($(gridEle),node.x, node.y, node.width, node.height);
+            grid.addWidget($(gridEle),node.x, node.y, node.width, node.height  );
         }, this);
       }.bind(this);
 
