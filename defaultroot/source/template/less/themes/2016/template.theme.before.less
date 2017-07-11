@@ -87,10 +87,20 @@
 	          background:@global-color;
 	    }
 
-      .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li{
-		 	 border-top-color:transparent;
-		 }
-
+     
+      .wh-portal-i-title{
+      	.wh-portal-i-title-left{
+      		.wh-portal-title-li{
+      			 border-top-color:transparent;
+      			 &.on,	&:focus,&:hover{
+      		       border-top-color:@global-color;
+      		       a{
+      		       	 color:@global-color;
+      		       }
+      	     }
+      		}
+      	}
+      }
 
 		// IE8 模式边框
 		 

@@ -86,21 +86,26 @@
         bottom: 0;
       }
     }
+
     //portal栏目样式
-    .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-    .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-    .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
-      border-top: 0 none;
-      border-bottom-width: 2px;
-      border-bottom-style: solid;
-      border-bottom-color: @global-color;
-    }
-    .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-      border: 0 none;
-    }
     .wh-portal-i-title {
       background: transparent;
+      border-bottom-color: @global-color;
+      .wh-portal-i-title-left {
+        .wh-portal-title-li {
+          border-top-color: transparent;
+          border: 0 none;
+          &.on,&:focus,&:hover {
+            border-top: 0 none;
+            border-bottom-width: 2px;
+            border-bottom-style: solid;
+            border-bottom-color: @global-color;
+          }
+        }
+      }
     }
+
+
     //顶部门户下拉框
     .wh-hd-l-nav dd.wh-hd-l-gateway.open .wh-hd-l-gateway-cont {
       top: 50px;

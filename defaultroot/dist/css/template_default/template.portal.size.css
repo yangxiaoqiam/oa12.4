@@ -719,13 +719,13 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-title h3 {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
   font-size: 14px;
 }
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infocon p {
-  font-size: 12px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-i-item {
   height: 30px;
@@ -744,7 +744,7 @@ body.size-big {
   font-size: 14px;
 }
 .size-big16 .wh-portal-i-item a {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-i-item a .fa-history {
   font-size: 14px;
@@ -778,49 +778,56 @@ body.size-big {
   font-size: 28px;
 }
 .size-big16 .wh-file-handle li .wh-file-type em {
-  font-size: 14px;
+  font-size: 16px;
+  height: 45px;
+  line-height: 57px;
+}
+.size-big16 .wh-file-handle li .wh-file-list-box {
+  height: 130px;
 }
 .size-big16 .wh-human-remind-title span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-human-remind-title p {
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 3px;
 }
 .size-big16 .wh-human-remind-tab {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-human-remind-tab tr td {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-work-report-name {
   font-size: 14px;
 }
 .size-big16 .wh-portal-personal-info .wh-p-person-header .wh-p-person-job {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-personal-info .wh-p-person-info em {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-personal-info .wh-p-person-info h3 a {
   font-size: 16px;
 }
 .size-big16 .wh-portal-know-notice .wh-p-person-info em {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-my-notes-dl {
   font-size: 14px;
 }
 .size-big16 .wh-web-search-list li {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-web-search-address {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-p-shares-list li .wh-p-shares-detail table td {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-p-shares-list li .wh-p-shares-title {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-p-shares-list li .wh-p-shares-title h3 {
   font-size: 16px;
@@ -842,34 +849,34 @@ body.size-big {
   font-size: 14px;
 }
 .size-big16 .wh-personal-card-content .wh-personal-date {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-content .wh-personal-card-pos {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-content .wh-personal-card-pos a {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-btn .wh-personal-card-btn-a {
   font-size: 16px;
 }
 .size-big16 .wh-personal-card-setting .wh-personal-card-namesign p.wh-personal-date {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-setting .wh-personal-card-namesign span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-setting .wh-personal-card-namesign a {
   font-size: 18px;
 }
 .size-big16 .wh-personal-card-setting .wh-personal-card-namesign input.sign {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-setting-show dl {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-setting-show dl ul.wh-pcard-down-list li .fa {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-setting-show .per-wh-hd-guser-state a i.fa {
   font-size: 14px;
@@ -925,7 +932,10 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-blog-user-title {
-  font-size: 14px;
+  font-size: 16px;
+}
+.size-big16 .wh-blog-user-title a {
+  font-size: 16px;
 }
 .size-big16 .wh-blog-user-text {
   font-size: 16px;
@@ -933,8 +943,11 @@ body.size-big {
 .size-big16 .wh-portal-blog-repeat ul li {
   font-size: 16px;
 }
+.size-big16 .wh-portal-login {
+  font-size: 14px;
+}
 .size-big16 .wh-portal-login h4 {
-  font-size: 16px;
+  font-size: 18px;
 }
 .size-big16 .wh-portal-login .wh-portal-l-btn a {
   font-size: 16px;
@@ -950,16 +963,19 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-portal-supervisor table {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-online-vote .wh-vote-btn {
-  font-size: 16px;
+  font-size: 17px;
 }
 .size-big16 .wh-online-vote h3 {
   font-size: 16px;
 }
+.size-big16 .wh-vote-ques-li {
+  margin: 3px 0;
+}
 .size-big16 .wh-vote-ques-li li {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-know-list li {
   width: 264px;
@@ -973,16 +989,16 @@ body.size-big {
 .size-big16 .wh-quick-entry-list li span {
   height: 26px;
   line-height: 26px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-quick-entry-list li .fa {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-sim-quick-entry-list li span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-sim-quick-entry-list li .fa {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-portal-doc-search,
 .size-big16 .wh-portal-zd-search {
@@ -1054,4 +1070,42 @@ body.size-big {
 }
 .size-big16 .wh-quick-entry-topnav li a p.title {
   font-size: 16px;
+}
+.size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle strong {
+  font-size: 16px;
+}
+.size-big16 .wh-web-search-box {
+  margin: 4px 0;
+}
+.size-big16 .hit_more a i,
+.size-big16 .hit_more a span {
+  font-size: 16px;
+}
+.size-big16 .wh-task-in-list .wh-task-in-state {
+  height: 16px;
+  line-height: 16px;
+}
+.size-big16 .wh-task-in-list .wh-task-state-text {
+  height: 16px;
+  line-height: 16px;
+}
+.size-big16 .wh-task-in-list .wh-progress-bar {
+  height: 16px;
+  line-height: 16px;
+  font-size: 13px;
+}
+.size-big16 .wh-portal-slide-mt2row .wh-portal-i-item {
+  height: 50px;
+  line-height: 50px;
+}
+.size-big16 .wh-portal-slide-mt2row .wh-pending-state,
+.size-big16 .wh-portal-slide-mt2row .wh-task-in-state {
+  font-size: 13px;
+}
+.size-big16 .wh-portal-supervisor-color .wh-pending-em {
+  font-size: 14px;
+}
+.size-big16 .wh-meeting-tab .wh-meeting-detail tr td {
+  font-size: 14px;
+  padding: 5px 0;
 }

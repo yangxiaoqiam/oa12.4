@@ -1296,7 +1296,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-content {
   position: absolute;
-  top: 75px;
+  top: 73px;
   bottom: 5px;
   width: 100%;
   z-index: 100;
@@ -1315,8 +1315,8 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   z-index: 999;
   background-color: #fff;
   border-bottom: 1px solid #9e9e9f;
-  -webkit-box-shadow: 3px 0px 9px #424243;
-  box-shadow: 3px 0px 9px #424243;
+  -webkit-box-shadow: 3px 0px 9px #959596;
+  box-shadow: 3px 0px 9px #959596;
 }
 .wh-header .wh-header-menu {
   float: left;
@@ -2543,7 +2543,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   position: fixed;
   z-index: 1;
   width: 202px;
-  top: 75px;
+  top: 74px;
   left: 0;
   bottom: 5px;
   overflow: hidden;
