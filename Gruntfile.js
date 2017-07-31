@@ -444,4 +444,6 @@ module.exports = function(grunt) {
   // 默认任务
   grunt.registerTask('default', ['build-js', 'build-css', 'copy']); 
 
+  grunt.registerTask('css', ['build-css', 'copy']); 
+
 };

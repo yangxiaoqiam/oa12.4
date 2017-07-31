@@ -19,35 +19,41 @@
     //头部
     .wh-header {
       border: 0 none;
+      height:50px;
       .wh-container {
         position: relative;
+        height:50px;
         .wh-logo {
+          height:50px;
           img {
-            height: 40px;
-            margin-top: -20px;
+            height: 34px;
+            margin-top: -17px;
           }
         }
         .wh-hd-l-nav {
           position: absolute;
           left: 10px;
-          top: 60px;
+          top: 50px;
           background: transparent;
           .wh-hd-menu-btn.open .wh-hd-custom-cont {
-            top: 50px;
+            top: 45px;
           }
           &>dd {
             background-image: url(../../../../../images/ver113/home/nav-line.png);
             background-repeat: no-repeat;
             background-position: left center;
             padding: 0 20px;
-            height: 50px;
+            height: 44px;
+            &.wh-hd-menu-btn-se{
+              padding:0;
+            }
             &#gway-switch-btn {
               background-image: none;
             }
             &>a {
               color: #fff;
-              height: 50px;
-              line-height: 50px;
+              height: 44px;
+              line-height: 44px;
               .fa,
               span {
                 color: #fff;
@@ -55,25 +61,44 @@
             }
           }
         }
+        .wh-hd-r-nav{
+          height:50px;
+          line-height:50px;
+          li{
+            height:50px;
+           .wh-hd-box-shadow{
+            &.open{
+              top:50px;
+            }
+           }
+            .wh-r-nav-a{
+              top:11px;
+            }
+            .wh-hd-user-info{
+              top:9px;
+            }
+
+          }
+        }
       }
     }
     .wh-r-content {
-      top: 15px;
+      top: 10px;
     }
     .wh-content {
-      top: 110px;
+      top: 95px;
       //左侧
       .wh-l-content {
-        top: 125px;
+        top: 105px;
       }
     }
     //定宽内页头部栏目
     .top-trabg {
       position: fixed;
-      top: 60px;
+      top: 50px;
       left: 0;
       right: 0;
-      height: 50px;
+      height: 44px;
       background: @global-color;
       border-bottom: 1px solid @global-color;
       z-index: 200;
@@ -108,7 +133,7 @@
 
     //顶部门户下拉框
     .wh-hd-l-nav dd.wh-hd-l-gateway.open .wh-hd-l-gateway-cont {
-      top: 50px;
+      top: 45px;
       left: 0;
     }
     //定宽左侧树结构
@@ -116,7 +141,8 @@
       background: #f2f2f2
     }
     .wh-left-menuList {
-      background: #f2f2f2
+      background: #f2f2f2;
+      border-top:2px solid @global-color;
     }
     .wh-l-msg a span {
       color: #3b3b3b
@@ -139,6 +165,101 @@
     .ztree li.level4 {
       background: #c5c1c1
     }
+
+    //定宽头部下拉背景颜色
+    .wh-hd-custom-menu,
+     .wh-hd-custom-switch,
+      .wh-hd-menu-add-cut{
+        background:#fff;
+      }
+      .wh-hd-custom-switch{
+        .wh-hd-custom-menu-d{
+          background:#fff;
+          &>a{
+            color:@global-color;
+          }
+        }
+      }
+
+ .wh-hd-l-nav dd.wh-hd-menu-btn.open .fa,
+ .wh-hd-l-nav dd.wh-hd-menu-btn.open>a>span,
+ .wh-hd-l-nav dd.wh-hd-menu-btn:focus .fa,
+ .wh-hd-l-nav dd.wh-hd-menu-btn:focus>a>span,
+ .wh-hd-l-nav dd.wh-hd-menu-btn:hover .fa,
+ .wh-hd-l-nav dd.wh-hd-menu-btn:hover>a>span {
+   color: @global-color;
+ }
+
+ .wh-hd-custom-switch {
+   .wh-hd-custom-menu-d {
+     &:focus,
+     &:hover {
+       a {
+         color: #fff;
+         i{
+          color:#fff !important;
+         }
+       }
+     }
+   }
+   .wh-hd-custom-menu-btn{
+    &>span{
+      color:@global-color;
+    }
+   }
+   .wh-hd-menu-add{
+      background:#fff;
+      li{
+        .wh-hd-custom-menu-d-add{
+          border:0 none;
+          i.fa.fa-plus{
+            color:#fff;
+          }
+
+        }
+        .wh-hd-custom-menu-d-del{
+          border:0 none;
+          a{
+            color:#fff;
+          }
+          i.fa{
+            color:#fff;
+          }
+        }
+      }
+   }
+   .wh-hd-menu-cut{
+      background:#fff;
+      li{
+        .wh-hd-custom-menu-d-add{
+           border:0 none;
+        }
+        .wh-hd-custom-menu-d-del{
+           border:0 none;
+        }
+      }
+    }
+ }
+
+ //三角形
+   .wh-hd-l-nav {
+     .open {
+       span {
+         &.s-point {
+           border-bottom-color: @global-color;
+           em {
+             border-bottom-color: #FFF;
+           }
+         }
+       }
+     }
+   }
+
+
+
+
+
+
     // 结束符         
   }
 }
@@ -216,74 +337,74 @@
   background: url(../../../../../images/ver113/home/black.jpg) center top no-repeat;
 }
 
-.theme-width-red .wh-header .wh-hd-l-nav>dd.on {
-  background: #bf1b00
+.theme-width-red .wh-header .wh-hd-l-nav>dd.on,.theme-width-red .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #bf1b00
 }
 
-.theme-width-pink .wh-header .wh-hd-l-nav>dd.on {
-  background: #d13794
+.theme-width-pink .wh-header .wh-hd-l-nav>dd.on,.theme-width-pink .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #d13794
 }
 
-.theme-width-darkred .wh-header .wh-hd-l-nav>dd.on {
-  background: #bf1b00
+.theme-width-darkred .wh-header .wh-hd-l-nav>dd.on,.theme-width-darkred .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #bf1b00
 }
 
-.theme-width-orange .wh-header .wh-hd-l-nav>dd.on {
-  background: #ee5218
+.theme-width-orange .wh-header .wh-hd-l-nav>dd.on,.theme-width-orange .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #ee5218
 }
 
-.theme-width-lightgreen .wh-header .wh-hd-l-nav>dd.on {
-  background: #5ca500
+.theme-width-lightgreen .wh-header .wh-hd-l-nav>dd.on,.theme-width-lightgreen .wh-header .wh-hd-l-nav>dd:hover{
+  background-color: #5ca500
 }
 
-.theme-width-green .wh-header .wh-hd-l-nav>dd.on {
-  background: #016811
+.theme-width-green .wh-header .wh-hd-l-nav>dd.on,.theme-width-green .wh-header .wh-hd-l-nav>dd:hover{
+  background-color: #016811
 }
 
-.theme-width-cyan .wh-header .wh-hd-l-nav>dd.on {
-  background: #019c9b
+.theme-width-cyan .wh-header .wh-hd-l-nav>dd.on,.theme-width-cyan .wh-header .wh-hd-l-nav>dd:hover{
+  background-color: #019c9b
 }
 
-.theme-width-seablue .wh-header .wh-hd-l-nav>dd.on {
-  background: #005c7c
+.theme-width-seablue .wh-header .wh-hd-l-nav>dd.on,.theme-width-seablue .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #005c7c
 }
 
-.theme-width-skyblue .wh-header .wh-hd-l-nav>dd.on {
-  background: #409bff
+.theme-width-skyblue .wh-header .wh-hd-l-nav>dd.on,.theme-width-skyblue .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #409bff
 }
 
-.theme-width-blue .wh-header .wh-hd-l-nav>dd.on {
-  background: #0150b5
+.theme-width-blue .wh-header .wh-hd-l-nav>dd.on,.theme-width-blue .wh-header .wh-hd-l-nav>dd:hover{
+  background-color: #0150b5
 }
 
-.theme-width-violet .wh-header .wh-hd-l-nav>dd.on {
-  background: #2a0e97
+.theme-width-violet .wh-header .wh-hd-l-nav>dd.on,.theme-width-violet .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #2a0e97
 }
 
-.theme-width-purple .wh-header .wh-hd-l-nav>dd.on {
-  background: #690075
+.theme-width-purple .wh-header .wh-hd-l-nav>dd.on,.theme-width-purple .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #690075
 }
 
-.theme-width-indigo .wh-header .wh-hd-l-nav>dd.on {
-  background: #002d5d
+.theme-width-indigo .wh-header .wh-hd-l-nav>dd.on,.theme-width-indigo .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #002d5d
 }
 
-.theme-width-darkblue .wh-header .wh-hd-l-nav>dd.on {
-  background: #003482
+.theme-width-darkblue .wh-header .wh-hd-l-nav>dd.on,.theme-width-darkblue .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #003482
 }
 
-.theme-width-maroon .wh-header .wh-hd-l-nav>dd.on {
-  background: #b00000
+.theme-width-maroon .wh-header .wh-hd-l-nav>dd.on,.theme-width-maroon .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #b00000
 }
 
-.theme-width-brown .wh-header .wh-hd-l-nav>dd.on {
-  background: #700002
+.theme-width-brown .wh-header .wh-hd-l-nav>dd.on,.theme-width-brown .wh-header .wh-hd-l-nav>dd:hover, {
+  background-color: #700002
 }
 
-.theme-width-gray .wh-header .wh-hd-l-nav>dd.on {
-  background: #353535
+.theme-width-gray .wh-header .wh-hd-l-nav>dd.on,.theme-width-gray .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #353535
 }
 
-.theme-width-black .wh-header .wh-hd-l-nav>dd.on {
-  background: #575757
+.theme-width-black .wh-header .wh-hd-l-nav>dd.on,.theme-width-black .wh-header .wh-hd-l-nav>dd:hover {
+  background-color: #575757
 }

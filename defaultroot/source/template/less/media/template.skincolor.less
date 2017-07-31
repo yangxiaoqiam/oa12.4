@@ -22,7 +22,7 @@
       border-color:#ddd;
       border-width: 1px;
       border-radius: 4px;
-      margin: 0 8px;
+      margin: 0 12px;
       // .transition(transform .3s); 
       >em{
         display: block;
@@ -147,6 +147,25 @@
       .thumb-mixin(e('pure'),e('brown'));
       .thumb-mixin(e('pure'),e('gray'));
       .thumb-mixin(e('pure'),e('black'));
+      //width
+      .thumb-mixin(e('width'),e('red'));
+      .thumb-mixin(e('width'),e('pink'));
+      .thumb-mixin(e('width'),e('darkred'));
+      .thumb-mixin(e('width'),e('orange'));
+      .thumb-mixin(e('width'),e('lightgreen'));
+      .thumb-mixin(e('width'),e('green'));
+      .thumb-mixin(e('width'),e('cyan'));
+      .thumb-mixin(e('width'),e('seablue'));
+      .thumb-mixin(e('width'),e('skyblue'));
+      .thumb-mixin(e('width'),e('blue'));
+      .thumb-mixin(e('width'),e('violet'));
+      .thumb-mixin(e('width'),e('purple'));
+      .thumb-mixin(e('width'),e('indigo'));
+      .thumb-mixin(e('width'),e('darkblue'));
+      .thumb-mixin(e('width'),e('maroon'));
+      .thumb-mixin(e('width'),e('brown'));
+      .thumb-mixin(e('width'),e('gray'));
+      .thumb-mixin(e('width'),e('black'));
       .thumb-mixin(@colorType,@colorName){
         &.@{colorType}-@{colorName}{
           background-image: url("../../images/themes/2015/@{colorType}/@{colorType}-@{colorName}.jpg");

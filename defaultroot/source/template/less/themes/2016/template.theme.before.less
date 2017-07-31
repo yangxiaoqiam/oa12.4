@@ -308,11 +308,18 @@
 		.wh-hd-user-detail{
 		  .wh-hd-user-welcome{
 		    a{
+		    	&.wh-hd-font-click-change{
+		      	em{
+		      		background:@global-color;
+		      		color:#fff;
+		      	}
+		      }
 		      em,.fa{
 		        color: @global-color;
 		      }
 		      em.noselect{
-		        color: @global-color-gray;
+		        color: @global-color;
+		        background:transparent;
 		      } 
 		      span{
 		        color:@global-color-black;
@@ -320,6 +327,7 @@
 		      &:hover,&:focus{
 		        color:@global-color-black;
 		      } 
+
 		    }
 		  }
 		}

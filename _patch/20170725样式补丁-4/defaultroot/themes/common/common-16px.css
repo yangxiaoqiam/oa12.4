@@ -1,0 +1,70 @@
+body { 
+  font-size: 16px;   
+}
+table {
+  font-size: 16px; 
+}
+.btnButton4font,
+.btnButton6font,
+.btnButton8font,
+.btnButton10font {
+  font-size: 16px; 
+}
+select{
+  font-size: 16px;
+  padding: 0;
+}
+.Pagebar .page #pager a {
+   font-size: 16px; 
+}
+input,textarea,select,button{
+  font-size: 16px;
+}
+.Pagebar .page #pagebtn input{
+  width: 34px; 
+}
+.selectlist option{
+  font-size: 16px;
+}
+.x-form-item, .x-form-field{
+  font-size: 16px;
+}
+input.inputText,.inputText:hover{
+  font-size: 16px;
+}
+input.inputTextPrompt,input.inputTextPrompt:hover{
+  font-size: 16px;
+}
+.Wdate.whir_datebox{
+  font-size: 13px;
+}
+.ztree *{
+  font-size: 16px;
+}
+.x-form-item,.x-form-field{
+  font-size: 16px;
+}
+.x-form-trigger-wrap,.x-form-text{
+  font-size: 16px;
+}
+
+ @media (min-width: 980px) {
+        body {
+            font-size: 16px;
+        }
+    } 
+    
+     @media (min-width: 980px) {
+        table {
+            font-size: 16px;
+        }
+    }
+
+    @media (min-width: 980px) {
+        .btnButton4font,
+        .btnButton6font,
+        .btnButton8font,
+        .btnButton10font {
+            font-size: 16px;
+        }
+    }

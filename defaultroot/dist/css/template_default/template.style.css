@@ -1347,10 +1347,10 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   display: block;
   position: absolute;
   max-width: 210px;
-  height: 50px;
+  height: 44px;
   top: 50%;
   left: 0;
-  margin-top: -25px;
+  margin-top: -22px;
 }
 @media (min-width: 1200px) {
   .wh-header .wh-container .wh-logo {
@@ -2054,6 +2054,13 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-font-click-change em {
   cursor: pointer;
   margin: 0 5px;
+  height: 24px;
+  width: 24px;
+  line-height: 24px;
+  border-radius: 12px;
+  -webki-torder-radius: 12px;
+  -moz-torder-radius: 12px;
+  text-align: center;
 }
 .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-font-click-change .wh-font-small {
   font-size: 12px;

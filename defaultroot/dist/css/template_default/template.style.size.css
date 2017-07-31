@@ -268,15 +268,12 @@ html.size-big16 body {
 .size-big .wh-hd-group-num .wh-hd-group-a {
   line-height: 28px;
 }
-.size-big .wh-hd-custom-menu .wh-hd-cmcontainer div span {
-  line-height: 1.3;
-}
 .size-big .wh-hd-menu-add ul li .wh-hd-custom-menu-d {
   height: 40px;
   line-height: 40px;
 }
 .size-big .wh-hd-menu-add ul li .wh-hd-custom-menu-d a span {
-  line-height: 1.3;
+  line-height: 1.2;
 }
 .size-big .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-user-welcome-title {
   height: 35px;
@@ -438,7 +435,8 @@ html.size-big16 body {
   line-height: 40px;
 }
 .size-big16 .wh-hd-menu-add ul li .wh-hd-custom-menu-d a span {
-  line-height: 1.3;
+  height: 20px;
+  line-height: 1.5;
 }
 .size-big16 .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-user-welcome-title {
   height: 35px;
@@ -474,9 +472,20 @@ html.size-big16 body {
   font-size: 14px;
 }
 .size-big16 .panel-heading .input-group-sm > .input-group-btn > .btn {
-  font-size: 14px;
+  font-size: 16px;
   line-height: normal;
 }
 .size-big16 .view-hdpanel .tb-col .fa-times {
   font-size: 12px;
+}
+.size-big16 .panel-hd-search .list-senior-search .form-horizontal .control-label {
+  padding-left: 12px;
+}
+.size-big16 .meeing-deploy label,
+.size-big16 .meeing-set label {
+  width: 153px;
+}
+.size-big16 .panel-hd-search label.searchInpTip_class {
+  left: 89px;
+  width: 251px;
 }

@@ -24,7 +24,7 @@
   border-color: #ddd;
   border-width: 1px;
   border-radius: 4px;
-  margin: 0 8px;
+  margin: 0 12px;
 }
 .skin-model .skin-section > a > em {
   display: block;
@@ -267,6 +267,60 @@
 }
 .skin-model .skin-model-img span.pure-black {
   background-image: url("../../images/themes/2015/pure/pure-black.jpg");
+}
+.skin-model .skin-model-img span.width-red {
+  background-image: url("../../images/themes/2015/width/width-red.jpg");
+}
+.skin-model .skin-model-img span.width-pink {
+  background-image: url("../../images/themes/2015/width/width-pink.jpg");
+}
+.skin-model .skin-model-img span.width-darkred {
+  background-image: url("../../images/themes/2015/width/width-darkred.jpg");
+}
+.skin-model .skin-model-img span.width-orange {
+  background-image: url("../../images/themes/2015/width/width-orange.jpg");
+}
+.skin-model .skin-model-img span.width-lightgreen {
+  background-image: url("../../images/themes/2015/width/width-lightgreen.jpg");
+}
+.skin-model .skin-model-img span.width-green {
+  background-image: url("../../images/themes/2015/width/width-green.jpg");
+}
+.skin-model .skin-model-img span.width-cyan {
+  background-image: url("../../images/themes/2015/width/width-cyan.jpg");
+}
+.skin-model .skin-model-img span.width-seablue {
+  background-image: url("../../images/themes/2015/width/width-seablue.jpg");
+}
+.skin-model .skin-model-img span.width-skyblue {
+  background-image: url("../../images/themes/2015/width/width-skyblue.jpg");
+}
+.skin-model .skin-model-img span.width-blue {
+  background-image: url("../../images/themes/2015/width/width-blue.jpg");
+}
+.skin-model .skin-model-img span.width-violet {
+  background-image: url("../../images/themes/2015/width/width-violet.jpg");
+}
+.skin-model .skin-model-img span.width-purple {
+  background-image: url("../../images/themes/2015/width/width-purple.jpg");
+}
+.skin-model .skin-model-img span.width-indigo {
+  background-image: url("../../images/themes/2015/width/width-indigo.jpg");
+}
+.skin-model .skin-model-img span.width-darkblue {
+  background-image: url("../../images/themes/2015/width/width-darkblue.jpg");
+}
+.skin-model .skin-model-img span.width-maroon {
+  background-image: url("../../images/themes/2015/width/width-maroon.jpg");
+}
+.skin-model .skin-model-img span.width-brown {
+  background-image: url("../../images/themes/2015/width/width-brown.jpg");
+}
+.skin-model .skin-model-img span.width-gray {
+  background-image: url("../../images/themes/2015/width/width-gray.jpg");
+}
+.skin-model .skin-model-img span.width-black {
+  background-image: url("../../images/themes/2015/width/width-black.jpg");
 }
 .skin-model .skin-model-img.wh-skin-default {
   background: url(../../images/themes/2015/skin_model_default.jpg) no-repeat left top;
