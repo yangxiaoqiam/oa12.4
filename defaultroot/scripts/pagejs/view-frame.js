@@ -26,14 +26,14 @@ $(function(){
     
     /* 点击自定义菜单按钮显示下拉菜单 */ 
 
-/*    $("#c-nav-drop").click(function(){
+    $("#c-nav-drop").click(function(){
         var dropparent = $("#c-nav-parent");
         if(dropparent.hasClass("open")){
             dropparent.removeClass("open");
             return false; 
         }
         dropparent.addClass("open");
-    });*/
+    });
 
     /*点击显示自定义菜单编辑*/ 
     $("#cnav-edit-btn").click(function(){

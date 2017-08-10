@@ -26,8 +26,8 @@
         .wh-logo {
           height:50px;
           img {
-            height: 34px;
-            margin-top: -17px;
+            height: 42px;
+            margin-top: -21px;
           }
         }
         .wh-hd-l-nav {
@@ -44,10 +44,13 @@
             background-position: left center;
             padding: 0 20px;
             height: 44px;
+            &:hover{
+              background-color:@global-color;
+            }
             &.wh-hd-menu-btn-se{
               padding:0;
             }
-            &#gway-switch-btn {
+            &#desktop_choosegateway_dd {
               background-image: none;
             }
             &>a {
@@ -99,8 +102,8 @@
       left: 0;
       right: 0;
       height: 44px;
-      background: @global-color;
-      border-bottom: 1px solid @global-color;
+      background: @global-color-bg-light;
+      border-bottom: 1px solid @global-color-bg-light;
       z-index: 200;
       display: block;
     }
@@ -139,10 +142,6 @@
     //定宽左侧树结构
     .ztree {
       background: #f2f2f2
-    }
-    .wh-left-menuList {
-      background: #f2f2f2;
-      border-top:2px solid @global-color;
     }
     .wh-l-msg a span {
       color: #3b3b3b
@@ -254,13 +253,7 @@
        }
      }
    }
-
-
-
-
-
-
-    // 结束符         
+   // 结束符         
   }
 }
 
@@ -337,74 +330,3 @@
   background: url(../../../../../images/ver113/home/black.jpg) center top no-repeat;
 }
 
-.theme-width-red .wh-header .wh-hd-l-nav>dd.on,.theme-width-red .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #bf1b00
-}
-
-.theme-width-pink .wh-header .wh-hd-l-nav>dd.on,.theme-width-pink .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #d13794
-}
-
-.theme-width-darkred .wh-header .wh-hd-l-nav>dd.on,.theme-width-darkred .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #bf1b00
-}
-
-.theme-width-orange .wh-header .wh-hd-l-nav>dd.on,.theme-width-orange .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #ee5218
-}
-
-.theme-width-lightgreen .wh-header .wh-hd-l-nav>dd.on,.theme-width-lightgreen .wh-header .wh-hd-l-nav>dd:hover{
-  background-color: #5ca500
-}
-
-.theme-width-green .wh-header .wh-hd-l-nav>dd.on,.theme-width-green .wh-header .wh-hd-l-nav>dd:hover{
-  background-color: #016811
-}
-
-.theme-width-cyan .wh-header .wh-hd-l-nav>dd.on,.theme-width-cyan .wh-header .wh-hd-l-nav>dd:hover{
-  background-color: #019c9b
-}
-
-.theme-width-seablue .wh-header .wh-hd-l-nav>dd.on,.theme-width-seablue .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #005c7c
-}
-
-.theme-width-skyblue .wh-header .wh-hd-l-nav>dd.on,.theme-width-skyblue .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #409bff
-}
-
-.theme-width-blue .wh-header .wh-hd-l-nav>dd.on,.theme-width-blue .wh-header .wh-hd-l-nav>dd:hover{
-  background-color: #0150b5
-}
-
-.theme-width-violet .wh-header .wh-hd-l-nav>dd.on,.theme-width-violet .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #2a0e97
-}
-
-.theme-width-purple .wh-header .wh-hd-l-nav>dd.on,.theme-width-purple .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #690075
-}
-
-.theme-width-indigo .wh-header .wh-hd-l-nav>dd.on,.theme-width-indigo .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #002d5d
-}
-
-.theme-width-darkblue .wh-header .wh-hd-l-nav>dd.on,.theme-width-darkblue .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #003482
-}
-
-.theme-width-maroon .wh-header .wh-hd-l-nav>dd.on,.theme-width-maroon .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #b00000
-}
-
-.theme-width-brown .wh-header .wh-hd-l-nav>dd.on,.theme-width-brown .wh-header .wh-hd-l-nav>dd:hover, {
-  background-color: #700002
-}
-
-.theme-width-gray .wh-header .wh-hd-l-nav>dd.on,.theme-width-gray .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #353535
-}
-
-.theme-width-black .wh-header .wh-hd-l-nav>dd.on,.theme-width-black .wh-header .wh-hd-l-nav>dd:hover {
-  background-color: #575757
-}

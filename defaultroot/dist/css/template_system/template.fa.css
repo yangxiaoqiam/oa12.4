@@ -55,7 +55,7 @@
   content: "\f00b";
 }
 .fa-circle:before {
-  content: "\f00c";
+  content: "\f0fb";
 }
 .fa-circle-o:before {
   content: "\f00d";
@@ -711,6 +711,72 @@
 .fa-return:before {
   content: "\f0e8";
 }
-.fa-cnmore:before {
+.fa-lightser:before {
   content: "\f0e9";
+}
+.fa-gcard:before {
+  content: "\f0ea";
+}
+.fa-flower:before {
+  content: "\f0eb";
+}
+.fa-heart:before {
+  content: "\f0ec";
+}
+.fa-cake:before {
+  content: "\f0ed";
+}
+.fa-sort:before {
+  content: "\f0ee";
+}
+.fa-sortline:before {
+  content: "\f0ef";
+}
+.fa-curve:before {
+  content: "\f0f0";
+}
+.fa-arrow:before {
+  content: "\f0f1";
+}
+.fa-driver:before {
+  content: "\f0f2";
+}
+.fa-newcar:before {
+  content: "\f0f3";
+}
+.fa-taskcenter:before {
+  content: "\f0f4";
+}
+.fa-task-kh:before {
+  content: "\f0f5";
+}
+.fa-heartper:before {
+  content: "\f0f6";
+}
+.fa-right-a:before {
+  content: "\f0f7";
+}
+.fa-lock1:before {
+  content: "\f0f8";
+}
+.fa-lock2:before {
+  content: "\f0f9";
+}
+.fa-circle-select:before {
+  content: "\f0fa";
+}
+.fa-circle-selected:before {
+  content: "\f0fb";
+}
+.fa-one-per:before {
+  content: "\f0fc";
+}
+.fa-two-per:before {
+  content: "\f0fd";
+}
+.fa-evo-tjg:before {
+  content: "\f0fe";
+}
+.fa-line-phone:before {
+  content: "\f0ff";
 }

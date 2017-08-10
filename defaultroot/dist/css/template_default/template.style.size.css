@@ -163,6 +163,9 @@ html.size-big16 body {
 .size-small .form-control {
   font-size: 12px;
 }
+.size-small .ztree li a span {
+  padding: 0;
+}
 /*14号  大尺寸*/
 .size-big h1 {
   font-size: 18px;
@@ -317,6 +320,9 @@ html.size-big16 body {
 }
 .size-big .wh-quick-entry-purbackground li a p.title {
   font-size: 14px;
+}
+.size-big .ztree li a span {
+  padding: 0;
 }
 /*16号  大尺寸*/
 .size-big16 h1 {
@@ -488,4 +494,7 @@ html.size-big16 body {
 .size-big16 .panel-hd-search label.searchInpTip_class {
   left: 89px;
   width: 251px;
+}
+.size-big16 .ztree li a span {
+  padding: 0;
 }

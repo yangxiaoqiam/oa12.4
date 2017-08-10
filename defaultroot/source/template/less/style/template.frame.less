@@ -199,6 +199,9 @@ gway-switch-btn.wh-wrapper {
       width: 60px;
       height: 60px;
       text-align: center;
+      &>i{
+        margin-right:0;
+      }
     }
     .wh-hd-custom-cont {
       //.opacity(0);
@@ -674,8 +677,12 @@ gway-switch-btn.wh-wrapper {
       .box-shadow(-1px 5px 6px #9e9e9f);
     }
     @media(min-width: @screen-lg-min) {
-      padding: 0 12px;
+      padding: 0 15px;
       width: 35px;
+      .wh-sys-warn-num{
+        left:28px;
+        top:4px;
+      }
     }
     .wh-r-nav-a {
       position: relative;
@@ -1407,8 +1414,12 @@ gway-switch-btn.wh-wrapper {
   width: 202px;
   height: 100%;
   background:#f2f2f2;
+  border-top-width:2px;
+  border-top-style:solid;
   .box-shadow(0 0 3px #cfcfcf);
   .wh-l-msg {
+    border-width:0 0 1px 0;
+    border-style:solid;
   }
   .wh-l-con {
     position: absolute;

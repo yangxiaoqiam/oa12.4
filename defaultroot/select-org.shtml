@@ -247,9 +247,6 @@
                                         <a href="javascript:void(0)" class="btn btn-wh-line meeting-handle">发起会议</a>
                                     </div>
                                     <div class="btn-group btn-group-sm">
-                                        <a href="javascript:void(0)" class="btn btn-wh-line move-attendance-a">移动考勤</a>
-                                    </div>
-                                    <div class="btn-group btn-group-sm">
                                         <a href="javascript:void(0)" class="btn btn-wh-line management-handle">分类管理</a>
                                     </div>
                                     <div class="btn-group btn-group-sm">
@@ -324,12 +321,12 @@
         //点击发起会议 
         $(".meeting-handle").on("click", function(argument) {
             layer.open({
-                type: 1,
+                type: 2,
                 title: '视频会议',
                 shadeClose: false,
                 shade: 0.8,
-                area: ['620px', '290px'],
-                content: $('#meeting-start')
+                area: ['1020px', '600px'],
+                content: ['con-call.html']
             });
         });
 
@@ -349,29 +346,30 @@
         });
 
 
-        //点击分类管理
-        $(".management-handle").on('click', function() {
-            layer.open({
-                type: 1,
-                title: '分类管理',
-                shadeClose: false,
-                shade: 0.8,
-                area: ['300px', 'auto'],
-                content: $('#management')
-            })
-        })
+    //点击分类管理
+    $(".management-handle").on('click', function() {
+      layer.open({
+        type: 2,
+        title: '分类管理',
+        shadeClose: false,
+        shade: 0.8,
+        area: ['400px','265px', 'auto'],
+         content: "include/panel-iframe-join-group.html"
+      })
+    })
 
         //点击加入群组
         $(".add-group").on("click", function() {
-            layer.open({
-                type: 1,
-                title: '选择分组',
-                shadeClose: false,
-                shade: 0.8,
-                area: ['400px', 'auto'],
-                content: $('#select-group')
-            })
+          layer.open({
+            type: 2,
+            title: '选择分组',
+            shadeClose: false,
+            shade: 0.8,
+            area: ['400px','165px', 'auto'],
+            content: "include/panel-iframe-sort-management.html"
+          })
         })
+
 
         $('.chzn-done').chosen({
             "width": "100%",

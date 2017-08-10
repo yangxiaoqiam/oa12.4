@@ -3401,6 +3401,9 @@ ul {
 .panel .panel-heading .panel-hd-btns {
   margin-top: 7px;
 }
+.panel .panel-heading .panel-hd-tabs {
+  margin-top: 7px;
+}
 .panel .panel-heading .panel-hd-tip {
   float: left;
   margin-top: 7px;
