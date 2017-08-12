@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn" class="wh-red-bg theme-red size-big ">
+<html lang="zh-cn" class="wh-red-bg theme-red  theme-newpure-red size-big16 ">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="template/css/template_default/template.portal.size.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
+       <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.newpure.min.css" />  
       
      <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js" ></script>
     <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js" ></script>

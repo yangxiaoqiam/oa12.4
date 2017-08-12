@@ -959,6 +959,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   margin: 0 6px;
   text-overflow: inherit;
   white-space: inherit;
+  width: 16px;
 }
 .ztree li a.curSelectedNode {
   padding-top: 0;
@@ -977,7 +978,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
         }*/
 }
 .ztree li a.curSelectedNode span.fa_ico_docu {
-  background: url(../../../../defaultroot/images/ver113/dot-white.png) left center no-repeat;
+  background: url(../../../../defaultroot/images/ver113/dot-white.png) 2px center no-repeat;
 }
 .ztree li a.curSelectedNode span.fa_ico_docu:before {
   content: none;
@@ -1026,7 +1027,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
 }
 .ztree li span.fa_ico_docu {
   width: 16px;
-  background: url(../../../../defaultroot/images/ver113/dot.png) center no-repeat;
+  background: url(../../../../defaultroot/images/ver113/dot.png) 2px center no-repeat;
 }
 .ztree li span.fa_ico_docu:before {
   content: none;
@@ -1133,6 +1134,7 @@ ul.ztree.zTreeDragUL {
   margin: 0 6px;
   text-overflow: inherit;
   white-space: inherit;
+  width: 16px;
 }
 .ztree-org li a.curSelectedNode {
   padding-top: 0;
@@ -1240,7 +1242,7 @@ ul.ztree-org.zTreeDragUL {
 .ztree li a.curSelectedNode span.fa_ico_docu,
 .ztree li a:focus span.fa_ico_docu,
 .ztree li a:hover span.fa_ico_docu {
-  background: url(../../../../defaultroot/images/ver113/dot-white.png) center no-repeat;
+  background: url(../../../../defaultroot/images/ver113/dot-white.png) 2px center no-repeat;
 }
 /* ---------------------------- */
 .wh-main {
@@ -2556,7 +2558,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 .wh-l-content {
   position: fixed;
   z-index: 1;
-  width: 202px;
+  width: 230px;
   top: 74px;
   left: 0;
   bottom: 5px;
@@ -2586,7 +2588,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-left-menuList {
   position: relative;
-  width: 202px;
+  width: 230px;
   height: 100%;
   background: #f2f2f2;
   border-top-width: 2px;
@@ -2600,8 +2602,8 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-left-menuList .wh-l-con {
   position: absolute;
-  width: 202px;
-  top: 45px;
+  width: 230px;
+  top: 43px;
   bottom: 0;
   overflow: auto;
 }
@@ -2717,7 +2719,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   width: auto;
   top: 0px;
   bottom: 0px;
-  left: 212px;
+  left: 240px;
   right: 2px;
   overflow: hidden;
 }
@@ -2726,7 +2728,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   padding-right: 6px;
 }
 .wh-content .btn-switch-show {
-  left: 189px;
+  left: 216px;
   border-style: solid;
   border-width: 1px 0 1px 1px;
   border-bottom-left-radius: 5px;

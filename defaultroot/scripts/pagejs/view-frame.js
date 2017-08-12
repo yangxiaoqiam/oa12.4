@@ -2,11 +2,11 @@ $(function(){
 
     //点击门户下拉菜单 
     /*点击门户展开时延时出现滚动条0.2s*/
-    $("#gway-switch-btn .fa-gateway").astatus({
+    $("#desktop_choosegateway_dd .fa-gateway").astatus({
         delay:300,
         adddom:'#gway-switch-con'
     },function(){
-        var $thisparent = $('#gway-switch-btn')
+        var $thisparent = $('#desktop_choosegateway_dd')
         if($thisparent.hasClass("open")){
             $thisparent.removeClass("open");
             return false; 
@@ -14,7 +14,7 @@ $(function(){
         $thisparent.addClass("open");
     });
     /*离开父容器后下拉消失*/
-    $("#gway-switch-btn").mouseleave(function(){
+    $("#desktop_choosegateway_dd").mouseleave(function(){
         $(this).removeClass("open");
     })
 

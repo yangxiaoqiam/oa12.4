@@ -166,6 +166,22 @@ html.size-big16 body {
 .size-small .ztree li a span {
   padding: 0;
 }
+.size-small .ztree li {
+  line-height: 38px;
+}
+.size-small .ztree li a {
+  height: 38px;
+}
+.size-small .ztree li a.curSelectedNode {
+  height: 38px;
+}
+.size-small .ztree li a span.button {
+  height: 38px;
+  line-height: 38px;
+}
+.size-small .ztree li span {
+  line-height: 38px;
+}
 /*14号  大尺寸*/
 .size-big h1 {
   font-size: 18px;
@@ -323,6 +339,22 @@ html.size-big16 body {
 }
 .size-big .ztree li a span {
   padding: 0;
+}
+.size-big .ztree li {
+  line-height: 44px;
+}
+.size-big .ztree li a {
+  height: 44px;
+}
+.size-big .ztree li a.curSelectedNode {
+  height: 44px;
+}
+.size-big .ztree li a span.button {
+  height: 44px;
+  line-height: 44px;
+}
+.size-big .ztree li span {
+  line-height: 44px;
 }
 /*16号  大尺寸*/
 .size-big16 h1 {
@@ -497,4 +529,23 @@ html.size-big16 body {
 }
 .size-big16 .ztree li a span {
   padding: 0;
+}
+.size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
+  font-size: 20px;
+}
+.size-big16 .ztree li {
+  line-height: 50px;
+}
+.size-big16 .ztree li a {
+  height: 50px;
+}
+.size-big16 .ztree li a.curSelectedNode {
+  height: 50px;
+}
+.size-big16 .ztree li a span.button {
+  height: 50px;
+  line-height: 50px;
+}
+.size-big16 .ztree li span {
+  line-height: 50px;
 }

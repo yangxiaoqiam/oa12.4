@@ -780,3 +780,15 @@
 .fa-line-phone:before {
   content: "\f0ff";
 }
+.fa-j-more:before {
+  content: "\f100";
+}
+.fa-line-more:before {
+  content: "\e900";
+}
+.fa-hz-more:before {
+  content: "\e901";
+}
+.fa-new-arrow:before {
+  content: "\e902";
+}

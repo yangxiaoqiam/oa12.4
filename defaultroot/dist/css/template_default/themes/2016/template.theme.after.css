@@ -1009,6 +1009,31 @@
 .theme-blue .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
 }
+.theme-blue .wh-portal-i-item-list a:hover,
+.theme-blue .wh-portal-i-item-list a:focus {
+  color: #0073c6;
+}
+.theme-blue .wh-portal-i-item-list a:hover span,
+.theme-blue .wh-portal-i-item-list a:focus span {
+  color: #0073c6;
+}
+.theme-blue .wh-portal-i-item-list i.fa.fa-circle {
+  color: #0073c6;
+}
+.theme-blue .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-blue .wh-portal-i-item-list-twospan a:hover,
+.theme-blue .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-blue .wh-portal-i-item-list-twospan a:hover span,
+.theme-blue .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-blue .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #0073c6;
+}
 .theme-violet {
   /*.wh-my-notes{
 		  li{
@@ -2019,6 +2044,31 @@
 }
 .theme-violet .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
+}
+.theme-violet .wh-portal-i-item-list a:hover,
+.theme-violet .wh-portal-i-item-list a:focus {
+  color: #4617b5;
+}
+.theme-violet .wh-portal-i-item-list a:hover span,
+.theme-violet .wh-portal-i-item-list a:focus span {
+  color: #4617b5;
+}
+.theme-violet .wh-portal-i-item-list i.fa.fa-circle {
+  color: #4617b5;
+}
+.theme-violet .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-violet .wh-portal-i-item-list-twospan a:hover,
+.theme-violet .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-violet .wh-portal-i-item-list-twospan a:hover span,
+.theme-violet .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-violet .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #4617b5;
 }
 .theme-purple {
   /*.wh-my-notes{
@@ -3031,6 +3081,31 @@
 .theme-purple .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
 }
+.theme-purple .wh-portal-i-item-list a:hover,
+.theme-purple .wh-portal-i-item-list a:focus {
+  color: #8c0095;
+}
+.theme-purple .wh-portal-i-item-list a:hover span,
+.theme-purple .wh-portal-i-item-list a:focus span {
+  color: #8c0095;
+}
+.theme-purple .wh-portal-i-item-list i.fa.fa-circle {
+  color: #8c0095;
+}
+.theme-purple .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-purple .wh-portal-i-item-list-twospan a:hover,
+.theme-purple .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-purple .wh-portal-i-item-list-twospan a:hover span,
+.theme-purple .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-purple .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #8c0095;
+}
 .theme-indigo {
   /*.wh-my-notes{
 		  li{
@@ -4041,6 +4116,31 @@
 }
 .theme-indigo .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
+}
+.theme-indigo .wh-portal-i-item-list a:hover,
+.theme-indigo .wh-portal-i-item-list a:focus {
+  color: #004b8c;
+}
+.theme-indigo .wh-portal-i-item-list a:hover span,
+.theme-indigo .wh-portal-i-item-list a:focus span {
+  color: #004b8c;
+}
+.theme-indigo .wh-portal-i-item-list i.fa.fa-circle {
+  color: #004b8c;
+}
+.theme-indigo .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-indigo .wh-portal-i-item-list-twospan a:hover,
+.theme-indigo .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-indigo .wh-portal-i-item-list-twospan a:hover span,
+.theme-indigo .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-indigo .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #004b8c;
 }
 .theme-darkblue {
   /*.wh-my-notes{
@@ -5053,6 +5153,31 @@
 .theme-darkblue .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
 }
+.theme-darkblue .wh-portal-i-item-list a:hover,
+.theme-darkblue .wh-portal-i-item-list a:focus {
+  color: #001941;
+}
+.theme-darkblue .wh-portal-i-item-list a:hover span,
+.theme-darkblue .wh-portal-i-item-list a:focus span {
+  color: #001941;
+}
+.theme-darkblue .wh-portal-i-item-list i.fa.fa-circle {
+  color: #001941;
+}
+.theme-darkblue .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-darkblue .wh-portal-i-item-list-twospan a:hover,
+.theme-darkblue .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-darkblue .wh-portal-i-item-list-twospan a:hover span,
+.theme-darkblue .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-darkblue .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #001941;
+}
 .theme-maroon {
   /*.wh-my-notes{
 		  li{
@@ -6063,6 +6188,31 @@
 }
 .theme-maroon .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
+}
+.theme-maroon .wh-portal-i-item-list a:hover,
+.theme-maroon .wh-portal-i-item-list a:focus {
+  color: #580000;
+}
+.theme-maroon .wh-portal-i-item-list a:hover span,
+.theme-maroon .wh-portal-i-item-list a:focus span {
+  color: #580000;
+}
+.theme-maroon .wh-portal-i-item-list i.fa.fa-circle {
+  color: #580000;
+}
+.theme-maroon .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-maroon .wh-portal-i-item-list-twospan a:hover,
+.theme-maroon .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-maroon .wh-portal-i-item-list-twospan a:hover span,
+.theme-maroon .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-maroon .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #580000;
 }
 .theme-brown {
   /*.wh-my-notes{
@@ -7075,6 +7225,31 @@
 .theme-brown .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
 }
+.theme-brown .wh-portal-i-item-list a:hover,
+.theme-brown .wh-portal-i-item-list a:focus {
+  color: #380001;
+}
+.theme-brown .wh-portal-i-item-list a:hover span,
+.theme-brown .wh-portal-i-item-list a:focus span {
+  color: #380001;
+}
+.theme-brown .wh-portal-i-item-list i.fa.fa-circle {
+  color: #380001;
+}
+.theme-brown .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-brown .wh-portal-i-item-list-twospan a:hover,
+.theme-brown .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-brown .wh-portal-i-item-list-twospan a:hover span,
+.theme-brown .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-brown .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #380001;
+}
 .theme-gray {
   /*.wh-my-notes{
 		  li{
@@ -8086,6 +8261,31 @@
 .theme-gray .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
 }
+.theme-gray .wh-portal-i-item-list a:hover,
+.theme-gray .wh-portal-i-item-list a:focus {
+  color: #585858;
+}
+.theme-gray .wh-portal-i-item-list a:hover span,
+.theme-gray .wh-portal-i-item-list a:focus span {
+  color: #585858;
+}
+.theme-gray .wh-portal-i-item-list i.fa.fa-circle {
+  color: #585858;
+}
+.theme-gray .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-gray .wh-portal-i-item-list-twospan a:hover,
+.theme-gray .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-gray .wh-portal-i-item-list-twospan a:hover span,
+.theme-gray .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-gray .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #585858;
+}
 .theme-black {
   /*.wh-my-notes{
 		  li{
@@ -9096,4 +9296,29 @@
 }
 .theme-black .wh-quick-entry-topnav li.bgcolor-f15949 a p.fafa {
   background: #f15949;
+}
+.theme-black .wh-portal-i-item-list a:hover,
+.theme-black .wh-portal-i-item-list a:focus {
+  color: #333;
+}
+.theme-black .wh-portal-i-item-list a:hover span,
+.theme-black .wh-portal-i-item-list a:focus span {
+  color: #333;
+}
+.theme-black .wh-portal-i-item-list i.fa.fa-circle {
+  color: #333;
+}
+.theme-black .wh-portal-i-item-list i.fa.fa-circle-o {
+  color: #cfcfcf;
+}
+.theme-black .wh-portal-i-item-list-twospan a:hover,
+.theme-black .wh-portal-i-item-list-twospan a:focus {
+  color: #202020;
+}
+.theme-black .wh-portal-i-item-list-twospan a:hover span,
+.theme-black .wh-portal-i-item-list-twospan a:focus span {
+  color: #202020;
+}
+.theme-black .wh-portal-i-item-list-twospan a span.wh-portal-a-cursor:hover {
+  color: #333;
 }

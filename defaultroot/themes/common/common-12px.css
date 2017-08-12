@@ -71,3 +71,5 @@ select{
 .Public_tag ul li .tag_center{
   font-size:12px;
 }
+
+.ztree li span{ font-size: 12px; padding: 5px 0; }

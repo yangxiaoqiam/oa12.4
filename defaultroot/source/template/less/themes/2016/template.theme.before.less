@@ -1430,7 +1430,34 @@
 			&.bgcolor-917cff a p.fafa{background:#917cff;}
 			&.bgcolor-f15949 a p.fafa{background:#f15949;}
 		}
- 
+    
+    //新增列表
+    .wh-portal-i-item-list {
+	     a {
+	         &:hover,
+	         &:focus {
+	             span {
+	                 color: @global-color;
+	             }
+	             color: @global-color;
+	         }
+	     }
+	     i.fa.fa-circle {
+	         color: @global-color;
+	     }
+	     i.fa.fa-circle-o {
+	         color: @global-color-gray;
+	     }
+	 }
+
+	 .wh-portal-i-item-list-twospan {
+	     a {
+	         cursor: default;
+	         color: #202020;
+	     }
+	 }
+
+
     // }结束符
 
 	}

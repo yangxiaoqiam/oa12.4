@@ -160,12 +160,11 @@ h5 {
 .wh-portal-tools {
   position: absolute;
   right: 0;
-  top: 14px;
   width: auto;
-  height: 14px;
+  height: 24px;
   padding-right: 10px;
   text-align: right;
-  line-height: 14px;
+  line-height: 24px;
   overflow: hidden;
   z-index: @portal-tools-index;
   .fa {
@@ -424,11 +423,10 @@ h5 {
   word-break: keep-all;
   word-wrap: normal;
   white-space: nowrap;
-  width: 100%;
   height: 26px;
   line-height: 26px;
   display: block;
-  width: 100%;
+  padding-right:95px;
   position: relative;
   .wh-doc-items-tips {
     float: right;
@@ -469,6 +467,9 @@ h5 {
   em {
     color: #bcbcbc;
     font-size: @pt-font-size12;
+    position:absolute;
+    right:0;
+    top:0;
   }
   i.fa.fa-new {
     color: #ff7b00;
@@ -4792,6 +4793,7 @@ h5 {
           background: url(../../../images/ver113/home/transprant-a.png);
           height: 34px;
           line-height: 34px;
+          text-align:left;
           span {
             display: inline-block;
             width: 60%;
@@ -5963,3 +5965,162 @@ h5 {
 .wh-topnav {
   width: auto;
 }
+
+/* 新增随机色 */
+.bgcolor-4397ee {background-color: #4397ee}
+
+.bgcolor-7dc03b {background-color: #7dc03b}
+
+.bgcolor-e06961 {background-color: #e06961}
+
+.bgcolor-f4a23b {background-color: #f4a23b}
+
+.bgcolor-7a60cb {background-color: #7a60cb}
+
+.bgcolor-36b7f6 {background-color: #36b7f6}
+
+.bgcolor-9c89ff {background-color: #9c89ff}
+
+.bgcolor-3d84f0 {background-color: #3d84f0}
+
+.bgcolor-1abeca {background-color: #1abeca}
+
+.bgcolor-39a0d2 {background-color: #39a0d2}
+
+/* 新增列表样式 */
+
+.wh-portal-i-item-list {
+  text-align: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+  display: block;
+  padding-right:95px;
+  position: relative;
+  border-bottom:1px dashed #e5e5e5;
+  span{
+    cursor:pointer;
+  }
+  .new-icon{
+    display:inline-block;
+    overflow:hidden;
+     i.fa.fa-new {
+    color: #ff7b00;
+    font-size: @pt-font-size12;
+    float: none;
+    }
+  }
+  .wh-doc-items-tips {
+    float: right;
+  }
+  .item-block-circle {
+    line-height: 28px;
+  }
+  .wh-mail-state-red {
+    color: #d83333;
+  }
+  .wh-mail-state-gray {
+    color: #999;
+  }
+  .h-pending-b-color {
+    float: left;
+    display: inline-block;
+    width: 54px;
+    font-weight: normal;
+  }
+  .h-pending-b-color {
+    color: #696969;
+  }
+  .fa-circle {
+    font-size: 12px;
+    &.fa-none {
+      visibility: hidden;
+    }
+  }
+  .wh-pending-em {
+    font-size: @pt-font-size12;
+    padding-left: 6px;
+  }
+  .wh-pending-time {
+    padding-right: 10px;
+    color: #999999;
+    font-size: @pt-font-size12;
+  }
+  em.time {
+    color: #bcbcbc;
+    font-size: @pt-font-size12;
+    position:absolute;
+    right:0;
+    top:0;
+  }
+ 
+  a {
+    display: inline-block;
+    font-size: @pt-font-size12;
+    color: #202020;
+    cursor: default;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: normal;
+    white-space: nowrap;
+    max-width:75%;
+    position:relative;
+    text-indent:17px;
+    cursor:pointer;
+    .fa-history {
+      color: #bababa;
+      margin-top: 2px;
+      font-size: @pt-font-size14;
+    }
+    span.wh-portal-overtime {
+      width: 70px;
+      padding-right: 10px;
+      display: inline-block;
+    }
+    span.wh-portal-overtime2 {
+      color: red;
+    }
+    
+  }
+  .fa.fa-file-o {
+    font-size:12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+    .fa.fa-new-arrow {
+    font-size:12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+    .fa.fa-circle {
+    font-size:12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+    .fa.fa-circle-o {
+    font-size:12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+}
+
+.wh-portal-i-item-list-twospan{
+  a{
+    cursor:default;
+    span{
+      &.wh-portal-a-cursor{
+          cursor:pointer;
+      }
+    }
+  }
+}
+
+
+

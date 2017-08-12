@@ -26,18 +26,25 @@ h4,h5{
 //infoColumn-
 //Portal title
 .wh-portal-i-title{
+  height: (@base-size)*5;
+  line-height: (@base-size)*5;
   .wh-portal-i-title-left{
+    height: (@base-size)*5;
     .wh-portal-title-li{
-      font-size: (@base-size)*1.4;
+        height: (@base-size)*4.8;
+      font-size: (@base-size)*1.8;
       a{
+        font-size: (@base-size)*1.8;
         i.fa{
-          font-size: (@base-size)*1.4;
+          font-size: (@base-size)*1.8;
         }
       }
     }
   }
   h3{
-    font-size: (@base-size)*1.2;
+    font-size: (@base-size)*1.8;
+    height:(@base-size)*4.8;
+    line-height:(@base-size)*4.8;
   }
 }
 
@@ -577,5 +584,47 @@ h4,h5{
                 }
             }
         }
+    }
+}
+
+/* 新增列表 */
+.wh-portal-i-item-list {
+    height: (@base-size)*4.4;
+    line-height: (@base-size)*4.4;
+    a {
+        height: (@base-size)*4.4;
+        line-height: (@base-size)*4.4;
+        font-size: (@base-size)*1.4;
+    }
+    i {
+        &.fa.fa-new {
+            font-size: (@base-size)*1.4;
+        }
+        &.fa.fa-file-o {
+            height: (@base-size)*4.4;
+            line-height: (@base-size)*4.6;
+        }
+         &.fa.fa-circle {
+            height: (@base-size)*4.4;
+            line-height: (@base-size)*4.6;
+        }
+         &.fa.fa-circle-o {
+            height: (@base-size)*4.4;
+            line-height: (@base-size)*4.6;
+        }
+         &.fa.fa-new-arrow {
+            height: (@base-size)*4.4;
+            line-height: (@base-size)*4.6;
+        }
+    }
+    em.time{
+      font-size:(@base-size)*1.4;
+    }
+}
+
+.wh-portal-tools{
+  top:17px;
+    i{
+      font-size:(@base-size)*1.6 !important;
     }
 }
