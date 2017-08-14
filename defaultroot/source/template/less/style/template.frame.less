@@ -47,15 +47,15 @@ gway-switch-btn.wh-wrapper {
     height: 60px;
     padding: 0 10px;
     .wh-logo {
-      display: inline-block;
       float: left;
       display: block;
-      width: 210px;
       height: 60px;
       overflow: hidden;
       text-align: left;
       vertical-align: middle;
       position: relative;
+      width:210px;
+
       img {
         display: block;
         position: absolute;
@@ -65,9 +65,15 @@ gway-switch-btn.wh-wrapper {
         left: 0;
         margin-top: -22px;
       }
+      p{
+        display:none;
+      }
       @media (min-width: @screen-lg-min) {
         margin-right: 20px;
       }
+    }
+    .wh-top-time{
+      display:none;
     }
   }
 }

@@ -973,6 +973,7 @@ h5 {
 .wh-portal-tools {
   position: absolute;
   right: 0;
+  top: 16px;
   width: auto;
   height: 24px;
   padding-right: 10px;
@@ -984,9 +985,22 @@ h5 {
 .wh-portal-tools .fa {
   cursor: pointer;
   margin-left: 2px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 4px;
 }
 .wh-portal-tools .fa.fa-cnmore {
   font-family: "Microsoft YaHei", Helvetica, Arial, Sans-serif;
+  margin-top: 0;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 12px !important;
+  height: 17px;
+  line-height: 17px;
+  width: 40px;
+  text-align: left;
+  letter-spacing: 1px;
+  text-indent: 8px;
 }
 .wh-portal-tools .fa.fa-cnmore:before {
   content: none;
@@ -995,8 +1009,8 @@ h5 {
 .wh-portal-i-title {
   position: relative;
   text-align: right;
-  height: 38px;
-  line-height: 38px;
+  height: 50px;
+  line-height: 50px;
   border-bottom: 1px solid #eaecee;
   overflow: visible;
   -webkit-box-sizing: border-box;
@@ -1014,7 +1028,7 @@ h5 {
 }
 .wh-portal-i-title .wh-portal-i-title-left {
   width: 60%;
-  height: 38px;
+  height: 50px;
   overflow: hidden;
 }
 .wh-portal-i-title .wh-portal-i-title-left a {
@@ -1022,7 +1036,8 @@ h5 {
 }
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
   float: left;
-  height: 36px;
+  height: 48px;
+  line-height: 48px;
   font-size: 14px;
   text-align: left;
   border-top-width: 2px;
@@ -1053,14 +1068,14 @@ h5 {
 .wh-portal-i-title h3 {
   position: absolute;
   top: 0;
-  right: 60px;
+  right: 75px;
   width: 78px;
   font-size: 12px;
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
-  height: 36px;
-  line-height: 36px;
+  height: 50px;
+  line-height: 50px;
   margin: 0 1px;
   overflow: hidden;
   font-weight: normal;
@@ -5325,6 +5340,16 @@ h5 {
 .wh-new-work .wh-portal-i-item a {
   margin-right: 5px;
 }
+.wh-new-work .wh-portal-i-item-list {
+  width: 100%;
+}
+.wh-new-work .wh-portal-i-item-list .new-worklitem {
+  text-indent: 17px;
+}
+.wh-new-work .wh-portal-i-item-list a {
+  margin-right: 5px;
+  display: inline !important;
+}
 .wh-file-handle-purebackground {
   font-size: 0;
   padding-top: 10px;
@@ -5510,7 +5535,7 @@ h5 {
   display: block;
   width: 100%;
   margin: 4px 0;
-  height: 47px;
+  height: 45px;
 }
 .wh-quick-entry-column1 ul li a em {
   display: inline-block;
@@ -6209,11 +6234,16 @@ h5 {
 .wh-portal-i-item-list .new-icon {
   display: inline-block;
   overflow: hidden;
+  height: 44px;
+  line-height: 44px;
 }
 .wh-portal-i-item-list .new-icon i.fa.fa-new {
   color: #ff7b00;
   font-size: 12px;
   float: none;
+  line-height: inherit;
+  height: 44px;
+  line-height: 46px;
 }
 .wh-portal-i-item-list .wh-doc-items-tips {
   float: right;
@@ -6238,9 +6268,27 @@ h5 {
 }
 .wh-portal-i-item-list .fa-circle {
   font-size: 12px;
+  height: 44px;
+  line-height: 46px;
 }
 .wh-portal-i-item-list .fa-circle.fa-none {
   visibility: hidden;
+}
+.wh-portal-i-item-list .fa-new-arrow {
+  height: 44px;
+  line-height: 46px;
+}
+.wh-portal-i-item-list .fa-file-o {
+  height: 44px;
+  line-height: 46px;
+}
+.wh-portal-i-item-list .fa-circle-o {
+  height: 44px;
+  line-height: 46px;
+}
+.wh-portal-i-item-list .fa-file {
+  height: 44px;
+  line-height: 46px;
 }
 .wh-portal-i-item-list .wh-pending-em {
   font-size: 12px;
@@ -6257,6 +6305,8 @@ h5 {
   position: absolute;
   right: 0;
   top: 0;
+  height: 44px;
+  line-height: 44px;
 }
 .wh-portal-i-item-list a {
   display: inline-block;
@@ -6268,10 +6318,12 @@ h5 {
   word-break: keep-all;
   word-wrap: normal;
   white-space: nowrap;
-  max-width: 75%;
+  max-width: 90%;
   position: relative;
   text-indent: 17px;
   cursor: pointer;
+  height: 44px;
+  line-height: 44px;
 }
 .wh-portal-i-item-list a .fa-history {
   color: #bababa;
@@ -6280,7 +6332,7 @@ h5 {
 }
 .wh-portal-i-item-list a span.wh-portal-overtime {
   width: 70px;
-  padding-right: 10px;
+  wh-portal-i-itempadding-right: 10px;
   display: inline-block;
 }
 .wh-portal-i-item-list a span.wh-portal-overtime2 {
@@ -6310,9 +6362,18 @@ h5 {
   left: 0;
   top: 0;
 }
-.wh-portal-i-item-list-twospan a {
+.wh-portal-i-item-list-cursor a {
   cursor: default;
 }
-.wh-portal-i-item-list-twospan a span.wh-portal-a-cursor {
+.wh-portal-i-item-list-cursor a span.wh-portal-a-cursor {
   cursor: pointer;
+}
+.wh-portal-notime .wh-portal-i-item-list {
+  padding-right: 0;
+}
+.wh-portal-notime .wh-portal-i-item-list a {
+  max-width: 90%;
+}
+.wh-portal-notime .wh-portal-i-item-list em.time {
+  display: none;
 }

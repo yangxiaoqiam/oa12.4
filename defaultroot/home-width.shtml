@@ -47,11 +47,12 @@
   <script type="text/javascript" src="scripts/plugins/zTree_v3/jquery.ztree.core-3.5.js"></script>
   <script type="text/javascript" src="scripts/plugins/lhgdialog/lhgcore.lhgdialog.min.js"></script>
   <script type="text/javascript" src="scripts/pagejs/view-frame.js?v=20160307"></script>
-  <script>
-      
+<script type="text/javascript">
+$(document).ready(function(){
+    logo_img_width=($(".wh-header .wh-container img").width());
+    $(".theme-width-blue .wh-header .wh-container .wh-logo").css("width",logo_img_width)
+})
+</script>
 
-     
-     
-  </script>
 </body>
 </html>

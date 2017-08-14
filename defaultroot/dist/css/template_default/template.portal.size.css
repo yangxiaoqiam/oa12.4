@@ -32,15 +32,7 @@ body.size-big {
 .size-small .wh-portaler {
   min-width: 750px;
 }
-.size-small .wh-portal-i-title {
-  height: 44px;
-  line-height: 44px;
-}
-.size-small .wh-portal-i-title .wh-portal-i-title-left {
-  height: 44px;
-}
 .size-small .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  height: 42px;
   font-size: 16px;
 }
 .size-small .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
@@ -50,9 +42,10 @@ body.size-big {
   font-size: 16px;
 }
 .size-small .wh-portal-i-title h3 {
-  font-size: 16px;
-  height: 42px;
-  line-height: 42px;
+  font-size: 12px;
+}
+.size-small .wh-portal-i-title h3 a {
+  font-size: 12px;
 }
 .size-small .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
   font-size: 12px;
@@ -363,50 +356,14 @@ body.size-big {
 .size-small .wh-quick-entry-topnav li a p.title {
   font-size: 12px;
 }
-.size-small .wh-portal-i-item-list {
-  height: 38px;
-  line-height: 38px;
-}
 .size-small .wh-portal-i-item-list a {
-  height: 38px;
-  line-height: 38px;
   font-size: 12px;
 }
 .size-small .wh-portal-i-item-list i.fa.fa-new {
   font-size: 14px;
 }
-.size-small .wh-portal-i-item-list i.fa.fa-file-o {
-  height: 38px;
-  line-height: 40px;
-}
-.size-small .wh-portal-i-item-list i.fa.fa-file {
-  height: 38px;
-  line-height: 40px;
-}
-.size-small .wh-portal-i-item-list i.fa.fa-file-o {
-  height: 38px;
-  line-height: 40px;
-}
-.size-small .wh-portal-i-item-list i.fa.fa-circle {
-  height: 38px;
-  line-height: 40px;
-}
-.size-small .wh-portal-i-item-list i.fa.fa-circle-o {
-  height: 44px;
-  line-height: 40px;
-}
-.size-small .wh-portal-i-item-list i.fa.fa-new-arrow {
-  height: 38px;
-  line-height: 40px;
-}
 .size-small .wh-portal-i-item-list em.time {
   font-size: 12px;
-}
-.size-small .wh-portal-tools {
-  top: 14px;
-}
-.size-small .wh-portal-tools i {
-  font-size: 14px !important;
 }
 /*14号  大尺寸*/
 .size-big {
@@ -432,15 +389,7 @@ body.size-big {
 .size-big .wh-portaler {
   min-width: 750px;
 }
-.size-big .wh-portal-i-title {
-  height: 50px;
-  line-height: 50px;
-}
-.size-big .wh-portal-i-title .wh-portal-i-title-left {
-  height: 50px;
-}
 .size-big .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  height: 48px;
   font-size: 18px;
 }
 .size-big .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
@@ -450,9 +399,10 @@ body.size-big {
   font-size: 18px;
 }
 .size-big .wh-portal-i-title h3 {
-  font-size: 18px;
-  height: 48px;
-  line-height: 48px;
+  font-size: 14px;
+}
+.size-big .wh-portal-i-title h3 a {
+  font-size: 14px;
 }
 .size-big .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
   font-size: 14px;
@@ -767,42 +717,14 @@ body.size-big {
 .size-big .wh-quick-entry-topnav li a p.title {
   font-size: 14px;
 }
-.size-big .wh-portal-i-item-list {
-  height: 44px;
-  line-height: 44px;
-}
 .size-big .wh-portal-i-item-list a {
-  height: 44px;
-  line-height: 44px;
   font-size: 14px;
 }
 .size-big .wh-portal-i-item-list i.fa.fa-new {
   font-size: 14px;
 }
-.size-big .wh-portal-i-item-list i.fa.fa-file-o {
-  height: 44px;
-  line-height: 46px;
-}
-.size-big .wh-portal-i-item-list i.fa.fa-circle {
-  height: 44px;
-  line-height: 46px;
-}
-.size-big .wh-portal-i-item-list i.fa.fa-circle-o {
-  height: 44px;
-  line-height: 46px;
-}
-.size-big .wh-portal-i-item-list i.fa.fa-new-arrow {
-  height: 44px;
-  line-height: 46px;
-}
 .size-big .wh-portal-i-item-list em.time {
   font-size: 14px;
-}
-.size-big .wh-portal-tools {
-  top: 17px;
-}
-.size-big .wh-portal-tools i {
-  font-size: 16px !important;
 }
 /*16号  大尺寸*/
 .size-big16 {
@@ -828,15 +750,7 @@ body.size-big {
 .size-big16 .wh-portaler {
   min-width: 750px;
 }
-.size-big16 .wh-portal-i-title {
-  height: 60px;
-  line-height: 60px;
-}
-.size-big16 .wh-portal-i-title .wh-portal-i-title-left {
-  height: 60px;
-}
 .size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  height: 58px;
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
@@ -846,9 +760,10 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-title h3 {
-  font-size: 20px;
-  height: 58px;
-  line-height: 58px;
+  font-size: 16px;
+}
+.size-big16 .wh-portal-i-title h3 a {
+  font-size: 16px;
 }
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
   font-size: 14px;
@@ -1238,40 +1153,12 @@ body.size-big {
   font-size: 14px;
   padding: 5px 0;
 }
-.size-big16 .wh-portal-i-item-list {
-  height: 50px;
-  line-height: 50px;
-}
 .size-big16 .wh-portal-i-item-list a {
-  height: 50px;
-  line-height: 50px;
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-item-list i.fa.fa-new {
   font-size: 16px;
 }
-.size-big16 .wh-portal-i-item-list i.fa.fa-file-o {
-  height: 50px;
-  line-height: 52px;
-}
-.size-big16 .wh-portal-i-item-list i.fa.fa-circle {
-  height: 50px;
-  line-height: 52px;
-}
-.size-big16 .wh-portal-i-item-list i.fa.fa-circle-o {
-  height: 50px;
-  line-height: 52px;
-}
-.size-big16 .wh-portal-i-item-list i.fa.fa-new-arrow {
-  height: 50px;
-  line-height: 52px;
-}
 .size-big16 .wh-portal-i-item-list em.time {
   font-size: 16px;
-}
-.size-big16 .wh-portal-tools {
-  top: 22px;
-}
-.size-big16 .wh-portal-tools i {
-  font-size: 16px !important;
 }

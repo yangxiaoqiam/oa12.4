@@ -88,19 +88,26 @@
 	          background:@global-color;
 	    }
 
-      .wh-portal-i-title{
-      	.wh-portal-i-title-left{
-      		.wh-portal-title-li{
-      			 border-top-color:transparent;
-      			 &.on,	&:focus,&:hover{
-      		       border-top-color:@global-color;
-      		       a{
-      		       	color:@global-color;
-      		       }
-      	     }
-      		}
-      	}
-      }
+      .wh-portal-i-title {
+          .wh-portal-i-title-left {
+              .wh-portal-title-li {
+                  border-top-color: transparent;
+                  a{
+                  	i{
+                  		 color: @global-color;
+                  	}
+                  }
+                  &.on,
+                  &:focus,
+                  &:hover {
+                      border-top-color: @global-color;
+                      a {
+                          color: @global-color;
+                      }
+                  }
+              }
+          }
+       }
 
 		// IE8 模式边框
 		 
@@ -416,6 +423,9 @@
 		    font-size:14px;
 		    &.fa-times{
 		      color:@important-color;
+		    }
+		    &.fa-cnmore{
+		    	border-color:@global-color;
 		    }
 		  }
 		}
@@ -1451,7 +1461,7 @@
 	 }
   
 
-  .wh-portal-i-item-list-twospan {
+  .wh-portal-i-item-list-cursor {
 	     a {
 	         &:hover,
 	         &:focus {

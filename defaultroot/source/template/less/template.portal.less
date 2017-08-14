@@ -160,6 +160,7 @@ h5 {
 .wh-portal-tools {
   position: absolute;
   right: 0;
+  top:16px;
   width: auto;
   height: 24px;
   padding-right: 10px;
@@ -170,8 +171,21 @@ h5 {
   .fa {
     cursor: pointer;
     margin-left: 2px;
+    float:left;
+    margin-top:2px;
+    margin-left:4px;
     &.fa-cnmore {
       font-family: "Microsoft YaHei", Helvetica, Arial, Sans-serif;
+      margin-top:0;
+      border-width:1px;
+       border-style:solid;
+       font-size:12px !important;
+       height:17px;
+       line-height:17px;
+       width:40px;
+       text-align: left;
+       letter-spacing: 1px;
+       text-indent: 8px;
       &:before {
         content: none;
       }
@@ -185,8 +199,8 @@ h5 {
 .wh-portal-i-title {
   position: relative;
   text-align: right;
-  height: 38px;
-  line-height: 38px;
+  height: 50px;
+  line-height: 50px;
   border-bottom: 1px solid #eaecee;
   overflow: visible;
   .box-sizing(border-box);
@@ -200,14 +214,15 @@ h5 {
   }
   .wh-portal-i-title-left {
     width: 60%;
-    height: 38px;
+    height: 50px;
     overflow: hidden;
     a {
       cursor: default;
     }
     .wh-portal-title-li {
       float: left;
-      height: 36px;
+      height: 48px;
+      line-height:48px;
       font-size: 14px;
       text-align: left;
       border-top-width: 2px;
@@ -238,7 +253,7 @@ h5 {
   h3 {
     position: absolute;
     top: 0;
-    right: 60px;
+    right: 75px;
     width: 78px;
     text-align: center;
     font-size: @pt-font-size12;
@@ -246,8 +261,8 @@ h5 {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    height: 36px;
-    line-height: 36px;
+    height: 50px;
+    line-height: 50px;
     margin: 0 1px;
     overflow: hidden;
     font-weight: normal;
@@ -4935,6 +4950,18 @@ h5 {
       margin-right: 5px;
     }
   }
+  .wh-portal-i-item-list {
+    width:100%;
+      .new-worklitem{
+         text-indent:17px;
+    }
+
+    a {
+      margin-right: 5px;
+      display:inline !important;
+    }
+  }
+  
 }
 
 //纯色背景文件办理提醒1
@@ -5132,7 +5159,7 @@ h5 {
         display: block;
         width: 100%;
         margin: 4px 0;
-        height: 47px;
+        height: 45px;
         em {
           display: inline-block;
           width: 42%;
@@ -6006,10 +6033,15 @@ h5 {
   .new-icon{
     display:inline-block;
     overflow:hidden;
+    height:44px;
+    line-height:44px;
      i.fa.fa-new {
     color: #ff7b00;
     font-size: @pt-font-size12;
     float: none;
+    line-height:inherit;
+    height:44px;
+    line-height:46px;
     }
   }
   .wh-doc-items-tips {
@@ -6035,10 +6067,28 @@ h5 {
   }
   .fa-circle {
     font-size: 12px;
+    height:44px;
+    line-height:46px;
     &.fa-none {
       visibility: hidden;
     }
   }
+  .fa-new-arrow{
+       height:44px;
+       line-height:46px;
+    }
+    .fa-file-o{
+      height:44px;
+      line-height:46px;
+    }
+    .fa-circle-o{
+      height:44px;
+      line-height:46px;
+    }
+    .fa-file{
+      height:44px;
+      line-height:46px;
+    }
   .wh-pending-em {
     font-size: @pt-font-size12;
     padding-left: 6px;
@@ -6054,6 +6104,8 @@ h5 {
     position:absolute;
     right:0;
     top:0;
+    height:44px;
+    line-height:44px;
   }
  
   a {
@@ -6066,17 +6118,19 @@ h5 {
     word-break: keep-all;
     word-wrap: normal;
     white-space: nowrap;
-    max-width:75%;
+    max-width:90%;
     position:relative;
     text-indent:17px;
     cursor:pointer;
+    height:44px;
+    line-height:44px;
     .fa-history {
       color: #bababa;
       margin-top: 2px;
       font-size: @pt-font-size14;
     }
     span.wh-portal-overtime {
-      width: 70px;
+      width: 70px;wh-portal-i-item
       padding-right: 10px;
       display: inline-block;
     }
@@ -6109,9 +6163,11 @@ h5 {
     left: 0;
     top: 0;
     }
+
 }
 
-.wh-portal-i-item-list-twospan{
+
+.wh-portal-i-item-list-cursor{
   a{
     cursor:default;
     span{
@@ -6121,6 +6177,22 @@ h5 {
     }
   }
 }
+
+//隐藏列表的右侧时间
+.wh-portal-notime {
+    .wh-portal-i-item-list {
+        padding-right: 0;
+        a {
+            max-width: 90%;
+        }
+        em {
+            &.time {
+                display: none;
+            }
+        }
+    }
+}
+
 
 
 
