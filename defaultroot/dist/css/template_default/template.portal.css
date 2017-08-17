@@ -973,7 +973,7 @@ h5 {
 .wh-portal-tools {
   position: absolute;
   right: 0;
-  top: 16px;
+  top: 12px;
   width: auto;
   height: 24px;
   padding-right: 10px;
@@ -1009,8 +1009,8 @@ h5 {
 .wh-portal-i-title {
   position: relative;
   text-align: right;
-  height: 50px;
-  line-height: 50px;
+  height: 42px;
+  line-height: 42px;
   border-bottom: 1px solid #eaecee;
   overflow: visible;
   -webkit-box-sizing: border-box;
@@ -1028,7 +1028,7 @@ h5 {
 }
 .wh-portal-i-title .wh-portal-i-title-left {
   width: 60%;
-  height: 50px;
+  height: 42px;
   overflow: hidden;
 }
 .wh-portal-i-title .wh-portal-i-title-left a {
@@ -1036,8 +1036,8 @@ h5 {
 }
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
   float: left;
-  height: 48px;
-  line-height: 48px;
+  height: 40px;
+  line-height: 40px;
   font-size: 14px;
   text-align: left;
   border-top-width: 2px;
@@ -1054,7 +1054,7 @@ h5 {
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
   display: block;
   color: #666;
-  margin: 0 8px;
+  margin: 0 12px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1074,8 +1074,8 @@ h5 {
   display: block;
   text-overflow: ellipsis;
   white-space: nowrap;
-  height: 50px;
-  line-height: 50px;
+  height: 42px;
+  line-height: 42px;
   margin: 0 1px;
   overflow: hidden;
   font-weight: normal;
@@ -1277,9 +1277,6 @@ h5 {
 .wh-portal-i-item em {
   color: #bcbcbc;
   font-size: 12px;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 .wh-portal-i-item i.fa.fa-new {
   color: #ff7b00;
@@ -5261,75 +5258,6 @@ h5 {
 .news-pic .nextStop {
   display: none;
 }
-.theme-newa .wh-portal-i-title {
-  background: #f6f6f6;
-}
-.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-newa .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
-  border-bottom: 0 none;
-  border-top: 2px solid red;
-  background: #fff;
-}
-.theme-newa .wh-portal-i-item {
-  border-bottom: 1px dashed #e5e5e5;
-  height: 40px;
-  line-height: 40px;
-  width: auto;
-  padding-right: 105px;
-}
-.theme-newa .wh-portal-i-item .fa-file-o {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: url(../../../images/ver113/home/list-arrow.png) left center no-repeat;
-}
-.theme-newa .wh-portal-i-item .fa-file-o:before {
-  content: none;
-}
-.theme-newa .wh-pending-time,
-.theme-newa .wh-pending-em {
-  position: absolute;
-  right: 0;
-  top: 7px;
-}
-.theme-newa .wh-pending-time:hover,
-.theme-newa .wh-pending-em:hover {
-  color: #999 !important;
-}
-.theme-newa .wh-portal-supervisor-color .wh-pending-em {
-  position: static;
-}
-.theme-newa .wh-mail-state-gray,
-.theme-newa .wh-mail-state-red {
-  float: left;
-  width: 35px;
-  height: 20px;
-  line-height: 20px;
-  margin-top: 9px;
-  vertical-align: middle;
-  text-align: center;
-  margin-right: 10px;
-  font-size: 12px !important;
-}
-.theme-newa .wh-mail-state-gray {
-  border: 1px solid #bfbfbf;
-  background: 0 0;
-  color: #939393;
-}
-.theme-newa .wh-mail-state-red {
-  border: 1px solid #fff;
-  background: #da392c;
-  color: #fff;
-}
-.theme-newa .wh-portal-i-item a:focus span.wh-mail-state-gray,
-.theme-newa .wh-portal-i-item a:hover span.wh-mail-state-gray {
-  color: #939393;
-}
-.theme-newa .wh-portal-i-item a:focus span.wh-mail-state-red,
-.theme-newa .wh-portal-i-item a:hover span.wh-mail-state-red {
-  color: #fff;
-}
 .wh-new-work {
   display: none;
 }
@@ -5341,7 +5269,17 @@ h5 {
   margin-right: 5px;
 }
 .wh-new-work .wh-portal-i-item-list {
+  padding-right: 0;
   width: 100%;
+}
+.wh-new-work .wh-portal-i-item-list img {
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
 }
 .wh-new-work .wh-portal-i-item-list .new-worklitem {
   text-indent: 17px;
@@ -5349,6 +5287,16 @@ h5 {
 .wh-new-work .wh-portal-i-item-list a {
   margin-right: 5px;
   display: inline !important;
+  float: left;
+  text-indent: 0;
+  max-width: 92%;
+  width: auto;
+}
+.wh-new-work .wh-portal-i-item-list a.name {
+  cursor: default;
+}
+.wh-new-work .wh-new-work-hasicon .wh-portal-i-item-list img {
+  margin-left: 17px;
 }
 .wh-file-handle-purebackground {
   font-size: 0;
@@ -6218,7 +6166,6 @@ h5 {
 /* 新增列表样式 */
 .wh-portal-i-item-list {
   text-align: left;
-  text-overflow: ellipsis;
   overflow: hidden;
   word-break: keep-all;
   word-wrap: normal;
@@ -6227,23 +6174,10 @@ h5 {
   padding-right: 95px;
   position: relative;
   border-bottom: 1px dashed #e5e5e5;
+  height: 40px;
 }
 .wh-portal-i-item-list span {
   cursor: pointer;
-}
-.wh-portal-i-item-list .new-icon {
-  display: inline-block;
-  overflow: hidden;
-  height: 44px;
-  line-height: 44px;
-}
-.wh-portal-i-item-list .new-icon i.fa.fa-new {
-  color: #ff7b00;
-  font-size: 12px;
-  float: none;
-  line-height: inherit;
-  height: 44px;
-  line-height: 46px;
 }
 .wh-portal-i-item-list .wh-doc-items-tips {
   float: right;
@@ -6268,27 +6202,31 @@ h5 {
 }
 .wh-portal-i-item-list .fa-circle {
   font-size: 12px;
-  height: 44px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 42px;
 }
 .wh-portal-i-item-list .fa-circle.fa-none {
   visibility: hidden;
 }
 .wh-portal-i-item-list .fa-new-arrow {
-  height: 44px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 42px;
+}
+.wh-portal-i-item-list .fa-clock-o {
+  height: 40px;
+  line-height: 42px;
 }
 .wh-portal-i-item-list .fa-file-o {
-  height: 44px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 42px;
 }
 .wh-portal-i-item-list .fa-circle-o {
-  height: 44px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 42px;
 }
 .wh-portal-i-item-list .fa-file {
-  height: 44px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 42px;
 }
 .wh-portal-i-item-list .wh-pending-em {
   font-size: 12px;
@@ -6305,8 +6243,8 @@ h5 {
   position: absolute;
   right: 0;
   top: 0;
-  height: 44px;
-  line-height: 44px;
+  height: 40px;
+  line-height: 40px;
 }
 .wh-portal-i-item-list a {
   display: inline-block;
@@ -6318,12 +6256,28 @@ h5 {
   word-break: keep-all;
   word-wrap: normal;
   white-space: nowrap;
-  max-width: 90%;
   position: relative;
-  text-indent: 17px;
   cursor: pointer;
-  height: 44px;
-  line-height: 44px;
+  max-width: 90%;
+  height: 40px;
+  line-height: 40px;
+  text-indent: 17px;
+}
+.wh-portal-i-item-list a p {
+  display: inline-block;
+  max-width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+.wh-portal-i-item-list a i.fa.fa-new {
+  color: #ff7b00;
+  font-size: 14px;
+  float: none;
+  height: 40px;
+  line-height: 40px;
 }
 .wh-portal-i-item-list a .fa-history {
   color: #bababa;
@@ -6338,6 +6292,17 @@ h5 {
 .wh-portal-i-item-list a span.wh-portal-overtime2 {
   color: red;
 }
+.wh-portal-i-item-list .new-icon {
+  display: inline-block;
+  overflow: hidden;
+  height: 40px;
+}
+.wh-portal-i-item-list .new-icon i.fa.fa-new {
+  color: #ff7b00;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+}
 .wh-portal-i-item-list .fa.fa-file-o {
   font-size: 12px;
   position: absolute;
@@ -6345,6 +6310,12 @@ h5 {
   top: 0;
 }
 .wh-portal-i-item-list .fa.fa-new-arrow {
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wh-portal-i-item-list .fa.fa-clock-o {
   font-size: 12px;
   position: absolute;
   left: 0;
@@ -6371,9 +6342,10 @@ h5 {
 .wh-portal-notime .wh-portal-i-item-list {
   padding-right: 0;
 }
-.wh-portal-notime .wh-portal-i-item-list a {
-  max-width: 90%;
-}
 .wh-portal-notime .wh-portal-i-item-list em.time {
   display: none;
+}
+/* 新列表去除左侧图标 */
+.wh-portal-i-no-lp .wh-portal-i-item-list a {
+  text-indent: 0;
 }

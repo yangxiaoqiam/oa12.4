@@ -195,11 +195,11 @@ i.fa {
 
 //表单类
 .btn,.form-control{
-  font-size: (@base-size)*1.4;
+  font-size: (@base-size)*1.6;
 }
 .panel-heading .input-group-sm > .input-group-btn > .btn{
   font-size: (@base-size)*1.6;
-  line-height:normal;
+  line-height:1.1;
 }
 
 .view-hdpanel  .tb-col .fa-times{ font-size: (@base-size)*1.2;}
@@ -237,4 +237,13 @@ i.fa {
 }
 .ztree li span{
   line-height: (@base-size)*5;
+}
+
+/* 通讯录头部按钮居中问题 */
+.panel-heading{
+  .btn-group-sm{
+    .btn{
+     font-size:(@base-size)*1.4;
+    }
+  }
 }

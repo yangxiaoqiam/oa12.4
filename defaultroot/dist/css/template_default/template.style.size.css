@@ -11,6 +11,9 @@ html.size-big16 body {
   font-size: 16px;
 }
 /*12号   小尺寸*/
+.size-small {
+  /* 通讯录头部按钮居中问题 */
+}
 .size-small h1 {
   font-size: 18px;
 }
@@ -181,6 +184,9 @@ html.size-big16 body {
 }
 .size-small .ztree li span {
   line-height: 38px;
+}
+.size-small .panel-heading .btn-group-sm .btn {
+  line-height: 1.5;
 }
 /*14号  大尺寸*/
 .size-big h1 {
@@ -357,6 +363,9 @@ html.size-big16 body {
   line-height: 44px;
 }
 /*16号  大尺寸*/
+.size-big16 {
+  /* 通讯录头部按钮居中问题 */
+}
 .size-big16 h1 {
   font-size: 18px;
 }
@@ -507,11 +516,11 @@ html.size-big16 body {
 }
 .size-big16 .btn,
 .size-big16 .form-control {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .panel-heading .input-group-sm > .input-group-btn > .btn {
   font-size: 16px;
-  line-height: normal;
+  line-height: 1.1;
 }
 .size-big16 .view-hdpanel .tb-col .fa-times {
   font-size: 12px;
@@ -548,4 +557,7 @@ html.size-big16 body {
 }
 .size-big16 .ztree li span {
   line-height: 50px;
+}
+.size-big16 .panel-heading .btn-group-sm .btn {
+  font-size: 14px;
 }

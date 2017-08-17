@@ -1322,10 +1322,16 @@
      //新增工作汇报姓名
 	   .wh-new-work{
 	   	   .wh-portal-i-item{
-	   	   	   .work-name{
-	   	   	   	   color:@global-color;
+	   	   	   a{
+	   	   	   	  &.work-data,&.weeked{
+	   	   	   	  	 cursor:pointer;
+	   	   	   	  }
+	   	   	   	  &.name{
+	   	   	   	  	  color:@global-color;
+	   	   	   	  }
 	   	   	   }
-
+	   	   }
+	   	    .wh-portal-i-item-list{
 	   	   	   a{
 	   	   	   	  &.work-data,&.weeked{
 	   	   	   	  	 cursor:pointer;

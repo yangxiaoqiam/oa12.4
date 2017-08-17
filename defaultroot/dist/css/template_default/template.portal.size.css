@@ -33,13 +33,13 @@ body.size-big {
   min-width: 750px;
 }
 .size-small .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-small .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-small .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i.fa {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-small .wh-portal-i-title h3 {
   font-size: 12px;
@@ -60,9 +60,6 @@ body.size-big {
   font-size: 12px;
 }
 .size-small .wh-portal-i-item em {
-  font-size: 12px;
-}
-.size-small .wh-portal-i-item i.fa.fa-new {
   font-size: 12px;
 }
 .size-small .wh-portal-i-item a {
@@ -390,13 +387,13 @@ body.size-big {
   min-width: 750px;
 }
 .size-big .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  font-size: 18px;
+  font-size: 16px;
 }
 .size-big .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
-  font-size: 18px;
+  font-size: 16px;
 }
 .size-big .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i.fa {
-  font-size: 18px;
+  font-size: 16px;
 }
 .size-big .wh-portal-i-title h3 {
   font-size: 14px;
@@ -417,9 +414,6 @@ body.size-big {
   font-size: 12px;
 }
 .size-big .wh-portal-i-item em {
-  font-size: 12px;
-}
-.size-big .wh-portal-i-item i.fa.fa-new {
   font-size: 12px;
 }
 .size-big .wh-portal-i-item a {
@@ -754,7 +748,7 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
-  font-size: 20px;
+  font-size: 18px;
 }
 .size-big16 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i.fa {
   font-size: 16px;
@@ -782,9 +776,6 @@ body.size-big {
   font-size: 14px;
 }
 .size-big16 .wh-portal-i-item em {
-  font-size: 14px;
-}
-.size-big16 .wh-portal-i-item i.fa.fa-new {
   font-size: 14px;
 }
 .size-big16 .wh-portal-i-item a {
@@ -1154,9 +1145,6 @@ body.size-big {
   padding: 5px 0;
 }
 .size-big16 .wh-portal-i-item-list a {
-  font-size: 16px;
-}
-.size-big16 .wh-portal-i-item-list i.fa.fa-new {
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-item-list em.time {

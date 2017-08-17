@@ -160,7 +160,7 @@ h5 {
 .wh-portal-tools {
   position: absolute;
   right: 0;
-  top:16px;
+  top:12px;
   width: auto;
   height: 24px;
   padding-right: 10px;
@@ -199,8 +199,8 @@ h5 {
 .wh-portal-i-title {
   position: relative;
   text-align: right;
-  height: 50px;
-  line-height: 50px;
+  height: 42px;
+  line-height: 42px;
   border-bottom: 1px solid #eaecee;
   overflow: visible;
   .box-sizing(border-box);
@@ -214,15 +214,15 @@ h5 {
   }
   .wh-portal-i-title-left {
     width: 60%;
-    height: 50px;
+    height: 42px;
     overflow: hidden;
     a {
       cursor: default;
     }
     .wh-portal-title-li {
       float: left;
-      height: 48px;
-      line-height:48px;
+      height: 40px;
+      line-height:40px;
       font-size: 14px;
       text-align: left;
       border-top-width: 2px;
@@ -237,7 +237,7 @@ h5 {
       a {
         display: block;
         color: #666;
-        margin: 0 8px;
+        margin: 0 12px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -261,8 +261,8 @@ h5 {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    height: 50px;
-    line-height: 50px;
+    height: 42px;
+    line-height: 42px;
     margin: 0 1px;
     overflow: hidden;
     font-weight: normal;
@@ -482,9 +482,6 @@ h5 {
   em {
     color: #bcbcbc;
     font-size: @pt-font-size12;
-    position:absolute;
-    right:0;
-    top:0;
   }
   i.fa.fa-new {
     color: #ff7b00;
@@ -4858,83 +4855,6 @@ h5 {
   }
 }
 
-//新增主题1
-.theme-newa {
-  //  标题样式修改
-  .wh-portal-i-title {
-    background: #f6f6f6;
-  }
-  .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-  .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-  .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
-    border-bottom: 0 none;
-    border-top: 2px solid red;
-    background: #fff;
-  }
-  // 列表样式调整1
-  .wh-portal-i-item {
-    border-bottom: 1px dashed #e5e5e5;
-    height: 40px;
-    line-height: 40px;
-    width: auto;
-    padding-right: 105px;
-    .fa-file-o {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      background: url(../../../images/ver113/home/list-arrow.png) left center no-repeat;
-      &:before {
-        content: none;
-      }
-    }
-  }
-  // 列表时间居右显示1
-  .wh-pending-time,
-  .wh-pending-em {
-    position: absolute;
-    right: 0;
-    top: 7px;
-    &:hover {
-      color: #999 !important;
-    }
-  }
-  .wh-portal-supervisor-color {
-    .wh-pending-em {
-      position: static;
-    }
-  }
-  //新邮件样式1
-  .wh-mail-state-gray,
-  .wh-mail-state-red {
-    float: left;
-    width: 35px;
-    height: 20px;
-    line-height: 20px;
-    margin-top: 9px;
-    vertical-align: middle;
-    text-align: center;
-    margin-right: 10px;
-    font-size: 12px !important;
-  }
-  .wh-mail-state-gray {
-    border: 1px solid #bfbfbf;
-    background: 0 0;
-    color: #939393;
-  }
-  .wh-mail-state-red {
-    border: 1px solid #fff;
-    background: #da392c;
-    color: #fff;
-  }
-  .wh-portal-i-item a:focus span.wh-mail-state-gray,
-  .wh-portal-i-item a:hover span.wh-mail-state-gray {
-    color: #939393;
-  }
-  .wh-portal-i-item a:focus span.wh-mail-state-red,
-  .wh-portal-i-item a:hover span.wh-mail-state-red {
-    color: #fff;
-  }
-}
 
 //  新增工作汇报1
 .wh-new-work {
@@ -4951,7 +4871,17 @@ h5 {
     }
   }
   .wh-portal-i-item-list {
+    padding-right:0;
     width:100%;
+    img{ 
+       border-radius:11px;
+       -webkit-border-radius:11px;
+       -moz-border-radius:11px;
+       display:inline-block;
+        float:left;
+        margin-top:10px;
+         margin-right:5px;
+    }
       .new-worklitem{
          text-indent:17px;
     }
@@ -4959,7 +4889,25 @@ h5 {
     a {
       margin-right: 5px;
       display:inline !important;
+      text-indent:0;
+      float:left;
+      text-indent:0;
+      max-width:92%;
+      width:auto;
+      &.name{
+        cursor:default;
+      }
     }
+  }
+  .wh-new-work-hasicon{
+    .wh-portal-i-item-list{
+      img{
+       margin-left:17px;
+
+      }
+     
+    }
+    
   }
   
 }
@@ -6018,7 +5966,6 @@ h5 {
 
 .wh-portal-i-item-list {
   text-align: left;
-  text-overflow: ellipsis;
   overflow: hidden;
   word-break: keep-all;
   word-wrap: normal;
@@ -6027,23 +5974,11 @@ h5 {
   padding-right:95px;
   position: relative;
   border-bottom:1px dashed #e5e5e5;
+  height:40px;
   span{
     cursor:pointer;
   }
-  .new-icon{
-    display:inline-block;
-    overflow:hidden;
-    height:44px;
-    line-height:44px;
-     i.fa.fa-new {
-    color: #ff7b00;
-    font-size: @pt-font-size12;
-    float: none;
-    line-height:inherit;
-    height:44px;
-    line-height:46px;
-    }
-  }
+
   .wh-doc-items-tips {
     float: right;
   }
@@ -6067,27 +6002,31 @@ h5 {
   }
   .fa-circle {
     font-size: 12px;
-    height:44px;
-    line-height:46px;
+    height:40px;
+    line-height:42px;
     &.fa-none {
       visibility: hidden;
     }
   }
   .fa-new-arrow{
-       height:44px;
-       line-height:46px;
+       height:40px;
+       line-height:42px;
+    }
+    .fa-clock-o{
+      height:40px;
+      line-height:42px;
     }
     .fa-file-o{
-      height:44px;
-      line-height:46px;
+      height:40px;
+      line-height:42px;
     }
     .fa-circle-o{
-      height:44px;
-      line-height:46px;
+      height:40px;
+      line-height:42px;
     }
     .fa-file{
-      height:44px;
-      line-height:46px;
+      height:40px;
+      line-height:42px;
     }
   .wh-pending-em {
     font-size: @pt-font-size12;
@@ -6104,8 +6043,8 @@ h5 {
     position:absolute;
     right:0;
     top:0;
-    height:44px;
-    line-height:44px;
+    height:40px;
+    line-height:40px;
   }
  
   a {
@@ -6118,12 +6057,28 @@ h5 {
     word-break: keep-all;
     word-wrap: normal;
     white-space: nowrap;
-    max-width:90%;
     position:relative;
-    text-indent:17px;
     cursor:pointer;
-    height:44px;
-    line-height:44px;
+    max-width:90%;
+    height:40px;
+    line-height:40px;
+    text-indent: 17px;
+    p{
+      display:inline-block;
+      max-width:90%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      word-break: keep-all;
+      word-wrap: normal;
+      white-space: nowrap;
+    }
+    i.fa.fa-new {
+      color: #ff7b00;
+      font-size: @pt-font-size14;
+      float: none;
+      height:40px;
+      line-height:40px;
+    }
     .fa-history {
       color: #bababa;
       margin-top: 2px;
@@ -6139,6 +6094,18 @@ h5 {
     }
     
   }
+   
+  .new-icon{
+    display: inline-block;
+      overflow: hidden;
+      height: 40px;
+      i.fa.fa-new{
+        color:#ff7b00;
+        font-size:14px;
+        height: 40px;
+        line-height:40px;
+      }
+  }
   .fa.fa-file-o {
     font-size:12px;
     position: absolute;
@@ -6146,6 +6113,12 @@ h5 {
     top: 0;
     }
     .fa.fa-new-arrow {
+    font-size:12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+    .fa.fa-clock-o {
     font-size:12px;
     position: absolute;
     left: 0;
@@ -6183,7 +6156,7 @@ h5 {
     .wh-portal-i-item-list {
         padding-right: 0;
         a {
-            max-width: 90%;
+  
         }
         em {
             &.time {
@@ -6193,6 +6166,14 @@ h5 {
     }
 }
 
+/* 新列表去除左侧图标 */
+.wh-portal-i-no-lp{
+  .wh-portal-i-item-list {
+    a{
+      text-indent:0;
+    }
+  }
+}
 
 
 

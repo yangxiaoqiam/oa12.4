@@ -6,49 +6,51 @@
 </div>
 <div class="wh-portal-i-content">
     <div class="wh-portal-info-content" id="wh-portal-iclist1">
-        <div class="wh-portal-i-item clearfix">
+        <div class="wh-portal-i-item-list clearfix">
+            <i class="fa fa-new-arrow"></i>
             <a href="">
-                <i class="fa fa-file-o"></i>
-                <span> 万户网站-44月11日（本周六）流程优化再4月份新员工企业1</span>
+                <p><span> 万户网站-44月11日（本周六）流程优化再4月份新员工企业1</span></p>
             </a>
-            <em>（4-27阅36次）</em>
-            <i class="fa fa-new"></i>
+             <div class="new-icon"><i class="fa fa-new"></i></div>
+            <em class="time">（4-27阅36次）</em>
+           
         </div>
-        <div class="wh-portal-i-item clearfix">
+        <div class="wh-portal-i-item-list clearfix">
+            <i class="fa fa-new-arrow"></i>
             <a href="">
-                <i class="fa fa-file-o"></i>
-                <span>4月11日流程4月11日（本周六）流程优化再4优化再造实施2</span>
+               <p><span> 万户网站-44月11日（本周六）流程优化再4月份新员工企业1</span></p>
             </a>
-            <em>（4-27阅36次）</em>
-            <i class="fa fa-new"></i>
+             <div class="new-icon"><i class="fa fa-new"></i></div>
+            <em class="time">（4-27阅36次）</em>
+           
         </div>
-        <div class="wh-portal-i-item clearfix">
+        <div class="wh-portal-i-item-list clearfix">
+            <i class="fa fa-new-arrow"></i>
             <a href="">
-                <i class="fa fa-file-o"></i>
-                <span>海万户网站4月11日（本周六）流程优化再4建设签单快报3</span>
+                <p><span>海万户网站4月11日（本周六）流程优化再4建设签单快报3</span></p>
             </a>
-            <em>（4-27阅36次）</em>
+            <em class="time">（4-27阅36次）</em>
         </div>
-        <div class="wh-portal-i-item clearfix">
+        <div class="wh-portal-i-item-list clearfix">
+            <i class="fa fa-new-arrow"></i>
             <a href="">
-                <i class="fa fa-file-o"></i>
-                <span>4月11日（本周六）流程4月11日（本周六）流程优化再4优化再4</span>
+                <p><span>4月11日（本周六）流程4月11日（本周六）流程优化再4优化再4</span></p>
             </a>
-            <em>（4-27阅36次）</em>
+            <em class="time">（4-27阅36次）</em>
         </div>
-        <div class="wh-portal-i-item clearfix">
+        <div class="wh-portal-i-item-list clearfix">
+            <i class="fa fa-new-arrow"></i>
             <a href="">
-                <i class="fa fa-file-o"></i>
-                <span>海万户网站建设签4月11日（本周六）流程优化再4单快报5</span>
+                <p><span>海万户网站建设签4月11日（本周六）流程优化再4单快报5</span></p>
             </a>
-            <em>（4-27阅36次）</em>
+            <em class="time">（4-27阅36次）</em>
         </div>
-        <div class="wh-portal-i-item clearfix">
+        <div class="wh-portal-i-item-list clearfix">
+            <i class="fa fa-new-arrow"></i>
             <a href="">
-                <i class="fa fa-file-o"></i>
-                <span>海万户网站4月11日（本周六）流程优化再4建设签单快报6</span>
+                <p><span>海万户网站4月11日（本周六）流程优化再4建设签单快报6</span></p>
             </a>
-            <em>（4-27阅36次）</em>
+            <em class="time">（4-27阅36次）</em>
         </div>
     </div>
 </div>
@@ -59,16 +61,16 @@
             var _interval=3000;
             var _moving;
             var infonum = 6;
-            var info_line_height = 26;
+            var info_line_height = 40;
             var counth = info_line_height*(infonum);
             _wrap.css('height',counth);
             _wrap.hover(function(){
                 clearInterval(_moving);
             },function(){
                 _moving=setInterval(function(){
-                    var _field=_wrap.find('.wh-portal-i-item:first');
+                    var _field=_wrap.find('.wh-portal-i-item-list:first');
                     var _h=_field.height();
-                    $('<div class="wh-portal-i-item clearfix">'+_field.html()+'</div>').appendTo(_wrap);
+                    $('<div class="wh-portal-i-item-list clearfix">'+_field.html()+'</div>').appendTo(_wrap);
                     _field.animate({marginTop:-_h+'px'},600,function(){
                         _field.css('marginTop',0).remove();
                     })
