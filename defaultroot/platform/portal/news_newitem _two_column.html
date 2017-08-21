@@ -1,4 +1,4 @@
-<div class="wh-portal-i-title clearfix">
+<div class="wh-portal-i-title clearfix"> 
     <ul class="wh-portal-i-title-left wh-portal-title-slide02  clearfix" data-linum="1">
         <li class="wh-portal-title-li wh-portal-overflow on"><a href=""><i class="fa fa-file-o"></i>新列表样式</a></li>
         <li class="wh-portal-title-li"><a href="">新列表样式1</a></li>
@@ -10,7 +10,7 @@
         <div class="wh-portal-slide02">
             <ul class="wh-portal-notime  clearfix">
                 <li>
-                   <div class="wh-protal-overflow"  id="wh-portal-iclist_new1">
+                   <div class="wh-protal-overflow"  id="wh-portal-iclist_new_test">
                     <div class="wh-portal-i-item-list wh-portal-i-item-list-cursor clearfix">
                         <i class="fa fa-new-arrow"></i>
                         <a href="">
@@ -119,47 +119,37 @@
                
             </ul>
         </div>
-    </div>
+    </div> 
 </div>
-<script type="text/javascript">
-$(function() {
+<!-- <script type="text/javascript">
+$(function() { 
+  var $tab_li = $('.wh-portal-title-slide02 li');
+  $tab_li.hover(function() {
+    $(this).addClass('on').siblings().removeClass('on');
+    var index = $tab_li.index(this);
+    $('.wh-portal-slide02 > ul > li').eq(index).show().siblings().hide();
+  });
 
-     var $tab_li = $('.wh-portal-title-slide02 li');
-    $tab_li.hover(function(){
-        $(this).addClass('on').siblings().removeClass('on');
-        var index = $tab_li.index(this);
-        $('.wh-portal-slide02 > ul > li').eq(index).show().siblings().hide();
-    });
+  var _wrap_test=$('#wh-portal-iclist_new_test');
+  var _interval_test=3000;
+  var _moving_test;
+  var infonum_test = 5;
+  var info_line_height_test = 41;
+  var counth_test = info_line_height_test*(infonum_test);
+  _wrap_test.css('height',counth_test);
+  _wrap_test.hover(function(){
+      clearInterval(_moving_test);
+  },function(){
+      _moving_test=setInterval(function(){
+          var _field_test=_wrap_test.find('.wh-portal-i-item-list:first');
+          var _h_test=_field_test.height();
+          $('<div class="wh-portal-i-item-list wh-portal-i-item-list-twospan clearfix">'+_field_test.html()+'</div>').appendTo(_wrap_test);
+          _field_test.animate({marginTop:-_h_test+'px'},600,function(){
+              _field_test.css('marginTop',0).remove();
+          })
 
-
-
-//列表1滚动
-
-//列表滚动
-        var _wrap_16pxheight=$('#wh-portal-iclist_16pxheight');
-        var _interval_16pxheight=3000;
-        var _moving_16pxheight;
-        var infonum_16pxheight = 6;
-        var info_line_height_16pxheight = 44;
-        var counth_16pxheight = info_line_height_16pxheight*(infonum_16pxheight-1);
- 
-        //_wrap_16pxheight.css('height',counth_16pxheight);
-        _wrap_16pxheight.hover(function(){
-            clearInterval(_moving_16pxheight);
-        },function(){
-            _moving_16pxheight=setInterval(function(){
-                var _field_16pxheight=_wrap_16pxheight.find('.wh-portal-i-item-list:first');
-                var _h_16pxheight=_field_16pxheight.height();
-                _field_16pxheight.animate({marginTop:-_h_16pxheight+'px'},600,function(){
-                    _field_16pxheight.css('marginTop',0).appendTo(_wrap_16pxheight);
-                })
-            },_interval_16pxheight)
-        }).trigger('mouseleave');
-
-
-    })
-  
-    
-
-
-</script>
+      },_interval_test)
+  }).trigger('mouseleave');
+  //列表滚动 
+}) 
+</script> -->

@@ -1,0 +1,122 @@
+
+<div class="wh-portal-info-box">
+    <div class="wh-portal-info">
+        <div class="wh-portal-i-title clearfix">
+            <ul class="wh-portal-i-title-left wh-portal-title-slide02 clearfix">
+                <li class="wh-portal-title-li on"><a href="">新会议1</a></li>
+                <li class="wh-portal-title-li"><a href="">新会议2</a></li>
+            </ul>
+        </div>
+        <div class="wh-portal-i-content">
+            <div class="wh-portal-info-content">
+                <div class="wh-portal-slide03 wh-portal-slide-mt2row wh-portal-slide07-2845">
+            <ul class="clearfix">
+            
+                <li style="display: list-item;">
+                    
+                    <div class="wh-portal-i-item-list ">
+                        <i class="wh-pending-state wh-pending-g-wating">未确认</i>
+                        <a href="javascript:void(0)" title="会议主题：新会议通知4
+会议时间：2017年08月19日 10:00
+创建人：杨阿敏
+联系电话：" class="clearfix" style="cursor:pointer" onclick="viewMeetingInfo('4','1174','新会议通知4','0','4','2255')">
+                        <b>新会议通知4 (2017年08月19日 10:00)</b>
+                        </a>
+                    </div>
+
+                     <div class="wh-portal-i-item-list " >
+                        <i class="wh-pending-state wh-pending-g-wating">未确认</i>
+                        <a href="javascript:void(0)" title="会议主题：新会议通知4
+会议时间：2017年08月19日 10:00
+创建人：杨阿敏
+联系电话：" class="clearfix" style="cursor:pointer" onclick="viewMeetingInfo('4','1174','新会议通知4','0','4','2255')">
+                        <b>新会议通知4 (2017年08月19日 10:00)</b>
+                        </a>
+                    </div>
+
+                     <div class="wh-portal-i-item-list " >
+                        <i class="wh-pending-state wh-pending-g-wating">未确认</i>
+                        <a href="javascript:void(0)" title="会议主题：新会议通知4
+会议时间：2017年08月19日 10:00
+创建人：杨阿敏
+联系电话：" class="clearfix" style="cursor:pointer" onclick="viewMeetingInfo('4','1174','新会议通知4','0','4','2255')">
+                        <b>新会议通知4 (2017年08月19日 10:00)</b>
+                        </a>
+                    </div>
+
+                     <div class="wh-portal-i-item-list " >
+                        <i class="wh-pending-state wh-pending-g-wating">未确认</i>
+                        <a href="javascript:void(0)" title="会议主题：新会议通知4
+会议时间：2017年08月19日 10:00
+创建人：杨阿敏
+联系电话：" class="clearfix" style="cursor:pointer" onclick="viewMeetingInfo('4','1174','新会议通知4','0','4','2255')">
+                        <b>新会议通知4 (2017年08月19日 10:00)</b>
+                        </a>
+                    </div>
+                    
+                </li>
+            
+            
+                 
+            
+            </ul>
+        </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        var $tab_li = $('.wh-portal-title-slide02 li');
+        $tab_li.hover(function(){
+            $(this).addClass('on').siblings().removeClass('on');
+            var index = $tab_li.index(this);
+            $('.wh-portal-slide02 > ul > li').eq(index).show().siblings().hide();
+        });
+    })
+</script>
+
+    <script>
+    $(function(){
+
+
+        $(".wh-meeting-address").hover(function () {
+            $(this).find(".wh-meeting-hid-box").show();
+        }, function () {
+            $(this).find(".wh-meeting-hid-box").hide();
+        });
+        $(".wh-schedule-time-box").flexslider({
+            selector:".wh-schedule-time-slide > li",
+            animation: "slide",
+            animationLoop: false,
+            itemMargin: 7,
+            directionNav: true,
+            controlNav:false,
+        });
+        $('.wh-meeting-join a').click(function () {
+            $(this).addClass('current').siblings().removeClass('current');
+        });
+
+        $(".wh-portal-vote-box").flexslider({
+            selector:".wh-portal-vote-slide > li",
+            animation: "slide",
+            animationLoop: false,
+            directionNav: true,
+            controlNav:false,
+            slideshow:false
+            // pausePlay: true
+        }); 
+        /*---------投票选择click 单选---------*/
+        $('.wh-vote-ques-singleclick li').click(function () {
+            var $this = $(this);
+            $this.siblings().find('i').removeClass('fa-check-circle fa-color').addClass('fa-check-circle-o');
+            $(this).find('i').removeClass('fa-check-circle-o').addClass('fa-check-circle fa-color');
+        });
+        /*---------投票选择click 多选---------*/
+        $('.wh-vote-ques-doubleclick li').click(function () {
+            var $this = $(this);
+            $(this).find('i').removeClass('fa-check-circle-o').addClass('fa-check-circle fa-color');
+        });
+    })
+</script>

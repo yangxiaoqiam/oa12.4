@@ -765,10 +765,6 @@ body.size-big {
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infocon p {
   font-size: 14px;
 }
-.size-big16 .wh-portal-i-item {
-  height: 30px;
-  line-height: 30px;
-}
 .size-big16 .wh-portal-i-item .wh-pending-em {
   font-size: 14px;
 }
@@ -873,15 +869,15 @@ body.size-big {
 }
 .size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-user-state a,
 .size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-depart-state a {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-user-state a i.fa,
 .size-big16 .wh-personal-card-content .wh-personal-card-state .per-wh-hd-depart-state a i.fa {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-content .wh-personal-card-state .wh-card-department span,
 .size-big16 .wh-personal-card-content .wh-personal-card-state .wh-card-state span {
-  font-size: 14px;
+  font-size: 16px;
 }
 .size-big16 .wh-personal-card-content .wh-personal-date {
   font-size: 16px;
@@ -1128,10 +1124,6 @@ body.size-big {
   height: 16px;
   line-height: 16px;
   font-size: 13px;
-}
-.size-big16 .wh-portal-slide-mt2row .wh-portal-i-item {
-  height: 50px;
-  line-height: 50px;
 }
 .size-big16 .wh-portal-slide-mt2row .wh-pending-state,
 .size-big16 .wh-portal-slide-mt2row .wh-task-in-state {

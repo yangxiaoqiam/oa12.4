@@ -31,9 +31,51 @@ html.size-big16 body {
 .size-small i.fa {
   font-size: 15px;
 }
-.size-small .wh-hd-l-nav dd .wh-hd-l-gateway-info a {
+.size-small .wh-header {
+  height: 60px;
+}
+.size-small .wh-header .wh-container {
+  height: 60px;
+}
+.size-small .wh-header .wh-container .wh-logo {
+  height: 60px;
+}
+.size-small .wh-header .wh-container .wh-logo p {
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav dd {
+  height: 60px;
+  line-height: 60px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav dd > .wh-hd-custom-menu {
+  height: 46px;
+  line-height: 46px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav dd > .wh-hd-custom-menu a {
+  height: 46px;
+  line-height: 46px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav dd.wh-hd-l-gateway.open .wh-hd-l-gateway-cont {
+  top: 60px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav dd .wh-hd-l-gateway-info a {
   height: 24px;
   line-height: 24px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn {
+  height: 60px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn.open .wh-hd-custom-cont {
+  top: 60px;
+}
+.size-small .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn .wh-hd-custom-cont li .wh-hd-custom-menu {
+  height: 40px;
+  line-height: 40px;
+}
+.size-small .wh-content {
+  top: 70px;
 }
 .size-small .wh-sys-notice-list p,
 .size-small .wh-sys-quicksetting-list p {
@@ -113,16 +155,6 @@ html.size-big16 body {
 .size-small .wh-hd-group-num .wh-hd-group-a {
   line-height: 28px;
 }
-.size-small .wh-hd-custom-menu .wh-hd-cmcontainer div span {
-  line-height: 1.5;
-}
-.size-small .wh-hd-menu-add ul li .wh-hd-custom-menu-d {
-  height: 40px;
-  line-height: 40px;
-}
-.size-small .wh-hd-menu-add ul li .wh-hd-custom-menu-d a span {
-  line-height: 1.5;
-}
 .size-small .wh-hd-user-detail .wh-hd-user-welcome .welcomea {
   height: 28px;
   line-height: 28px;
@@ -188,6 +220,9 @@ html.size-big16 body {
 .size-small .panel-heading .btn-group-sm .btn {
   line-height: 1.5;
 }
+.size-small .wh-l-content {
+  top: 70px;
+}
 /*14号  大尺寸*/
 .size-big h1 {
   font-size: 18px;
@@ -206,9 +241,57 @@ html.size-big16 body {
 .size-big i.fa {
   font-size: 16px;
 }
-.size-big .wh-hd-l-nav dd .wh-hd-l-gateway-info a {
+.size-big .wh-header {
+  height: 69px;
+}
+.size-big .wh-header .wh-container {
+  height: 69px;
+}
+.size-big .wh-header .wh-container .wh-logo {
+  height: 69px;
+}
+.size-big .wh-header .wh-container .wh-logo p {
+  height: 69px;
+  line-height: 69px;
+  font-size: 20px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav dd {
+  height: 69px;
+  line-height: 69px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav dd > .wh-hd-custom-menu {
+  height: 46px;
+  line-height: 46px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav dd > .wh-hd-custom-menu a {
+  height: 46px;
+  line-height: 46px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav dd.wh-hd-l-gateway.open .wh-hd-l-gateway-cont {
+  top: 69px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav dd .wh-hd-l-gateway-info a {
   height: 24px;
   line-height: 24px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn {
+  height: 69px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn.open .wh-hd-custom-cont {
+  top: 69px;
+}
+.size-big .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn .wh-hd-custom-cont li .wh-hd-custom-menu {
+  height: 40px;
+  line-height: 40px;
+}
+.size-big .wh-header .wh-container .wh-hd-r-nav {
+  top: 6px;
+}
+.size-big .wh-header .wh-container .wh-hd-r-nav li .wh-hd-box-shadow.open {
+  top: 64px;
+}
+.size-big .wh-content {
+  top: 79px;
 }
 .size-big .wh-sys-notice-list p,
 .size-big .wh-sys-quicksetting-list p {
@@ -293,13 +376,6 @@ html.size-big16 body {
 .size-big .wh-hd-group-num .wh-hd-group-a {
   line-height: 28px;
 }
-.size-big .wh-hd-menu-add ul li .wh-hd-custom-menu-d {
-  height: 40px;
-  line-height: 40px;
-}
-.size-big .wh-hd-menu-add ul li .wh-hd-custom-menu-d a span {
-  line-height: 1.2;
-}
 .size-big .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-user-welcome-title {
   height: 35px;
   line-height: 30px;
@@ -359,8 +435,30 @@ html.size-big16 body {
   height: 44px;
   line-height: 44px;
 }
+.size-big .ztree li a span {
+  padding: 0;
+}
+.size-big .ztree li {
+  line-height: 44px;
+}
+.size-big .ztree li a {
+  height: 44px;
+}
+.size-big .ztree li a.curSelectedNode {
+  height: 44px;
+}
+.size-big .ztree li a span.button {
+  height: 44px;
+  line-height: 44px;
+}
 .size-big .ztree li span {
   line-height: 44px;
+}
+.size-big .ztree li span {
+  line-height: 44px;
+}
+.size-big .wh-l-content {
+  top: 79px;
 }
 /*16号  大尺寸*/
 .size-big16 {
@@ -382,10 +480,6 @@ html.size-big16 body {
 }
 .size-big16 i.fa {
   font-size: 16px;
-}
-.size-big16 .wh-hd-l-nav dd .wh-hd-l-gateway-info a {
-  height: 24px;
-  line-height: 24px;
 }
 .size-big16 .wh-sys-notice-list p,
 .size-big16 .wh-sys-quicksetting-list p {
@@ -470,20 +564,57 @@ html.size-big16 body {
 .size-big16 .wh-hd-group-num .wh-hd-group-a {
   line-height: 28px;
 }
-.size-big16 .wh-hd-custom-menu .wh-hd-cmcontainer div span {
-  height: 20px;
-  line-height: 1.5;
+.size-big16 .wh-header {
+  height: 78px;
 }
-.size-big16 .wh-hd-custom-switch .wh-hd-custom-menu-btn > span {
-  font-size: 14px;
+.size-big16 .wh-header .wh-container {
+  height: 78px;
 }
-.size-big16 .wh-hd-menu-add ul li .wh-hd-custom-menu-d {
+.size-big16 .wh-header .wh-container .wh-logo {
+  height: 78px;
+}
+.size-big16 .wh-header .wh-container .wh-logo p {
+  height: 78px;
+  line-height: 78px;
+  font-size: 20px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav dd {
+  height: 78px;
+  line-height: 78px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav dd > .wh-hd-custom-menu {
+  height: 46px;
+  line-height: 46px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav dd > .wh-hd-custom-menu a {
+  height: 46px;
+  line-height: 46px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav dd.wh-hd-l-gateway.open .wh-hd-l-gateway-cont {
+  top: 78px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav dd .wh-hd-l-gateway-info a {
+  height: 24px;
+  line-height: 24px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn {
+  height: 78px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn.open .wh-hd-custom-cont {
+  top: 78px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-l-nav .wh-hd-menu-btn .wh-hd-custom-cont li .wh-hd-custom-menu {
   height: 40px;
   line-height: 40px;
 }
-.size-big16 .wh-hd-menu-add ul li .wh-hd-custom-menu-d a span {
-  height: 20px;
-  line-height: 1.5;
+.size-big16 .wh-header .wh-container .wh-hd-r-nav {
+  top: 10px;
+}
+.size-big16 .wh-header .wh-container .wh-hd-r-nav li .wh-hd-box-shadow.open {
+  top: 68px;
+}
+.size-big16 .wh-content {
+  top: 88px;
 }
 .size-big16 .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-user-welcome-title {
   height: 35px;
@@ -560,4 +691,7 @@ html.size-big16 body {
 }
 .size-big16 .panel-heading .btn-group-sm .btn {
   font-size: 14px;
+}
+.size-big16 .wh-l-content {
+  top: 88px;
 }

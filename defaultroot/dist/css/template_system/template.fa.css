@@ -784,11 +784,11 @@
   content: "\f100";
 }
 .fa-line-more:before {
-  content: "\e900";
+  content: "f101";
 }
 .fa-hz-more:before {
-  content: "\e901";
+  content: "\f102";
 }
 .fa-new-arrow:before {
-  content: "\e902";
+  content: "\f103";
 }

@@ -13,14 +13,15 @@
   <link rel="stylesheet" href="template/css/template_default/template.style.min.css" />
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
-  <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.width.min.css" />   
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.media.min.css" /> 
   <link rel="stylesheet" href="template/css/template_default/template.style.size.min.css" />
+  <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.width.min.css" />   
+
 </head>
 
 <body class="wh-header-home">
   <div class="wh-wrapper">
-    <!--#include file="include/idx-global.html"-->
+    <!--#include file="include/idx-global-new.html"-->
     <div class="wh-content close-l-nav">
       <span id="switch-l-nav" class="btn-switch-show"><i class="fa fa-caret-right"></i><i class="fa fa-caret-left"></i></span>
       <div class="wh-l-content" switch-tip="true">

@@ -6,7 +6,7 @@
 @import "../../../less/global/template.global.less";
 @import "../../../less/template.bootstrap.theme.wh.less";
 @import "color/var-global.less";
-@import "color/var-width.less"; 
+@import "color/var-width.less";
 //背景
 .theme-mixin( @colorName, @colorType, @global-color, @global-color-hd-color: #282828, @global-color-bg-deep: darken(@global-color, 10%), @global-color-bg-light: tint(@global-color, 20%), @global-color-bghover-deep: darken(@global-color, 5%), @global-color-bghover-light: darken(@global-color, 2%)) {
   .theme-@{colorType}-@{colorName} {
@@ -15,79 +15,117 @@
     background: transparent !important;
     body {
       background: transparent !important;
-    }
-    //头部
+    } //头部
     .wh-header {
       border: 0 none;
-      height:50px;
-      .wh-container {
-        position: relative;
-        height:50px;
-        .wh-logo {
-          height:50px;
-          img {
-            height: 42px;
-            margin-top: -21px;
-          }
-        }
-         .wh-top-time{
+      height: 50px;
+        .wh-top-time{
            height:50px;
            line-height:50px;
            float:left;
            display:block;
         }
-
+      .wh-hd-menu-btn-a{
+        height: 44px;
+      }
+      .wh-container {
+        position: relative;
+        height: 50px;
+        .wh-logo {
+          height: 50px;
+          img {
+            height: 42px;
+            margin-top: -21px;
+          }
+        }
         .wh-hd-l-nav {
           position: absolute;
-          left: 10px;
+          left: 0;
+          width: 100%;
           top: 50px;
           background: transparent;
-          .wh-hd-menu-btn.open .wh-hd-custom-cont {
-            top: 45px;
-          }
-          &>dd {
+          >dd {
             background-image: url(../../../../../images/ver113/home/nav-line.png);
             background-repeat: no-repeat;
             background-position: left center;
-            padding: 0 20px;
+            padding: 0;
             height: 44px;
-            &:hover{
-              background-color:@global-color;
-            }
-            &.wh-hd-menu-btn-se{
-              padding:0;
-            }
+            line-height: 44px;
             &#desktop_choosegateway_dd {
               background-image: none;
             }
-            &>a {
-              color: #fff;
-              height: 44px;
-              line-height: 44px;
-              .fa,
-              span {
+            &.wh-hd-l-gateway {
+              padding: 0 15px;
+              &.open {
+                .wh-hd-l-gateway-cont {
+                  top: 44px;
+                  left: 0;
+                }
+              }
+              .wh-hd-l-gateway-info {
+                .fa {
+                  color: @global-color;
+                }
+              }
+            }
+            &:hover {
+              >.wh-hd-custom-menu {
+                background: url("../../../../images/system/wh-hd-hoverbg.png") 0 0 repeat;
+                >.fa {
+                  top: 6px;
+                  right: 6px;
+                }
+              }
+            }
+            >.wh-hd-custom-menu {
+              height: 45px;
+              line-height: 45px;
+              padding: 0 26px;
+              a,
+              .fa {
                 color: #fff;
               }
             }
+            >a {
+              color: #fff;
+            }
+            .fa {
+              color: #fff;
+            }
+            .wh-hd-custom-switch{
+              box-shadow: none;
+            }
+          }
+          .wh-hd-menu-btn {
+            height: 44px;
+            padding: 0 15px;
+            .wh-hd-custom-cont {
+              position: fixed;
+            }
+            &.open {
+              .wh-hd-custom-cont {
+                top: 94px; //44+50
+              }
+            } 
           }
         }
-        .wh-hd-r-nav{
-          height:50px;
-          line-height:50px;
-          li{
-            height:50px;
-           .wh-hd-box-shadow{
-            &.open{
-              top:50px;
+        .wh-hd-r-nav {
+          height: 50px;
+          line-height: 50px;
+          top: 0;
+          li {
+            height: 50px;
+            .wh-hd-box-shadow {
+              &.open {
+                top: 50px;
+              }
             }
-           }
-            .wh-r-nav-a{
-              top:11px;
+            .wh-r-nav-a {
+              top: 11px;
             }
-            .wh-hd-user-info{
-              top:9px;
+            .wh-hd-user-info {
+              top: 9px;
             }
-
           }
         }
       }
@@ -96,13 +134,11 @@
       top: 10px;
     }
     .wh-content {
-      top: 95px;
-      //左侧
+      top: 95px; //左侧
       .wh-l-content {
         top: 105px;
       }
-    }
-    //定宽内页头部栏目
+    } //定宽内页头部栏目
     .top-trabg {
       position: fixed;
       top: 50px;
@@ -113,16 +149,13 @@
       border-bottom: 1px solid @global-color-bg-light;
       z-index: 200;
       display: block;
-    }
-    //定宽首页头部栏目
+    } //定宽首页头部栏目
     .wh-header-home {
       .wh-l-content,
       .wh-content {
         bottom: 0;
       }
-    }
-
-    //portal栏目样式
+    } //portal栏目样式
     .wh-portal-i-title {
       background: transparent;
       border-bottom-color: @global-color;
@@ -130,7 +163,9 @@
         .wh-portal-title-li {
           border-top-color: transparent;
           border: 0 none;
-          &.on,&:focus,&:hover {
+          &.on,
+          &:focus,
+          &:hover {
             border-top: 0 none;
             border-bottom-width: 2px;
             border-bottom-style: solid;
@@ -138,15 +173,25 @@
           }
         }
       }
-    }
-
-
+    } 
+    //三角形
+    // .wh-hd-l-nav {
+    //   .open {
+    //     span {
+    //       &.s-point {
+    //         border-bottom-color: @global-color;
+    //         em {
+    //           border-bottom-color: #FFF;
+    //         }
+    //       }
+    //     }
+    //   }
+    // } 
     //顶部门户下拉框
     .wh-hd-l-nav dd.wh-hd-l-gateway.open .wh-hd-l-gateway-cont {
       top: 45px;
       left: 0;
-    }
-    //定宽左侧树结构
+    } //定宽左侧树结构
     .ztree {
       background: #f2f2f2
     }
@@ -170,97 +215,7 @@
     }
     .ztree li.level4 {
       background: #c5c1c1
-    }
-
-    //定宽头部下拉背景颜色
-    .wh-hd-custom-menu,
-     .wh-hd-custom-switch,
-      .wh-hd-menu-add-cut{
-        background:#fff;
-      }
-      .wh-hd-custom-switch{
-        .wh-hd-custom-menu-d{
-          background:#fff;
-          &>a{
-            color:@global-color;
-          }
-        }
-      }
-
- .wh-hd-l-nav dd.wh-hd-menu-btn.open .fa,
- .wh-hd-l-nav dd.wh-hd-menu-btn.open>a>span,
- .wh-hd-l-nav dd.wh-hd-menu-btn:focus .fa,
- .wh-hd-l-nav dd.wh-hd-menu-btn:focus>a>span,
- .wh-hd-l-nav dd.wh-hd-menu-btn:hover .fa,
- .wh-hd-l-nav dd.wh-hd-menu-btn:hover>a>span {
-   color: @global-color;
- }
-
- .wh-hd-custom-switch {
-   .wh-hd-custom-menu-d {
-     &:focus,
-     &:hover {
-       a {
-         color: #fff;
-         i{
-          color:#fff !important;
-         }
-       }
-     }
-   }
-   .wh-hd-custom-menu-btn{
-    &>span{
-      color:@global-color;
-    }
-   }
-   .wh-hd-menu-add{
-      background:#fff;
-      li{
-        .wh-hd-custom-menu-d-add{
-          border:0 none;
-          i.fa.fa-plus{
-            color:#fff;
-          }
-
-        }
-        .wh-hd-custom-menu-d-del{
-          border:0 none;
-          a{
-            color:#fff;
-          }
-          i.fa{
-            color:#fff;
-          }
-        }
-      }
-   }
-   .wh-hd-menu-cut{
-      background:#fff;
-      li{
-        .wh-hd-custom-menu-d-add{
-           border:0 none;
-        }
-        .wh-hd-custom-menu-d-del{
-           border:0 none;
-        }
-      }
-    }
- }
-
- //三角形
-   .wh-hd-l-nav {
-     .open {
-       span {
-         &.s-point {
-           border-bottom-color: @global-color;
-           em {
-             border-bottom-color: #FFF;
-           }
-         }
-       }
-     }
-   }
-   // 结束符         
+    } // 结束符         
   }
 }
 
@@ -331,9 +286,8 @@
 
 .theme-width-gray .wh-header-home .wh-content {
   background: url(../../../../../images/ver113/home/gray.jpg) center top no-repeat;
-} 
+}
 
 .theme-width-black .wh-header-home .wh-content {
   background: url(../../../../../images/ver113/home/black.jpg) center top no-repeat;
 }
-
