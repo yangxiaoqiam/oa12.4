@@ -1370,15 +1370,12 @@
       &.bgcolor-f15949 a p.fafa {
         background: #f15949;
       }
-    } //新增列表
+    } 
     //新增列表
     .wh-portal-i-item-list {
       a {
         &:hover,
         &:focus {
-          span {
-            color: @global-color;
-          }
           color: @global-color;
         }
       }
@@ -1409,24 +1406,7 @@
       }
     }
 
-    //新增列表
-    .wh-portal-i-item-list {
-      a {
-        &:hover,
-        &:focus {
-          span {
-            color: @global-color;
-          }
-          color: @global-color;
-        }
-      }
-      i.fa.fa-circle {
-        color: @global-color;
-      }
-      i.fa.fa-circle-o {
-        color: @global-color-gray;
-      }
-    } // 纯色背景文件办理提醒
+    // 纯色背景文件办理提醒
     .wh-file-handle-purebackground {
       ul {
         li {
@@ -1517,29 +1497,23 @@
         background: #f15949;
       }
     } 
-    .wh-portal-i-item-list {
-      a {
-        &:hover,
-        &:focus {
-          span {
-            color: @global-color;
+
+
+  .wh-portal-i-item-list-cursor {
+          a {
+              cursor: default;
+              color: #202020;
+              &:hover,
+              &:focus {
+                  color: #202020;
+              }
+              span {
+                  &:hover {
+                      color: @global-color;
+                  }
+              }
           }
-          color: @global-color;
-        }
       }
-      i.fa.fa-circle {
-        color: @global-color;
-      }
-      i.fa.fa-circle-o {
-        color: @global-color-gray;
-      }
-    }
-    .wh-portal-i-item-list-cursor {
-      a {
-        cursor: default;
-        color: #202020;
-      }
-    }
      // }结束符
   }
 }

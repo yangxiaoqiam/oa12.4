@@ -157,10 +157,13 @@
     } // 栏目标题设置
     .wh-portal-i-title {
       background: #fff;
-      border-bottom-color: #fff;
+      border-width:0 0 2px 0;
+      border-bottom-color: @global-color;
       .wh-portal-i-title-left {
         .wh-portal-title-li {
-          border-top-color: #fff !important;
+          border-top-width:0;
+          height:40px;
+          line-height:40px;
           a {}
         }
       }
@@ -172,9 +175,9 @@
       -webkit-box-shadow: none;
     }
     .wh-portal-i-content {
-      border: 1px solid #eeeeee;
-      border-top-width: 2px;
-      border-top-color: @global-color ;
+       border-width:1px;
+       border-style:solid;
+      border-color:#eaecee;
     }
   }
 }

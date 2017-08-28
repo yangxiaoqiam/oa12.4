@@ -362,6 +362,12 @@ body.size-big {
 .size-small .wh-portal-i-item-list em.time {
   font-size: 12px;
 }
+.size-small .wh-slide-consult-ul li a .wh-zhidao {
+  font-size: 12px;
+}
+.size-small .c_ulList {
+  font-size: 12px;
+}
 /*14号  大尺寸*/
 .size-big {
   /* 新增列表 */
@@ -720,6 +726,12 @@ body.size-big {
 .size-big .wh-portal-i-item-list em.time {
   font-size: 14px;
 }
+.size-big .wh-slide-consult-ul li a .wh-zhidao {
+  font-size: 14px;
+}
+.size-big .c_ulList {
+  font-size: 14px;
+}
 /*16号  大尺寸*/
 .size-big16 {
   /* 新增列表 */
@@ -754,10 +766,10 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-title h3 {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-i-title h3 a {
-  font-size: 16px;
+  font-size: 14px;
 }
 .size-big16 .wh-portal-info-content .wh-portal-info-title .wh-portal-infotitle p {
   font-size: 14px;
@@ -1140,5 +1152,11 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .wh-portal-i-item-list em.time {
+  font-size: 16px;
+}
+.size-big16 .wh-slide-consult-ul li a .wh-zhidao {
+  font-size: 16px;
+}
+.size-big16 .c_ulList {
   font-size: 16px;
 }

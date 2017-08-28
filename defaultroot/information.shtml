@@ -20,6 +20,7 @@
     <script type="text/javascript" src="scripts/plugins/foucs/jquery.foucs.js" ></script>
     <script type="text/javascript" src="scripts/plugins/highcharts/jquery.highcharts.js"></script>
     <script type="text/javascript" src="scripts/plugins/highcharts/jquery.highcharts-more.js"></script>
+  
 </head>
 <body>
 <div class="wh-container wh-portaler">

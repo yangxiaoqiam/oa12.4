@@ -223,6 +223,9 @@ html.size-big16 body {
 .size-small .wh-l-content {
   top: 70px;
 }
+.size-small .wh-slide-consult-ul li .wh-zidao {
+  font-size: 12px;
+}
 /*14号  大尺寸*/
 .size-big h1 {
   font-size: 18px;
@@ -288,7 +291,7 @@ html.size-big16 body {
   top: 6px;
 }
 .size-big .wh-header .wh-container .wh-hd-r-nav li .wh-hd-box-shadow.open {
-  top: 64px;
+  top: 62px;
 }
 .size-big .wh-content {
   top: 79px;
