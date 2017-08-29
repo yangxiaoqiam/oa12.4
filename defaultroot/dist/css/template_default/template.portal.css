@@ -5304,6 +5304,7 @@ h5 {
 .wh-new-work .wh-portal-i-item-list {
   padding-right: 0;
   width: 100%;
+  text-overflow: ellipsis;
 }
 .wh-new-work .wh-portal-i-item-list img {
   border-radius: 11px;
@@ -5312,13 +5313,20 @@ h5 {
   display: inline-block;
   margin-right: 5px;
   position: relative;
-  top: -18px;
+  top: -3px;
 }
 .wh-new-work .wh-portal-i-item-list .new-worklitem {
   text-indent: 17px;
 }
+.wh-new-work .wh-portal-i-item-list a {
+  display: inline;
+  max-width: auto;
+}
 .wh-new-work .wh-portal-i-item-list a.name {
   cursor: default;
+}
+.wh-new-work .wh-portal-i-item-list .fa {
+  display: inline;
 }
 .wh-file-handle-purebackground {
   font-size: 0;

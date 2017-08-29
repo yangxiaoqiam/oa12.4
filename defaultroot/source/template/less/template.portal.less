@@ -4958,6 +4958,7 @@ h5 {
   .wh-portal-i-item-list {
     padding-right: 0;
     width: 100%;
+    text-overflow: ellipsis;
     img {
       border-radius: 11px;
       -webkit-border-radius: 11px;
@@ -4965,17 +4966,20 @@ h5 {
       display: inline-block;
       margin-right: 5px;
       position: relative;
-     top: -18px;
+     top: -3px;
     }
     .new-worklitem {
       text-indent: 17px;
     }
-
     a {
-
+       display:inline;
+       max-width:auto;
       &.name {
         cursor: default;
       }
+    }
+    .fa{
+      display:inline;
     }
   }
     
