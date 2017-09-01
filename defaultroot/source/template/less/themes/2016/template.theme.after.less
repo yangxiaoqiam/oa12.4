@@ -1573,6 +1573,16 @@
             }
         }
     }
+    
+      //右侧树结构调整
+    .wh-l-content{
+      .wh-left-menuList{
+        border-top-color:#f5f5f5;
+        .wh-l-msg{
+              border-bottom-color: #e7e7e7;
+        }
+      }
+    }
 
      // }结束符
   }
@@ -1583,7 +1593,10 @@
       .wh-l-content {
           .wh-left-menuList {
               border-top-color: #0a4f9c;
-              background: #01458e; //.box-shadow(0 0 3px #cfcfcf);
+              background: #0a4f9c; //.box-shadow(0 0 3px #cfcfcf);
+               .wh-l-con{
+              border-top:1px solid #01458e;
+            }
               .fa {
                   color: #fff;
               }
@@ -1592,7 +1605,7 @@
               color: #fff;
           }
           .wh-left-menuList .wh-l-msg {
-              border-bottom-color:#1b62b1;
+              border-bottom-color:#0a4f9c;
               background:#0a4f9c;
           }
           .ztree li a.curSelectedNode,
@@ -1614,7 +1627,7 @@
                   color: #fff;
               }
               &.level0 {
-                  background: #0a4f9c
+                  background: #0a4f9c;
               }
               &.level1 {
                   background: #01458e;

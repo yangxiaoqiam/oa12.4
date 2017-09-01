@@ -1579,6 +1579,17 @@
             }
         }
     }
+   
+
+  //右侧树结构调整
+  .wh-l-content{
+    .wh-left-menuList{
+      border-top-color:#f5f5f5;
+      .wh-l-msg{
+            border-bottom-color: #e7e7e7;
+      }
+    }
+  }
 
     // }结束符
   }
@@ -1589,8 +1600,11 @@
     .theme-green.theme-default-green {
     .wh-l-content {
         .wh-left-menuList {
-            border-top-color: #296331;
-            background: #296331; //.box-shadow(0 0 3px #cfcfcf);
+            border-top-color: #40843b;
+            background: #40843b; //.box-shadow(0 0 3px #cfcfcf);
+            .wh-l-con{
+              border-top:1px solid #296331;
+            }
             .fa {
                 color: #fff;
             }
@@ -1599,7 +1613,7 @@
             color: #fff;
         }
         .wh-left-menuList .wh-l-msg {
-            border-bottom-color: #32822b;
+            border-bottom-color: #40843b;
         }
         .ztree li a.curSelectedNode,
         .ztree li a:focus,
@@ -1614,19 +1628,19 @@
                 color: #fff;
             }
             &.level0 {
-                background: #296331
+                background:#40843b;
             }
             &.level1 {
-                background: #40843b
+                background: #296331;
             }
             &.level2 {
-                background: #40843b
+                background: #296331;
             }
             &.level3 {
-                background: #40843b
+                background: #296331;
             }
             &.level4 {
-                background: #40843b
+                background: #296331;
             }
         }
     }}

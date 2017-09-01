@@ -209,7 +209,7 @@ body {
   width: 100px;
   height: 28px;
   top: 5px;
-  left: 40%;
+  left: 41%;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
   /* Safari<=6 Android<=4.3 */
@@ -222,7 +222,7 @@ body {
   width: 100px;
   height: 28px;
   top: 5px;
-  left: 70%;
+  left: 71%;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
   /* Safari<=6 Android<=4.3 */
@@ -344,6 +344,7 @@ body {
   width: 240px;
   position: absolute;
   top: 8px;
+  text-indent: 10px;
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .form-div input::-webkit-input-placeholder {
   /* WebKit browsers */
@@ -390,7 +391,7 @@ body {
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .form-check-code .form-div input {
   width: 130px;
-  margin-left: 10px;
+  text-indent: 10px;
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .form-check-code > img {
   float: right;
@@ -415,8 +416,8 @@ body {
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .form-pass-div > span {
   position: absolute;
-  left: 65px;
-  top: 0px;
+  left: 48px;
+  top: -1px;
   color: #333;
   font-style: oblique;
   font-size: 14px;
@@ -434,7 +435,7 @@ body {
   font-size: 14px;
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .form-pass-div .rm-password {
-  width: 52px;
+  width: 37px;
   background: url(../../images/system/login/password-bg.png) 0 0 no-repeat;
   height: 20px;
   border-radius: 15px;
@@ -447,7 +448,7 @@ body {
   border-radius: 100%;
   width: 22px;
   height: 22px;
-  top: -1px;
+  top: 0px;
   left: -1px;
   -webkit-transition: all 0.1s ease-out;
   /* Safari<=6 Android<=4.3 */
@@ -457,7 +458,7 @@ body {
   background: url(../../images/system/login/password-bg2.png) 0 0 no-repeat;
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .form-pass-div .rm-password2 em {
-  left: 31px;
+  left: 17px;
   -webkit-transition: all 0.1s ease-out;
   /* Safari<=6 Android<=4.3 */
   transition: all 0.1s ease-out;
@@ -481,11 +482,12 @@ body {
   border: 0 none;
   margin: 0 auto;
   margin-top: 25px;
-  background: #f6742c;
+  background: #2973c0;
 }
 .wh-lg-main .wh-lg-form .lg-nomal-form .lg-form-con .formqued a {
   width: 290px;
-  background: url(../../images/system/login/btn.png) 0 0 repeat;
+  /*  background:url(../../images/system/login/btn.png) 0 0 repeat; */
+  background: #2973c0;
   height: 42px;
   margin: 0 auto;
   line-height: 42px;

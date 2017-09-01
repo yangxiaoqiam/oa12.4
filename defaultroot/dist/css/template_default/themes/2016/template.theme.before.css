@@ -1069,6 +1069,12 @@
 .theme-red .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-red .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-red .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
+}
 .theme-pink .bgcolor-acd598 {
   background-color: #acd598;
 }
@@ -2139,6 +2145,12 @@
 }
 .theme-pink .quick-link-a li:hover a p .fa {
   color: #fff;
+}
+.theme-pink .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-pink .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
 }
 .theme-darkred .bgcolor-acd598 {
   background-color: #acd598;
@@ -3211,6 +3223,12 @@
 .theme-darkred .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-darkred .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-darkred .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
+}
 .theme-orange .bgcolor-acd598 {
   background-color: #acd598;
 }
@@ -4281,6 +4299,12 @@
 }
 .theme-orange .quick-link-a li:hover a p .fa {
   color: #fff;
+}
+.theme-orange .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-orange .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
 }
 .theme-lightgreen .bgcolor-acd598 {
   background-color: #acd598;
@@ -5353,6 +5377,12 @@
 .theme-lightgreen .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-lightgreen .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-lightgreen .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
+}
 .theme-green .bgcolor-acd598 {
   background-color: #acd598;
 }
@@ -6423,6 +6453,12 @@
 }
 .theme-green .quick-link-a li:hover a p .fa {
   color: #fff;
+}
+.theme-green .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-green .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
 }
 .theme-cyan .bgcolor-acd598 {
   background-color: #acd598;
@@ -7495,6 +7531,12 @@
 .theme-cyan .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-cyan .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-cyan .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
+}
 .theme-seablue .bgcolor-acd598 {
   background-color: #acd598;
 }
@@ -8565,6 +8607,12 @@
 }
 .theme-seablue .quick-link-a li:hover a p .fa {
   color: #fff;
+}
+.theme-seablue .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-seablue .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
 }
 .theme-skyblue .bgcolor-acd598 {
   background-color: #acd598;
@@ -9637,10 +9685,19 @@
 .theme-skyblue .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-skyblue .wh-l-content .wh-left-menuList {
+  border-top-color: #f5f5f5;
+}
+.theme-skyblue .wh-l-content .wh-left-menuList .wh-l-msg {
+  border-bottom-color: #e7e7e7;
+}
 /* theme-green 左侧菜单颜色修改 */
 .theme-green.theme-default-green .wh-l-content .wh-left-menuList {
-  border-top-color: #296331;
-  background: #296331;
+  border-top-color: #40843b;
+  background: #40843b;
+}
+.theme-green.theme-default-green .wh-l-content .wh-left-menuList .wh-l-con {
+  border-top: 1px solid #296331;
 }
 .theme-green.theme-default-green .wh-l-content .wh-left-menuList .fa {
   color: #fff;
@@ -9649,7 +9706,7 @@
   color: #fff;
 }
 .theme-green.theme-default-green .wh-l-content .wh-left-menuList .wh-l-msg {
-  border-bottom-color: #32822b;
+  border-bottom-color: #40843b;
 }
 .theme-green.theme-default-green .wh-l-content .ztree li a.curSelectedNode,
 .theme-green.theme-default-green .wh-l-content .ztree li a:focus,
@@ -9663,17 +9720,17 @@
   color: #fff;
 }
 .theme-green.theme-default-green .wh-l-content .ztree li.level0 {
-  background: #296331;
+  background: #40843b;
 }
 .theme-green.theme-default-green .wh-l-content .ztree li.level1 {
-  background: #40843b;
+  background: #296331;
 }
 .theme-green.theme-default-green .wh-l-content .ztree li.level2 {
-  background: #40843b;
+  background: #296331;
 }
 .theme-green.theme-default-green .wh-l-content .ztree li.level3 {
-  background: #40843b;
+  background: #296331;
 }
 .theme-green.theme-default-green .wh-l-content .ztree li.level4 {
-  background: #40843b;
+  background: #296331;
 }
