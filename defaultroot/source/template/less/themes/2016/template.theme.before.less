@@ -1350,7 +1350,9 @@
           }
         }
       }
-    } //头部导航快捷方式
+    } 
+
+    //头部导航快捷方式
     .wh-quick-entry-topnav li {
       &.bgcolor-f15949 a p.fafa {
         background: #f15949;
@@ -1371,7 +1373,8 @@
         background: #f15949;
       }
     }
-
+    
+    //头部导航快捷方式和头部一起表
     //新增列表
     .wh-portal-i-item-list {
       a {
@@ -1517,6 +1520,114 @@
               }
           }
       }
+
+      //外壳样式1
+      .wh-portal-info-box-style-a {
+        .wh-portal-i-title {
+            .wh-portal-i-title-left {
+                .wh-portal-title-li {
+                    &.on,
+                    &:focus,
+                    &:hover {
+                        border-bottom-color: @global-color;
+                    }
+                }
+            }
+        }
+    }
+
+    //外壳样式2
+    .wh-portal-info-box-style-b {
+        // 栏目标题设置
+        .wh-portal-i-title {
+            border-bottom-color: @global-color;
+        }
+    }
+
+    //文件办理提醒-a
+    .wh-file-handle-circle {
+        li {
+            &:hover {
+                a {
+                    p {
+                        &.fafa{
+                          background: @global-color;
+                        }
+                        .fa{
+                          color:#fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+ //快捷入口-a
+     .quick-link-a {
+        li {
+            &:hover {
+                a {
+                    p {
+                        &.fafa{
+                          background: @global-color;
+                        }
+                        .fa{
+                          color:#fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     // }结束符
   }
 }
+
+
+/* theme-green 左侧菜单颜色修改 */
+    .theme-green.theme-default-green {
+    .wh-l-content {
+        .wh-left-menuList {
+            border-top-color: #296331;
+            background: #296331; //.box-shadow(0 0 3px #cfcfcf);
+            .fa {
+                color: #fff;
+            }
+        }
+        .wh-l-msg a span {
+            color: #fff;
+        }
+        .wh-left-menuList .wh-l-msg {
+            border-bottom-color: #32822b;
+        }
+        .ztree li a.curSelectedNode,
+        .ztree li a:focus,
+        .ztree li a:hover {
+            background: #79a544;
+        }
+        .ztree li {
+            span.fa_ico_docu {
+                background: url(../../../../../images/ver113/dot-white.png) 2px center no-repeat;
+            }
+            &.level0 a span {
+                color: #fff;
+            }
+            &.level0 {
+                background: #296331
+            }
+            &.level1 {
+                background: #40843b
+            }
+            &.level2 {
+                background: #40843b
+            }
+            &.level3 {
+                background: #40843b
+            }
+            &.level4 {
+                background: #40843b
+            }
+        }
+    }}
+

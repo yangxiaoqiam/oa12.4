@@ -1514,6 +1514,136 @@
               }
           }
       }
+
+      //外壳样式1
+      .wh-portal-info-box-style-a {
+        .wh-portal-i-title {
+            .wh-portal-i-title-left {
+                .wh-portal-title-li {
+                    &.on,
+                    &:focus,
+                    &:hover {
+                        border-bottom-color: @global-color;
+                    }
+                }
+            }
+        }
+    }
+
+    //外壳样式2
+    .wh-portal-info-box-style-b {
+        // 栏目标题设置
+        .wh-portal-i-title {
+            border-bottom-color: @global-color;
+        }
+    }
+    
+    //文件办理提醒-a
+    .wh-file-handle-circle {
+        li {
+            &:hover {
+                a {
+                    p {
+                        &.fafa{
+                          background: @global-color;
+                        }
+                         .fa{
+                          color:#fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //快捷入口-a
+    .quick-link-a {
+        li {
+            &:hover {
+                a {
+                    p {
+                        &.fafa{
+                          background: @global-color;
+                        }
+                         .fa{
+                          color:#fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
      // }结束符
   }
 }
+
+    /* theme-green 左侧菜单颜色修改 */
+  .theme-blue.theme-default-blue {
+      .wh-l-content {
+          .wh-left-menuList {
+              border-top-color: #0a4f9c;
+              background: #01458e; //.box-shadow(0 0 3px #cfcfcf);
+              .fa {
+                  color: #fff;
+              }
+          }
+          .wh-l-msg a span {
+              color: #fff;
+          }
+          .wh-left-menuList .wh-l-msg {
+              border-bottom-color:#1b62b1;
+              background:#0a4f9c;
+          }
+          .ztree li a.curSelectedNode,
+          .ztree li a:focus,
+          .ztree li a:hover {
+              background: #3bb3c3;
+               &>span{
+                color:#fff !important;
+                &.fa_ico_docu{
+                  background: url(../../../../../images/ver113/dot-white.png) 2px center no-repeat;
+                }
+              }
+          }
+          .ztree li {
+              span.fa_ico_docu {
+                  background: url(../../../../../images/ver113/dot-white.png) 2px center no-repeat;
+              }
+              &.level0 a span {
+                  color: #fff;
+              }
+              &.level0 {
+                  background: #0a4f9c
+              }
+              &.level1 {
+                  background: #01458e;
+                  span{
+                    color:#bcccdb !important; 
+                     &.fa_ico_docu {
+                       background: url(../../../../../images/ver113/dot-gray.png) 2px center no-repeat;
+                    }
+                  }
+              }
+
+              &.level2 {
+                  background: #01458e;
+                  span{
+                    color:#bcccdb !important; 
+                  }
+              }
+              &.level3 {
+                  background: #01458e;
+                  span{
+                    color:#bcccdb !important; 
+                  }
+              }
+              &.level4 {
+                  background: #01458e;
+                  span{
+                    color:#bcccdb !important; 
+                  }
+              }
+          }
+      }
+  }

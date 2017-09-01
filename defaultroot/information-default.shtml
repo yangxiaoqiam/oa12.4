@@ -21,12 +21,29 @@
     <script type="text/javascript" src="scripts/plugins/highcharts/jquery.highcharts-more.js"></script>
 </head>
 
-<body>
+<body class="wh-gray-bg">
     <div class="wh-container wh-portaler">
         <div id="iframeDiv" class="portalBox">
             <table id="portalMain" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="table-layout:fixed;">
                 <tr>
                     <td width="35%" class="portal-column-td" zone="A">
+
+                    <!--新快捷入口 a -->
+                        <div class="wh-portal-info-box wh-no-whitebg">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/quick-link-a.html"-->
+                            </div>
+                        </div>
+
+                     <!--新文件办理-a -->
+                        <div class="wh-portal-info-box wh-no-bg-citie">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/flie-handle-a.html"-->
+                            </div>
+                        </div>
+
                         <!--新列表两个栏目 -->
                         <div class="wh-portal-info-box">
                             <!--#include file="platform/portal/portal-i-tools.html"-->
@@ -35,7 +52,7 @@
                             </div>
                         </div>
                         <!--自定义HTML模块 -->
-                        <div class="wh-portal-info-box wh-portal-noborder wh-portal-html">
+                        <div class="wh-portal-info-box wh-portal-noborder wh-portal-html wh-portal-info-box-style-a">
                             <!--#include file="platform/portal/portal-i-tools.html"-->
                             <div class="wh-portal-info">
                                 <div class="wh-portal-i-title clearfix">
@@ -264,7 +281,7 @@
                     </td>
                     <td width="65%" class="portal-column-td" zone="B">
                         <!--  单个快捷入口  -->
-                        <div class="wh-portal-info-box">
+                        <div class="wh-portal-info-box  wh-portal-info-box-style-b">
                             <!--#include file="platform/portal/portal-i-tools.html"-->
                             <div class="wh-portal-info">
                                 <!--#include file="platform/portal/wh-quick-entry-one.html"-->

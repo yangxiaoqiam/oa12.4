@@ -875,6 +875,16 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   -o-transition: all 0.3 cubic-bezier(0.1, 0.1, 0.41, 0.99);
   transition: all 0.3 cubic-bezier(0.1, 0.1, 0.41, 0.99);
 }
+.wh-file-handle-circle li a:hover i.fa {
+  -webkit-animation: rotate360 0.5s ease-in-out;
+  -o-animation: rotate360 0.5s ease-in-out;
+  animation: rotate360 0.5s ease-in-out;
+}
+.quick-link-a li a:hover i.fa {
+  -webkit-animation: rotate360 0.5s ease-in-out;
+  -o-animation: rotate360 0.5s ease-in-out;
+  animation: rotate360 0.5s ease-in-out;
+}
 /* End of Definitions ---------------*/
 /* Imports  -------------------------*/
 /* FONT PATH
@@ -1340,6 +1350,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-header .wh-container .wh-logo p {
   display: none;
+  font-size: 18px;
 }
 @media (min-width: 1200px) {
   .wh-header .wh-container .wh-logo {

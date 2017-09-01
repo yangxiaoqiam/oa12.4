@@ -10,7 +10,8 @@
 }
 .skin-model .skin-section {
   float: right;
-  width: 320px;
+  /* width: 320px; */
+  width: 337px;
   height: 85px;
   padding-top: 45px;
   margin-right: 20px;

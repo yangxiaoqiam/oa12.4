@@ -43,7 +43,6 @@ html.size-big16 body {
 .size-small .wh-header .wh-container .wh-logo p {
   height: 60px;
   line-height: 60px;
-  font-size: 18px;
 }
 .size-small .wh-header .wh-container .wh-hd-l-nav dd {
   height: 60px;
@@ -256,7 +255,6 @@ html.size-big16 body {
 .size-big .wh-header .wh-container .wh-logo p {
   height: 69px;
   line-height: 69px;
-  font-size: 20px;
 }
 .size-big .wh-header .wh-container .wh-hd-l-nav dd {
   height: 69px;
@@ -579,7 +577,6 @@ html.size-big16 body {
 .size-big16 .wh-header .wh-container .wh-logo p {
   height: 78px;
   line-height: 78px;
-  font-size: 20px;
 }
 .size-big16 .wh-header .wh-container .wh-hd-l-nav dd {
   height: 78px;
