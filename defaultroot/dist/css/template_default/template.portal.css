@@ -818,6 +818,12 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   -o-animation: rotate360 0.5s ease-in-out;
   animation: rotate360 0.5s ease-in-out;
 }
+/* 多彩快捷入口 */
+.wh-quick-entry-topnav li a:hover i.fa {
+  -webkit-animation: rotate360 0.5s ease-in-out;
+  -o-animation: rotate360 0.5s ease-in-out;
+  animation: rotate360 0.5s ease-in-out;
+}
 .wh-file-handle li:hover .wh-file-list-box .wh-file-type i.fa {
   -webkit-animation: moveFromTop 0.3s ease-in-out;
   -o-animation: moveFromTop 0.3s ease-in-out;
@@ -1019,10 +1025,7 @@ h5 {
   text-align: left;
   border-top-width: 2px;
   border-top-style: solid;
-}
-.wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
-  background: #fff;
+  border-top-color: transparent;
 }
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
@@ -6425,28 +6428,19 @@ h5 {
   border-bottom-color: #f0f0f0;
 }
 .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  height: 42px;
-  line-height: 42px;
-  border-top-color: transparent;
   border: 0 none;
-  background: url(../../../images/title-line.png) right center no-repeat;
+  background: url(../../../images/title-line.png) right center no-repeat !important;
 }
 .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.no-title-line {
-  background: none;
+  background: none !important;
 }
-.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
-  border: 0 none;
-}
-.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
-.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
-.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
+.wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a {
   border-top: 0 none;
   border-bottom-width: 2px;
   border-bottom-style: solid;
   height: 39px;
   line-height: 39px;
+  border-color: transparent;
 }
 .wh-portal-info-box-style-b .wh-portal-i-title {
   background: #fff;
@@ -6454,11 +6448,6 @@ h5 {
 }
 .wh-portal-info-box-style-b .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
   border-top-width: 0;
-  height: 40px;
-  line-height: 40px;
-}
-.wh-portal-info-box-style-b .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.wh-portal-info-box-style-b .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border: 0 none;
 }
 .wh-portal-info-box-style-b .wh-portal-info {

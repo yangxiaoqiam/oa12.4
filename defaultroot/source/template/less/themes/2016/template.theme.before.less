@@ -139,7 +139,6 @@
     .wh-portal-i-title {
       .wh-portal-i-title-left {
         .wh-portal-title-li {
-          border-top-color: transparent;
           a {
             i {
               color: @global-color;
@@ -1531,7 +1530,9 @@
                     &.on,
                     &:focus,
                     &:hover {
-                        border-bottom-color: @global-color;
+                        a{
+                          border-bottom-color: @global-color;
+                        }
                     }
                 }
             }

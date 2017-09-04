@@ -228,9 +228,9 @@ h5 {
       text-align: left;
       border-top-width: 2px;
       border-top-style: solid;
+      border-top-color: transparent;
       &.on,
       &:hover {
-        background: #fff;
         a {
           color: @portal-title-color;
         }
@@ -6298,29 +6298,22 @@ h5 {
 //外壳样式1
 .wh-portal-info-box-style-a {
     .wh-portal-i-title {
-        background:transparent;
-        border-bottom-color:#f0f0f0;
+        background: transparent;
+        border-bottom-color: #f0f0f0;
         .wh-portal-i-title-left {
             .wh-portal-title-li {
-              height:42px;
-              line-height:42px;
-                border-top-color: transparent;
                 border: 0 none;
-                background:url(../../../images/title-line.png) right center no-repeat;
-                &.no-title-line{
-                  background:none;
+                background: url(../../../images/title-line.png) right center no-repeat !important;
+                &.no-title-line {
+                    background: none !important;
                 }
-                &.on,
-                &:focus,
-                &:hover {
-                  border:0 none;
-                   a{
-                     border-top: 0 none;
+                a {
+                    border-top: 0 none;
                     border-bottom-width: 2px;
                     border-bottom-style: solid;
-                    height:39px;
-                    line-height:39px;
-                   }
+                    height: 39px;
+                    line-height: 39px;
+                    border-color:transparent;
                 }
             }
         }
@@ -6336,11 +6329,7 @@ h5 {
       .wh-portal-i-title-left {
         .wh-portal-title-li {
           border-top-width:0;
-          height:40px;
-          line-height:40px;
-          &.on, &:hover{
-            border:0 none;
-          }
+         border:0 none;
         }
       }
     }

@@ -119,9 +119,6 @@
 .theme-blue .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #0073c6;
 }
-.theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #0073c6;
 }
@@ -129,6 +126,7 @@
 .theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #0073c6;
+  background: #fff;
 }
 .theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-blue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -1045,9 +1043,9 @@
 .theme-blue .wh-portal-i-item-list-cursor a span:hover {
   color: #0073c6;
 }
-.theme-blue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-blue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-blue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-blue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-blue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-blue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #0073c6;
 }
 .theme-blue .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -1186,9 +1184,6 @@
 .theme-violet .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #4617b5;
 }
-.theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #4617b5;
 }
@@ -1196,6 +1191,7 @@
 .theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #4617b5;
+  background: #fff;
 }
 .theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-violet .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -2112,9 +2108,9 @@
 .theme-violet .wh-portal-i-item-list-cursor a span:hover {
   color: #4617b5;
 }
-.theme-violet .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-violet .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-violet .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-violet .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-violet .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-violet .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #4617b5;
 }
 .theme-violet .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -2253,9 +2249,6 @@
 .theme-purple .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #8c0095;
 }
-.theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #8c0095;
 }
@@ -2263,6 +2256,7 @@
 .theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #8c0095;
+  background: #fff;
 }
 .theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-purple .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -3179,9 +3173,9 @@
 .theme-purple .wh-portal-i-item-list-cursor a span:hover {
   color: #8c0095;
 }
-.theme-purple .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-purple .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-purple .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-purple .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-purple .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-purple .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #8c0095;
 }
 .theme-purple .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -3320,9 +3314,6 @@
 .theme-indigo .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #004b8c;
 }
-.theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #004b8c;
 }
@@ -3330,6 +3321,7 @@
 .theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #004b8c;
+  background: #fff;
 }
 .theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-indigo .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -4246,9 +4238,9 @@
 .theme-indigo .wh-portal-i-item-list-cursor a span:hover {
   color: #004b8c;
 }
-.theme-indigo .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-indigo .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-indigo .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-indigo .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-indigo .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-indigo .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #004b8c;
 }
 .theme-indigo .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -4387,9 +4379,6 @@
 .theme-darkblue .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #001941;
 }
-.theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #001941;
 }
@@ -4397,6 +4386,7 @@
 .theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #001941;
+  background: #fff;
 }
 .theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-darkblue .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -5313,9 +5303,9 @@
 .theme-darkblue .wh-portal-i-item-list-cursor a span:hover {
   color: #001941;
 }
-.theme-darkblue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-darkblue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-darkblue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-darkblue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-darkblue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-darkblue .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #001941;
 }
 .theme-darkblue .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -5454,9 +5444,6 @@
 .theme-maroon .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #580000;
 }
-.theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #580000;
 }
@@ -5464,6 +5451,7 @@
 .theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #580000;
+  background: #fff;
 }
 .theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-maroon .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -6380,9 +6368,9 @@
 .theme-maroon .wh-portal-i-item-list-cursor a span:hover {
   color: #580000;
 }
-.theme-maroon .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-maroon .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-maroon .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-maroon .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-maroon .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-maroon .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #580000;
 }
 .theme-maroon .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -6521,9 +6509,6 @@
 .theme-brown .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #380001;
 }
-.theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #380001;
 }
@@ -6531,6 +6516,7 @@
 .theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #380001;
+  background: #fff;
 }
 .theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-brown .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -7447,9 +7433,9 @@
 .theme-brown .wh-portal-i-item-list-cursor a span:hover {
   color: #380001;
 }
-.theme-brown .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-brown .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-brown .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-brown .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-brown .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-brown .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #380001;
 }
 .theme-brown .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -7588,9 +7574,6 @@
 .theme-gray .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #585858;
 }
-.theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #585858;
 }
@@ -7598,6 +7581,7 @@
 .theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #585858;
+  background: #fff;
 }
 .theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-gray .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -8514,9 +8498,9 @@
 .theme-gray .wh-portal-i-item-list-cursor a span:hover {
   color: #585858;
 }
-.theme-gray .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-gray .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-gray .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-gray .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-gray .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-gray .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #585858;
 }
 .theme-gray .wh-portal-info-box-style-b .wh-portal-i-title {
@@ -8655,9 +8639,6 @@
 .theme-black .wh-header .wh-hd-l-nav .wh-hd-l-gateway-info a.current .fa {
   color: #333;
 }
-.theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
-  border-top-color: transparent;
-}
 .theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li a i {
   color: #333;
 }
@@ -8665,6 +8646,7 @@
 .theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
 .theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
   border-top-color: #333;
+  background: #fff;
 }
 .theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
 .theme-black .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
@@ -9581,9 +9563,9 @@
 .theme-black .wh-portal-i-item-list-cursor a span:hover {
   color: #333;
 }
-.theme-black .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on,
-.theme-black .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus,
-.theme-black .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover {
+.theme-black .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li.on a,
+.theme-black .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:focus a,
+.theme-black .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li:hover a {
   border-bottom-color: #333;
 }
 .theme-black .wh-portal-info-box-style-b .wh-portal-i-title {
