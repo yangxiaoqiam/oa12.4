@@ -138,14 +138,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-red.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-red.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-red.size-big16 .wh-content {
-  top: 88px;
+.theme-width-red .wh-content {
+  top: 95px;
 }
 .theme-width-pink {
   background: transparent !important;
@@ -287,14 +281,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-pink.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-pink.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-pink.size-big16 .wh-content {
-  top: 88px;
+.theme-width-pink .wh-content {
+  top: 95px;
 }
 .theme-width-darkred {
   background: transparent !important;
@@ -436,14 +424,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-darkred.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-darkred.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-darkred.size-big16 .wh-content {
-  top: 88px;
+.theme-width-darkred .wh-content {
+  top: 95px;
 }
 .theme-width-orange {
   background: transparent !important;
@@ -585,14 +567,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-orange.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-orange.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-orange.size-big16 .wh-content {
-  top: 88px;
+.theme-width-orange .wh-content {
+  top: 95px;
 }
 .theme-width-lightgreen {
   background: transparent !important;
@@ -734,14 +710,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-lightgreen.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-lightgreen.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-lightgreen.size-big16 .wh-content {
-  top: 88px;
+.theme-width-lightgreen .wh-content {
+  top: 95px;
 }
 .theme-width-green {
   background: transparent !important;
@@ -883,14 +853,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-green.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-green.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-green.size-big16 .wh-content {
-  top: 88px;
+.theme-width-green .wh-content {
+  top: 95px;
 }
 .theme-width-cyan {
   background: transparent !important;
@@ -1032,14 +996,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-cyan.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-cyan.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-cyan.size-big16 .wh-content {
-  top: 88px;
+.theme-width-cyan .wh-content {
+  top: 95px;
 }
 .theme-width-seablue {
   background: transparent !important;
@@ -1181,14 +1139,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-seablue.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-seablue.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-seablue.size-big16 .wh-content {
-  top: 88px;
+.theme-width-seablue .wh-content {
+  top: 95px;
 }
 .theme-width-skyblue {
   background: transparent !important;
@@ -1330,14 +1282,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-skyblue.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-skyblue.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-skyblue.size-big16 .wh-content {
-  top: 88px;
+.theme-width-skyblue .wh-content {
+  top: 95px;
 }
 .theme-width-blue {
   background: transparent !important;
@@ -1479,14 +1425,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-blue.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-blue.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-blue.size-big16 .wh-content {
-  top: 88px;
+.theme-width-blue .wh-content {
+  top: 95px;
 }
 .theme-width-violet {
   background: transparent !important;
@@ -1628,14 +1568,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-violet.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-violet.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-violet.size-big16 .wh-content {
-  top: 88px;
+.theme-width-violet .wh-content {
+  top: 95px;
 }
 .theme-width-purple {
   background: transparent !important;
@@ -1777,14 +1711,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-purple.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-purple.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-purple.size-big16 .wh-content {
-  top: 88px;
+.theme-width-purple .wh-content {
+  top: 95px;
 }
 .theme-width-indigo {
   background: transparent !important;
@@ -1926,14 +1854,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-indigo.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-indigo.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-indigo.size-big16 .wh-content {
-  top: 88px;
+.theme-width-indigo .wh-content {
+  top: 95px;
 }
 .theme-width-darkblue {
   background: transparent !important;
@@ -2075,14 +1997,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-darkblue.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-darkblue.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-darkblue.size-big16 .wh-content {
-  top: 88px;
+.theme-width-darkblue .wh-content {
+  top: 95px;
 }
 .theme-width-maroon {
   background: transparent !important;
@@ -2224,14 +2140,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-maroon.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-maroon.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-maroon.size-big16 .wh-content {
-  top: 88px;
+.theme-width-maroon .wh-content {
+  top: 95px;
 }
 .theme-width-brown {
   background: transparent !important;
@@ -2373,14 +2283,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-brown.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-brown.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-brown.size-big16 .wh-content {
-  top: 88px;
+.theme-width-brown .wh-content {
+  top: 95px;
 }
 .theme-width-gray {
   background: transparent !important;
@@ -2522,14 +2426,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-gray.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-gray.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-gray.size-big16 .wh-content {
-  top: 88px;
+.theme-width-gray .wh-content {
+  top: 95px;
 }
 .theme-width-black {
   background: transparent !important;
@@ -2671,14 +2569,8 @@
   top: 45px;
   left: 0;
 }
-.theme-width-black.size-small .wh-content {
-  top: 70px;
-}
-.theme-width-black.size-big .wh-content {
-  top: 79px;
-}
-.theme-width-black.size-big16 .wh-content {
-  top: 88px;
+.theme-width-black .wh-content {
+  top: 95px;
 }
 .theme-width-red .wh-header-home .wh-content {
   background: url(../../../../../images/ver113/home/red.jpg) center top no-repeat;
