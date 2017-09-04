@@ -2522,7 +2522,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   width: auto;
   top: 0px;
   bottom: 0px;
-  left: 232px;
+  left: 235px;
   right: 2px;
   overflow: hidden;
 }
@@ -2663,31 +2663,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 .panel.org-open.le-notree {
   margin-left: 35px;
 }
-/* .wh-l-content {
-    .ztree {
-        background: #f5f5f5;
-        li {
-            &.level1 {
-                background:  #f9f9f9;
-            }
-            &.level2 {
-                background: #f9f9f9;
-            }
-            &.level3 {
-                background: #f9f9f9;
-            }
-            &.level4 {
-                background: #f9f9f9;
-            }
-        }
-    }
-
-    .wh-left-menuList {
-        background: #f5f5f5;
-    }
-    .wh-left-menuList .wh-l-msg {
-      height:41px;
-      line-height:41px;
-        border-width: 0 0 2px 0;
-    }
-} */
+/* 针对首页灰色背景 */
+.wh-header-home {
+  background: #ededed;
+}

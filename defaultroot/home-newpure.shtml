@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="template/css/template_default/template.style.size.min.css" />
 </head>
 
-<body>
+<body class="wh-gray-bg">
   <div class="wh-wrapper">
     <!--#include file="include/idx-global-new.html"-->
     <div class="wh-content close-l-nav">

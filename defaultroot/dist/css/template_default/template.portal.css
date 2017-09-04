@@ -907,6 +907,8 @@ h5 {
 /*-----------------portal--------------*/
 .wh-portaler {
   min-width: 750px;
+}
+.wh-gray-bg .wh-portaler {
   padding: 0 5px;
 }
 /*-----------------infoColumn--------------*/
