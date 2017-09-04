@@ -74,7 +74,7 @@ html.size-big16 body {
   line-height: 40px;
 }
 .size-small .wh-content {
-  top: 70px;
+  top: 73px;
 }
 .size-small .wh-sys-notice-list p,
 .size-small .wh-sys-quicksetting-list p {
@@ -292,7 +292,7 @@ html.size-big16 body {
   top: 62px;
 }
 .size-big .wh-content {
-  top: 79px;
+  top: 82px;
 }
 .size-big .wh-sys-notice-list p,
 .size-big .wh-sys-quicksetting-list p {
@@ -614,7 +614,7 @@ html.size-big16 body {
   top: 68px;
 }
 .size-big16 .wh-content {
-  top: 88px;
+  top: 91px;
 }
 .size-big16 .wh-hd-user-detail .wh-hd-user-welcome .wh-hd-user-welcome-title {
   height: 35px;
