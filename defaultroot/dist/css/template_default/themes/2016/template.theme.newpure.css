@@ -47,8 +47,8 @@
 .theme-newpure-red .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-red .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -139,6 +139,15 @@
 .theme-newpure-red .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #c32300;
 }
+.theme-newpure-red.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-red.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-red.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-pink {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -188,8 +197,8 @@
 .theme-newpure-pink .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-pink .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -280,6 +289,15 @@
 .theme-newpure-pink .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #da46a9;
 }
+.theme-newpure-pink.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-pink.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-pink.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-darkred {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -329,8 +347,8 @@
 .theme-newpure-darkred .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-darkred .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -421,6 +439,15 @@
 .theme-newpure-darkred .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #a4183a;
 }
+.theme-newpure-darkred.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-darkred.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-darkred.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-orange {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -470,8 +497,8 @@
 .theme-newpure-orange .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-orange .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -562,6 +589,15 @@
 .theme-newpure-orange .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #f16f17;
 }
+.theme-newpure-orange.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-orange.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-orange.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-lightgreen {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -611,8 +647,8 @@
 .theme-newpure-lightgreen .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-lightgreen .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -703,6 +739,15 @@
 .theme-newpure-lightgreen .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #7bb001;
 }
+.theme-newpure-lightgreen.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-lightgreen.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-lightgreen.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-green {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -752,8 +797,8 @@
 .theme-newpure-green .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-green .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -844,6 +889,15 @@
 .theme-newpure-green .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #008116;
 }
+.theme-newpure-green.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-green.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-green.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-cyan {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -893,8 +947,8 @@
 .theme-newpure-cyan .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-cyan .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -985,6 +1039,15 @@
 .theme-newpure-cyan .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #03a9a7;
 }
+.theme-newpure-cyan.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-cyan.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-cyan.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-seablue {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1034,8 +1097,8 @@
 .theme-newpure-seablue .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-seablue .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1126,6 +1189,15 @@
 .theme-newpure-seablue .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #007990;
 }
+.theme-newpure-seablue.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-seablue.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-seablue.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-skyblue {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1175,8 +1247,8 @@
 .theme-newpure-skyblue .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-skyblue .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1267,6 +1339,15 @@
 .theme-newpure-skyblue .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #52adff;
 }
+.theme-newpure-skyblue.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-skyblue.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-skyblue.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-blue {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1316,8 +1397,8 @@
 .theme-newpure-blue .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-blue .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1408,6 +1489,15 @@
 .theme-newpure-blue .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #006dbc;
 }
+.theme-newpure-blue.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-blue.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-blue.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-violet {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1457,8 +1547,8 @@
 .theme-newpure-violet .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-violet .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1549,6 +1639,15 @@
 .theme-newpure-violet .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #4216ac;
 }
+.theme-newpure-violet.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-violet.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-violet.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-purple {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1598,8 +1697,8 @@
 .theme-newpure-purple .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-purple .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1690,6 +1789,15 @@
 .theme-newpure-purple .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #82008b;
 }
+.theme-newpure-purple.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-purple.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-purple.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-indigo {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1739,8 +1847,8 @@
 .theme-newpure-indigo .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-indigo .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1831,6 +1939,15 @@
 .theme-newpure-indigo .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #004682;
 }
+.theme-newpure-indigo.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-indigo.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-indigo.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-darkblue {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -1880,8 +1997,8 @@
 .theme-newpure-darkblue .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-darkblue .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -1972,6 +2089,15 @@
 .theme-newpure-darkblue .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #001537;
 }
+.theme-newpure-darkblue.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-darkblue.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-darkblue.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-maroon {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -2021,8 +2147,8 @@
 .theme-newpure-maroon .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-maroon .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -2113,6 +2239,15 @@
 .theme-newpure-maroon .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #4e0000;
 }
+.theme-newpure-maroon.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-maroon.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-maroon.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-brown {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -2162,8 +2297,8 @@
 .theme-newpure-brown .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-brown .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -2254,6 +2389,15 @@
 .theme-newpure-brown .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #2e0001;
 }
+.theme-newpure-brown.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-brown.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-brown.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-gray {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -2303,8 +2447,8 @@
 .theme-newpure-gray .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-gray .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -2395,6 +2539,15 @@
 .theme-newpure-gray .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #535353;
 }
+.theme-newpure-gray.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-gray.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-gray.size-big16 .wh-l-content {
+  top: 76px;
+}
 .theme-newpure-black {
   /*   // 栏目标题设置
   .wh-portal-i-title {
@@ -2444,8 +2597,8 @@
 .theme-newpure-black .wh-header .wh-container .wh-logo p {
   color: #fff;
   width: 100%;
-  text-align: center;
   display: block;
+  text-indent: 13px;
 }
 .theme-newpure-black .wh-header .wh-container .wh-hd-l-nav {
   background-color: transparent;
@@ -2535,4 +2688,13 @@
 }
 .theme-newpure-black .wh-hd-r-nav .wh-r-nav-a.on {
   background-color: #2e2e2e;
+}
+.theme-newpure-black.size-small .wh-l-content {
+  top: 58px;
+}
+.theme-newpure-black.size-big .wh-l-content {
+  top: 67px;
+}
+.theme-newpure-black.size-big16 .wh-l-content {
+  top: 76px;
 }

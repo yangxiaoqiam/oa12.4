@@ -850,16 +850,6 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   -o-transition: all 0.3 cubic-bezier(0.1, 0.1, 0.41, 0.99);
   transition: all 0.3 cubic-bezier(0.1, 0.1, 0.41, 0.99);
 }
-.wh-file-handle-circle li a:hover i.fa {
-  -webkit-animation: rotate360 0.5s ease-in-out;
-  -o-animation: rotate360 0.5s ease-in-out;
-  animation: rotate360 0.5s ease-in-out;
-}
-.quick-link-a li a:hover i.fa {
-  -webkit-animation: rotate360 0.5s ease-in-out;
-  -o-animation: rotate360 0.5s ease-in-out;
-  animation: rotate360 0.5s ease-in-out;
-}
 .wh-main {
   margin: 0 auto;
 }
@@ -917,6 +907,7 @@ h5 {
 /*-----------------portal--------------*/
 .wh-portaler {
   min-width: 750px;
+  padding: 0 5px;
 }
 /*-----------------infoColumn--------------*/
 .portal-column-td {
@@ -6483,27 +6474,47 @@ h5 {
   padding-top: 10px;
 }
 .wh-file-handle-circle li {
-  display: inline-block;
-  width: 33.33%;
-  text-align: center;
   position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 7px;
 }
 .wh-file-handle-circle li a {
   display: block;
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 15px;
   background: #fff;
   border-radius: 8px;
-  border: 1px solid #ececec;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
+  border: 1px solid #ececec;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 14px;
 }
 .wh-file-handle-circle li a p {
   text-align: center;
 }
 .wh-file-handle-circle li a p.fafa {
+  width: 74px;
+  height: 74px;
+  border-radius: 37px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
+  background: #f4f7f8;
+  margin: 14px auto 0 auto;
+  position: relative;
+}
+.wh-file-handle-circle li a p.fafa .circle {
+  display: block;
   width: 74px;
   height: 74px;
   line-height: 74px;
@@ -6513,7 +6524,15 @@ h5 {
   -webkit-border-radius: 37px;
   position: relative;
   background: #f4f7f8;
-  margin: 14px auto 0 auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: .5s;
 }
 .wh-file-handle-circle li a p.fafa em {
   position: absolute;
@@ -6529,12 +6548,16 @@ h5 {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   font-size: 12px;
+  z-index: 20;
 }
 .wh-file-handle-circle li a p.fafa i.fa {
+  color: #fd7c54;
   height: 74px;
   line-height: 74px;
   vertical-align: middle;
   font-size: 34px;
+  position: relative;
+  z-index: 10;
 }
 .wh-file-handle-circle li a p.title {
   display: block;
@@ -6566,31 +6589,58 @@ h5 {
 .wh-file-handle-circle li.myreturn p.fafa .fa {
   color: #4cb926;
 }
+.wh-file-handle-circle li:hover a p.fafa .circle {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
 .quick-link-a {
   font-size: 0;
   padding-top: 10px;
 }
 .quick-link-a li {
-  display: inline-block;
-  width: 33.33%;
-  text-align: center;
   position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 7px;
 }
 .quick-link-a li a {
   display: block;
-  width: 90%;
-  margin: 7px auto 7px auto;
   background: #fff;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   border: 1px solid #ececec;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 14px;
 }
 .quick-link-a li a p {
   text-align: center;
 }
 .quick-link-a li a p.fafa {
+  width: 74px;
+  height: 74px;
+  border-radius: 37px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
+  background: #f4f7f8;
+  margin: 14px auto 0 auto;
+  position: relative;
+}
+.quick-link-a li a p.fafa .circle {
+  display: block;
   width: 74px;
   height: 74px;
   line-height: 74px;
@@ -6600,7 +6650,15 @@ h5 {
   -webkit-border-radius: 37px;
   position: relative;
   background: #f4f7f8;
-  margin: 14px auto 0 auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: .5s;
 }
 .quick-link-a li a p.fafa em {
   position: absolute;
@@ -6622,10 +6680,10 @@ h5 {
   color: #fd7c54;
   height: 74px;
   line-height: 74px;
-  position: relative;
-  z-index: 10;
   vertical-align: middle;
   font-size: 34px;
+  position: relative;
+  z-index: 10;
 }
 .quick-link-a li a p.title {
   display: block;
@@ -6671,6 +6729,12 @@ h5 {
 }
 .quick-link-a li.shenqian p.fafa .fa {
   color: #12d660;
+}
+.quick-link-a li:hover a p.fafa .circle {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  filter: alpha(opacity=1);
 }
 /* 快捷导航方式和皮肤色一起变化 */
 /*1 theme-red */

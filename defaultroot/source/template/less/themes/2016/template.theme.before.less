@@ -173,12 +173,12 @@
         color: @global-color;
       }
     }
-    .wh-left-menuList {
-      border-top-color: @global-color;
-      .wh-l-msg {
-        border-bottom-color: @global-color;
-      }
-    }
+   /*  .wh-left-menuList {
+     border-top-color: @global-color;
+     .wh-l-msg {
+       border-bottom-color: @global-color;
+     }
+   } */
     .wh-l-all-list {
       &.on,
       &:hover,
@@ -389,7 +389,7 @@
     .ztree li a.curSelectedNode span,
     .ztree li a:focus span,
     .ztree li a:hover span {
-      color: #fff !important;
+      color: #fff;
     }
     .wh-portal-blog-form {
       .wh-portal-blog-btn {
@@ -1226,17 +1226,19 @@
         .box-shadow(0 0 0 0 tint(@global-color, 70%));
       }
     } //选择组织列表
-    .wh-org-tree {
-      border-color: @global-color-gray-d;
+     .wh-org-tree {
+      // border-color: @global-color-gray-d;
       .wh-l-msg {
-        border-color: @global-color;
+        // border-color: @global-color;
         a {
           i.fa {
             color: @global-color;
           }
         }
       }
-    } //领导日程
+    } 
+
+    //领导日程
     .leader-list {
       a {
         i,
@@ -1545,51 +1547,44 @@
     }
 
     //文件办理提醒-a
-    .wh-file-handle-circle {
+     .wh-file-handle-circle {
+         li {
+             &:hover {
+                 a {
+                     p {
+                         &.fafa {
+                             .circle {
+                                 background: @global-color;
+                             }
+                         }
+                         .fa {
+                             color: #fff;
+                         }
+                     }
+                 }
+             }
+         }
+     }
+
+    //快捷入口-a
+    .quick-link-a {
         li {
             &:hover {
                 a {
                     p {
-                        &.fafa{
-                          background: @global-color;
+                        &.fafa {
+                           .circle {
+                                background: @global-color;
+                            }
                         }
-                        .fa{
-                          color:#fff;
+                        .fa {
+                            color: #fff;
                         }
                     }
                 }
             }
         }
     }
-
- //快捷入口-a
-     .quick-link-a {
-        li {
-            &:hover {
-                a {
-                    p {
-                        &.fafa{
-                          background: @global-color;
-                        }
-                        .fa{
-                          color:#fff;
-                        }
-                    }
-                }
-            }
-        }
-    }
-   
-
-  //右侧树结构调整
-  .wh-l-content{
-    .wh-left-menuList{
-      border-top-color:#f5f5f5;
-      .wh-l-msg{
-            border-bottom-color: #e7e7e7;
-      }
-    }
-  }
 
     // }结束符
   }
@@ -1598,50 +1593,43 @@
 
 /* theme-green 左侧菜单颜色修改 */
     .theme-green.theme-default-green {
-    .wh-l-content {
-        .wh-left-menuList {
-            border-top-color: #40843b;
-            background: #40843b; //.box-shadow(0 0 3px #cfcfcf);
-            .wh-l-con{
-              border-top:1px solid #296331;
+        .wh-l-content {
+            .wh-left-menuList {
+                border-top-color: #40843b;
+                background: #40843b; //.box-shadow(0 0 3px #cfcfcf);
+                .wh-l-con {
+                    border-top: 1px solid #296331;
+                }
+                .fa {
+                    color: #fff;
+                }
             }
-            .fa {
+            .wh-l-msg a span {
                 color: #fff;
             }
-        }
-        .wh-l-msg a span {
-            color: #fff;
-        }
-        .wh-left-menuList .wh-l-msg {
-            border-bottom-color: #40843b;
-        }
-        .ztree li a.curSelectedNode,
-        .ztree li a:focus,
-        .ztree li a:hover {
-            background: #79a544;
-        }
-        .ztree li {
-            span.fa_ico_docu {
-                background: url(../../../../../images/ver113/dot-white.png) 2px center no-repeat;
+            .wh-left-menuList .wh-l-msg {
+                border-bottom-color: #40843b;
             }
-            &.level0 a span {
-                color: #fff;
+            .ztree li a.curSelectedNode,
+            .ztree li a:focus,
+            .ztree li a:hover {
+                background: #79a544;
+                &>span {
+                    color: #fff !important;
+                }
             }
-            &.level0 {
-                background:#40843b;
-            }
-            &.level1 {
-                background: #296331;
-            }
-            &.level2 {
-                background: #296331;
-            }
-            &.level3 {
-                background: #296331;
-            }
-            &.level4 {
-                background: #296331;
+            .ztree li {
+                &.level0 {
+                    background: #40843b;
+                    a {
+                        span {
+                            color:#fff;
+                        }
+                    }
+                }
+                &.level1 {
+                    background: #40843b;
+                }
             }
         }
-    }}
-
+    }

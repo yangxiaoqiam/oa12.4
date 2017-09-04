@@ -114,10 +114,8 @@
         }*/
 
         &.fa_ico_docu{
-          background: url(../../../../defaultroot/images/ver113/dot-white.png) 2px center no-repeat;
           &:before{
-            content:none;
-           
+            content:"\f0fa";
           }
         }
       }
@@ -159,20 +157,26 @@
         background-color:transparent;
       }
       &.fa_ico_open{
+        color:#777575;
         &:before{
-          content: "\f007";
+          content: "\f0a1";
         }
       }
       &.fa_ico_close{
         &:before{
-          content:"\f005";
+          content:"\f019";
+        }
+      }
+      &.fa-plus{
+        &:before{
+          content:"\f00f";
+
         }
       }
       &.fa_ico_docu{
         width:16px;
-        background:url(../../../../defaultroot/images/ver113/dot.png) 2px center no-repeat;
         &:before{
-          content: none;
+          content:"\f0fa";
 
         }
       }
@@ -325,7 +329,7 @@ ul.ztree.zTreeDragUL {
         }*/
         &.fa_ico_docu{
           &:before{
-            // content: "\f00c";
+            content:"\f0fa";
           }
         }
       }
@@ -376,7 +380,7 @@ ul.ztree.zTreeDragUL {
       }
       &.fa_ico_docu{
         &:before{
-          // content: "\f00d";
+           content:"\f0fa";
         }
       }
 
@@ -439,8 +443,10 @@ ul.ztree-org.zTreeDragUL {
 }
 
 
-.ztree li a.curSelectedNode span.fa_ico_docu,
+ .ztree li a.curSelectedNode span.fa_ico_docu,
     .ztree li a:focus span.fa_ico_docu,
     .ztree li a:hover span.fa_ico_docu{
-          background: url(../../../../defaultroot/images/ver113/dot-white.png) 2px center no-repeat;
-    }
+          &:before{
+            content:"\f0fa";
+          }
+    } 

@@ -76,6 +76,7 @@ h5 {
 
 .wh-portaler {
   min-width: 750px;
+  padding:0 5px;
 }
 
 
@@ -6358,114 +6359,54 @@ h5 {
 .wh-file-handle-circle {
   font-size: 0;
   padding-top: 10px;
-  li {
-    display: inline-block;
-    width: 33.33%;
-    text-align: center;
-    position: relative;
-    a {
-      display: block;
-      width: 90%;
-      margin: 0 auto;
-      margin-bottom:15px;
-      background:#fff;
-      border-radius: 8px;
-      border: 1px solid #ececec;
-      -webkit-border-radius: 8px;
-      -moz-border-radius: 8px;
-      -ms-border-radius: 8px;
-      p {
-        text-align: center;
-        &.fafa {
-          width: 74px;
-          height: 74px;
-          line-height: 74px;
-          text-align: center;
-          border-radius: 37px;
-          -moz-border-radius: 37px;
-          -webkit-border-radius: 37px;
-          position: relative;
-          background:#f4f7f8;
-          margin:14px auto 0 auto;
-          em {
-            position: absolute;
-            right: 0px;
-            top: -5px;
-            display: block;
-            height: 16px;
-            line-height: 16px;
-            padding: 0 6px;
-            color: #fff;
-            background: #eb4040;
-            border-radius: 8px;
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            font-size: 12px;
-          }
-          i.fa {
-            height: 74px;
-            line-height: 74px;
-            vertical-align: middle;
-             font-size: 34px;
-          }
-        }
-        &.title {
-          display: block;
-          height:34px;
-          line-height: 34px;
-          vertical-align: middle;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          width: 100%;
-          color: #444444;
-          font-size:14px;
-        }
-      }
-    }
-  }
-  li{
-     &.todo p.fafa .fa{color:#094f9b}
-     &.toread p.fafa .fa{color:#0074c9}
-     &.done p.fafa .fa{color:#0486e6}
-     &.doneread p.fafa .fa{color:#26a9b9}
-     &.myfile p.fafa .fa{color:#26b991}
-     &.myreturn p.fafa .fa{color:#4cb926}
-  }
-}
-
-//快捷入口-a
-.quick-link-a {
-    font-size:0;
-    padding-top:10px;
     li {
-        display: inline-block;
-        width: 33.33%;
-        text-align: center;
-        position: relative;
+        .make-xs-column(4);
+        .box-sizing(border-box);
+        padding:0 7px;
         a {
             display: block;
-            width: 90%;
-            margin: 7px auto 7px auto;
             background: #fff;
             border-radius: 8px;
             -webkit-border-radius: 8px;
             -moz-border-radius: 8px;
             -ms-border-radius: 8px;
             border:1px solid #ececec;
+            .box-sizing(border-box);
+            margin-bottom:14px;
+
             p {
                 text-align: center;
                 &.fafa {
                     width: 74px;
                     height: 74px;
-                    line-height: 74px;
-                    text-align: center;
                     border-radius: 37px;
                     -moz-border-radius: 37px;
                     -webkit-border-radius: 37px;
                     position: relative;
                     background:#f4f7f8; 
                     margin: 14px auto 0 auto;
+                    position:relative;
+                    .circle{
+                      display:block;
+                       width: 74px;
+                       height: 74px;
+                      line-height: 74px;
+                      text-align: center;
+                      border-radius: 37px;
+                      -moz-border-radius: 37px;
+                      -webkit-border-radius: 37px;
+                      position: relative;
+                      background:#f4f7f8; 
+                      position:absolute;
+                      left:0;
+                      top:0;
+                      z-index:2;
+                      -webkit-transform: scale(0);
+                      transform: scale(0);
+                      opacity: 0;
+                      filter: alpha(opacity=0);
+                      transition: .5s;
+                      }
                     em {
                         position: absolute;
                         right: 0px;
@@ -6490,6 +6431,127 @@ h5 {
                         z-index: 10;
                         vertical-align: middle;
                        font-size: 34px;
+                       position:relative;
+                       z-index:10;
+                    }
+                }
+                &.title {
+                    display: block;
+                    height:34px;
+                    line-height: 34px;
+                    vertical-align: middle;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    width: 100%;
+                    color: #444444;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+  li{
+     &.todo p.fafa .fa{color:#094f9b}
+     &.toread p.fafa .fa{color:#0074c9}
+     &.done p.fafa .fa{color:#0486e6}
+     &.doneread p.fafa .fa{color:#26a9b9}
+     &.myfile p.fafa .fa{color:#26b991}
+     &.myreturn p.fafa .fa{color:#4cb926}
+  }
+}
+.wh-file-handle-circle li:hover {
+    a {
+        p {
+            &.fafa {
+                .circle {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    opacity: 1;
+                    filter: alpha(opacity=1);
+                }
+            }
+        }
+    }
+}
+
+//快捷入口-a
+.quick-link-a {
+    font-size:0;
+    padding-top:10px;
+    li {
+        .make-xs-column(4);
+        .box-sizing(border-box);
+        padding:0 7px;
+        a {
+            display: block;
+            background: #fff;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            border:1px solid #ececec;
+            .box-sizing(border-box);
+            margin-bottom:14px;
+
+            p {
+                text-align: center;
+                &.fafa {
+                    width: 74px;
+                    height: 74px;
+                    border-radius: 37px;
+                    -moz-border-radius: 37px;
+                    -webkit-border-radius: 37px;
+                    position: relative;
+                    background:#f4f7f8; 
+                    margin: 14px auto 0 auto;
+                    position:relative;
+                    .circle{
+                      display:block;
+                       width: 74px;
+                       height: 74px;
+                      line-height: 74px;
+                      text-align: center;
+                      border-radius: 37px;
+                      -moz-border-radius: 37px;
+                      -webkit-border-radius: 37px;
+                      position: relative;
+                      background:#f4f7f8; 
+                      position:absolute;
+                      left:0;
+                      top:0;
+                      z-index:2;
+                      -webkit-transform: scale(0);
+                      transform: scale(0);
+                      opacity: 0;
+                      filter: alpha(opacity=0);
+                      transition: .5s;
+                      }
+                    em {
+                        position: absolute;
+                        right: 0px;
+                        top: -5px;
+                        display: block;
+                        height: 16px;
+                        line-height: 16px;
+                        padding: 0 6px;
+                        color: #fff;
+                        background: #eb4040;
+                        border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                        -moz-border-radius: 8px;
+                        font-size: 12px;
+                        z-index: 20;
+                    }
+                    i.fa {
+                        color: #fd7c54;
+                        height: 74px;
+                        line-height: 74px;
+                        position: relative;
+                        z-index: 10;
+                        vertical-align: middle;
+                       font-size: 34px;
+                       position:relative;
+                       z-index:10;
                     }
                 }
                 &.title {
@@ -6543,7 +6605,20 @@ h5 {
         }
     }
 }
-
+.quick-link-a li:hover {
+    a {
+        p {
+            &.fafa {
+                .circle {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    opacity: 1;
+                    filter: alpha(opacity=1);
+                }
+            }
+        }
+    }
+}
 /* 快捷导航方式和皮肤色一起变化 */
  /*1 theme-red */
             .bgcolor-a41823 {
