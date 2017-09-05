@@ -79,3 +79,6 @@ select{
 .ztree li span{ font-size: 16px;  padding:2px 0;  }
 
 .Public_tag.Public_tag_all ul li span.tag_center{ padding: 0 16px;}
+
+/* 流程列表图标样式 */
+.wh-process-list .three_column .ico{margin-top:1px;}

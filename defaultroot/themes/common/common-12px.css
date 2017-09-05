@@ -73,3 +73,6 @@ select{
 }
 
 .ztree li span{ font-size: 12px;  padding: 2px 0;  }
+
+/* 流程列表图标样式 */
+.wh-process-list .three_column .ico{margin-top:-2px;}
