@@ -996,10 +996,6 @@ h5 {
   border-style: solid;
   border-color: #eaecee;
   overflow: visible;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
   background: #f6f6f6;
 }
 .wh-portal-i-title .wh-portal-overflow {
@@ -6428,6 +6424,8 @@ h5 {
   border-bottom-color: #f0f0f0;
 }
 .wh-portal-info-box-style-a .wh-portal-i-title .wh-portal-i-title-left .wh-portal-title-li {
+  height: 42px;
+  line-height: 42px;
   border: 0 none;
   background: url(../../../images/title-line.png) right center no-repeat !important;
 }
@@ -6438,8 +6436,8 @@ h5 {
   border-top: 0 none;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  height: 39px;
-  line-height: 39px;
+  height: 40px;
+  line-height: 40px;
   border-color: transparent;
 }
 .wh-portal-info-box-style-b .wh-portal-i-title {

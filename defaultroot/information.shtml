@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.newpure.min.css" />
+    <link rel="stylesheet" href="templates/template_default/themes/2015/color_default/template.color.default.css">
     <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="scripts/plugins/flexslide/jquery.flexslider.js"></script>

@@ -1017,7 +1017,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   content: "\f019";
 }
 .ztree li span.fa-plus:before {
-  content: "\f118";
+  content: "\f119";
 }
 .ztree li span.fa_ico_docu {
   width: 16px;
@@ -1044,7 +1044,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
 .ztree li span.switch.roots_close:before,
 .ztree li span.switch.center_close:before,
 .ztree li span.switch.bottom_close:before {
-  content: "\f118";
+  content: "\f119";
 }
 ul.tmpTargetzTree {
   background-color: #FFE6B0;
@@ -1212,7 +1212,7 @@ ul.ztree.zTreeDragUL {
 .ztree-org li span.switch.roots_close:before,
 .ztree-org li span.switch.center_close:before,
 .ztree-org li span.switch.bottom_close:before {
-  content: "\f118";
+  content: "\f119";
 }
 ul.tmpTargetzTree {
   background-color: #FFE6B0;
@@ -2638,7 +2638,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-org-tree.open-tree {
   transition: left .3s;
-  left: 0;
+  left: 4px;
   z-index: 0;
 }
 .panel-whlist {
@@ -2654,7 +2654,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 .panel.org-open {
   transition-property: margin-left;
   transition-duration: .3s;
-  margin-left: 210px;
+  margin-left: 214px;
 }
 .wh-org-tree.no-tree {
   width: 30px;

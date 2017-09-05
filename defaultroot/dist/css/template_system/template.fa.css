@@ -678,6 +678,9 @@
 .fa-noselect:before {
   content: "\f0dc";
 }
+.fa-selected:before {
+  content: "\f0dd";
+}
 .fa-man:before {
   content: "\f0de";
 }
@@ -852,6 +855,12 @@
 .fa-plus-fine:before {
   content: "\f117";
 }
-.fa-new-bulid:before {
+.fa-star-half:before {
   content: "\f118";
+}
+.fa-new-bulid:before {
+  content: "\f119";
+}
+.fa-select-small:before {
+  content: "\f11a";
 }
