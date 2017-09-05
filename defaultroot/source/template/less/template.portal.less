@@ -6330,6 +6330,11 @@ h5 {
         .wh-portal-title-li {
           border-top-width:0;
          border:0 none;
+         &.on,
+          &:focus,
+          &:hover {
+            border:0 none;//解决知道页面样式冲突
+          }
         }
       }
     }

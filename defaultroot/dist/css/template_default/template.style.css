@@ -1017,7 +1017,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
   content: "\f019";
 }
 .ztree li span.fa-plus:before {
-  content: "\f00f";
+  content: "\f118";
 }
 .ztree li span.fa_ico_docu {
   width: 16px;
@@ -1044,7 +1044,7 @@ ul.wh-sim-quick-entry-list li a:hover span.wh-sys-warn-num,
 .ztree li span.switch.roots_close:before,
 .ztree li span.switch.center_close:before,
 .ztree li span.switch.bottom_close:before {
-  content: "\f00f";
+  content: "\f118";
 }
 ul.tmpTargetzTree {
   background-color: #FFE6B0;
@@ -1212,7 +1212,7 @@ ul.ztree.zTreeDragUL {
 .ztree-org li span.switch.roots_close:before,
 .ztree-org li span.switch.center_close:before,
 .ztree-org li span.switch.bottom_close:before {
-  content: "\f00f";
+  content: "\f118";
 }
 ul.tmpTargetzTree {
   background-color: #FFE6B0;
