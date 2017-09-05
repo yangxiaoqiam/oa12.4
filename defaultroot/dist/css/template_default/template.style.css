@@ -2060,6 +2060,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   border: 2px solid #fff;
   background: #f34040;
   color: #fff;
+  text-align: center;
 }
 /* Header System Setting */
 .wh-sys-notice-list {

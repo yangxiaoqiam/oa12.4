@@ -2832,6 +2832,9 @@ clearfix:before{content:" ";display:table}.clearfix:after{clear:both;content:" "
     white-space: nowrap;
     display: block;}
 
+    /* 流程列表英文标题换行问题 */
+.wh-process-list .three_column li a{ word-break: break-all;}
+
 
 
 
