@@ -15,6 +15,7 @@
 @global-color-bg-light: tint(@global-color, 20%),
 @global-color-bghover-deep: darken(@global-color, 5%),
 @global-color-bghover-deep1: tint(@global-color, 10%),
+@global-color-logobg-light: tint(@global-color, 10%),
 @global-color-deep: shade(@global-color, 18%), 
 @global-color-bghover-light: darken(@global-color, 2%)) {
   .theme-@{colorType}-@{colorName} {
@@ -31,7 +32,7 @@
         padding-left: 0;
         background-color: @global-color-bg-light;
         .wh-logo {
-          background-color: @global-color-bghover-deep1;
+          background-color: @global-color-logobg-light;
           width: 230px;
           img {
             display: none;

@@ -6258,11 +6258,6 @@ h5 {
 .wh-portal-i-item-list .fa {
   overflow: hidden;
 }
-.wh-portal-i-item-list .fa-new-arrow {
-  height: 40px;
-  line-height: 42px;
-  color: #b7b7b7;
-}
 .wh-portal-i-item-list .fa-clock-o {
   height: 40px;
   line-height: 42px;
@@ -6368,6 +6363,9 @@ h5 {
   position: relative;
   top: 0px;
   margin-right: 3px;
+  height: 40px;
+  line-height: 42px;
+  color: #b7b7b7;
 }
 .wh-portal-i-item-list .fa.fa-clock-o {
   font-size: 12px;
