@@ -2395,10 +2395,10 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   position: relative;
   width: 230px;
   height: 100%;
-  background: #f5f5f5;
+  background: #ededed;
   border-top-width: 2px;
   border-top-style: solid;
-  border-top-color: #f5f5f5;
+  border-top-color: #ededed;
   -webkit-box-shadow: 0 0 3px #cfcfcf;
   box-shadow: 0 0 3px #cfcfcf;
 }
@@ -2415,7 +2415,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   overflow: auto;
 }
 .wh-left-menuList .wh-l-con .ztree {
-  background: #f5f5f5;
+  background: #ededed;
 }
 .wh-left-menuList .wh-l-con.wh-l-noscroll {
   overflow: hidden;
@@ -2609,7 +2609,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   border-color: #e7e7e7;
   height: 45px;
   line-height: 45px;
-  background: #f5f5f5;
+  background: #ededed;
 }
 .wh-org-tree .org-tree .wh-l-msg a .fa {
   cursor: pointer;
@@ -2623,7 +2623,7 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
   overflow: auto;
 }
 .wh-org-tree .org-tree .wh-l-con .ztree {
-  background: #f5f5f5;
+  background: #ededed;
 }
 .wh-org-tree .org-abc {
   position: relative;
