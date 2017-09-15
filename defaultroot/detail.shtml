@@ -456,7 +456,7 @@
 
     //给点击事件增加一个状态，数值变化仅供参考
     $('#meta-m-vote').astatus({
-      delay: 30000
+      delay: 300
     }, function() {
       $(this).toggleClass('active');
       var voteNum = parseInt($(this).children('em').text());

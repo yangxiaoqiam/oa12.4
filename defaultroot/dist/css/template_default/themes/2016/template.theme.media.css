@@ -1,3 +1,6 @@
+.theme-red {
+  /* 颜色结束符 */
+}
 .theme-red a:hover,
 .theme-red a:focus,
 .theme-red a:active {
@@ -371,6 +374,9 @@ fieldset[disabled] .theme-red .btn.btn-wh-blank.active {
 }
 .theme-red #move-attendance td a {
   color: #cd2500;
+}
+.theme-pink {
+  /* 颜色结束符 */
 }
 .theme-pink a:hover,
 .theme-pink a:focus,
@@ -746,6 +752,9 @@ fieldset[disabled] .theme-pink .btn.btn-wh-blank.active {
 .theme-pink #move-attendance td a {
   color: #dc4fad;
 }
+.theme-darkred {
+  /* 颜色结束符 */
+}
 .theme-darkred a:hover,
 .theme-darkred a:focus,
 .theme-darkred a:active {
@@ -1119,6 +1128,9 @@ fieldset[disabled] .theme-darkred .btn.btn-wh-blank.active {
 }
 .theme-darkred #move-attendance td a {
   color: #ad193d;
+}
+.theme-orange {
+  /* 颜色结束符 */
 }
 .theme-orange a:hover,
 .theme-orange a:focus,
@@ -1494,6 +1506,9 @@ fieldset[disabled] .theme-orange .btn.btn-wh-blank.active {
 .theme-orange #move-attendance td a {
   color: #F27521;
 }
+.theme-lightgreen {
+  /* 颜色结束符 */
+}
 .theme-lightgreen a:hover,
 .theme-lightgreen a:focus,
 .theme-lightgreen a:active {
@@ -1867,6 +1882,9 @@ fieldset[disabled] .theme-lightgreen .btn.btn-wh-blank.active {
 }
 .theme-lightgreen #move-attendance td a {
   color: #82ba01;
+}
+.theme-green {
+  /* 颜色结束符 */
 }
 .theme-green a:hover,
 .theme-green a:focus,
@@ -2242,6 +2260,9 @@ fieldset[disabled] .theme-green .btn.btn-wh-blank.active {
 .theme-green #move-attendance td a {
   color: #008b18;
 }
+.theme-cyan {
+  /* 颜色结束符 */
+}
 .theme-cyan a:hover,
 .theme-cyan a:focus,
 .theme-cyan a:active {
@@ -2615,6 +2636,9 @@ fieldset[disabled] .theme-cyan .btn.btn-wh-blank.active {
 }
 .theme-cyan #move-attendance td a {
   color: #03b3b1;
+}
+.theme-seablue {
+  /* 颜色结束符 */
 }
 .theme-seablue a:hover,
 .theme-seablue a:focus,
@@ -2990,6 +3014,9 @@ fieldset[disabled] .theme-seablue .btn.btn-wh-blank.active {
 .theme-seablue #move-attendance td a {
   color: #00829a;
 }
+.theme-skyblue {
+  /* 颜色结束符 */
+}
 .theme-skyblue a:hover,
 .theme-skyblue a:focus,
 .theme-skyblue a:active {
@@ -3363,6 +3390,9 @@ fieldset[disabled] .theme-skyblue .btn.btn-wh-blank.active {
 }
 .theme-skyblue #move-attendance td a {
   color: #5cb2ff;
+}
+.theme-blue {
+  /* 颜色结束符 */
 }
 .theme-blue a:hover,
 .theme-blue a:focus,
@@ -3738,6 +3768,9 @@ fieldset[disabled] .theme-blue .btn.btn-wh-blank.active {
 .theme-blue #move-attendance td a {
   color: #0073c6;
 }
+.theme-violet {
+  /* 颜色结束符 */
+}
 .theme-violet a:hover,
 .theme-violet a:focus,
 .theme-violet a:active {
@@ -4111,6 +4144,9 @@ fieldset[disabled] .theme-violet .btn.btn-wh-blank.active {
 }
 .theme-violet #move-attendance td a {
   color: #4617b5;
+}
+.theme-purple {
+  /* 颜色结束符 */
 }
 .theme-purple a:hover,
 .theme-purple a:focus,
@@ -4486,6 +4522,9 @@ fieldset[disabled] .theme-purple .btn.btn-wh-blank.active {
 .theme-purple #move-attendance td a {
   color: #8c0095;
 }
+.theme-indigo {
+  /* 颜色结束符 */
+}
 .theme-indigo a:hover,
 .theme-indigo a:focus,
 .theme-indigo a:active {
@@ -4859,6 +4898,9 @@ fieldset[disabled] .theme-indigo .btn.btn-wh-blank.active {
 }
 .theme-indigo #move-attendance td a {
   color: #004b8c;
+}
+.theme-darkblue {
+  /* 颜色结束符 */
 }
 .theme-darkblue a:hover,
 .theme-darkblue a:focus,
@@ -5234,6 +5276,9 @@ fieldset[disabled] .theme-darkblue .btn.btn-wh-blank.active {
 .theme-darkblue #move-attendance td a {
   color: #001941;
 }
+.theme-maroon {
+  /* 颜色结束符 */
+}
 .theme-maroon a:hover,
 .theme-maroon a:focus,
 .theme-maroon a:active {
@@ -5607,6 +5652,9 @@ fieldset[disabled] .theme-maroon .btn.btn-wh-blank.active {
 }
 .theme-maroon #move-attendance td a {
   color: #580000;
+}
+.theme-brown {
+  /* 颜色结束符 */
 }
 .theme-brown a:hover,
 .theme-brown a:focus,
@@ -5982,6 +6030,9 @@ fieldset[disabled] .theme-brown .btn.btn-wh-blank.active {
 .theme-brown #move-attendance td a {
   color: #380001;
 }
+.theme-gray {
+  /* 颜色结束符 */
+}
 .theme-gray a:hover,
 .theme-gray a:focus,
 .theme-gray a:active {
@@ -6355,6 +6406,9 @@ fieldset[disabled] .theme-gray .btn.btn-wh-blank.active {
 }
 .theme-gray #move-attendance td a {
   color: #585858;
+}
+.theme-black {
+  /* 颜色结束符 */
 }
 .theme-black a:hover,
 .theme-black a:focus,

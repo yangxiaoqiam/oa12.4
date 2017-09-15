@@ -102,7 +102,31 @@
     div::-webkit-scrollbar-thumb:vertical:active{
       background-color: tint(@global-color,10%);
     }
-
+    
+    // Scroll Bar for webkit
+    ::-webkit-scrollbar {
+      width: 6px;
+      height:6px;
+    }
+    ::-webkit-scrollbar-track {
+      .border-top-radius(10px);
+      .border-bottom-radius(10px);
+      background-color: tint(@global-color,70%);
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: tint(@global-color,30%);
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+      background-color: tint(@global-color,30%);
+    }
+    ::-webkit-scrollbar-thumb:vertical:hover{
+      background-color: tint(@global-color,20%);
+    }
+    ::-webkit-scrollbar-thumb:vertical:active{
+      background-color: tint(@global-color,10%);
+    }
+    
     .wh-header {
       border-bottom: 3px solid @global-color;
       .wh-hd-l-nav {

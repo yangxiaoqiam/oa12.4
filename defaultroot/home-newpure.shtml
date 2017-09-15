@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />  
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />  
   <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.newpure.min.css" />   
-  <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.media.min.css" /> 
   <link rel="stylesheet" href="template/css/template_default/template.style.size.min.css" />
 </head>
 
