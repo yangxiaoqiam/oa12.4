@@ -489,6 +489,12 @@
 .fa-times-circle-o:before {
   content: "\f09c";
 }
+.fa-caret-top:before {
+  content: "\f0a0";
+}
+.fa-caret-down:before {
+  content: "\f0a1";
+}
 .fa-eye:before {
   content: "\f09d";
 }
