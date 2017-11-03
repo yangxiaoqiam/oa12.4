@@ -18,7 +18,13 @@
     <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.before.css" />
     <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.after.css" />
     <link rel="stylesheet" href="dist/css/template_default/template.style.size.css" />
-    
+    <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="scripts/static/template.js"></script>
+    <script type="text/javascript" src="scripts/static/template.custom.js"></script>
+    <script type="text/javascript" src="scripts/static/template.extend.js"></script>
+    <script type="text/javascript" src="scripts/plugins/zTree_v3/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript" src="scripts/pagejs/view-frame.js?v=20160307"></script>
 </head>
 
 <body>
@@ -88,18 +94,26 @@
                                 </ul>
                             </div>
                         </div>
+                        <style type="text/css">
+                        /* 
+         */
+                        </style>
                         <!-- end -->
                         <div class="view-hdpanel panel panel-whlist le-notree">
                             <div class="panel-heading clearfix">
                                 <div class="txl_tab">
-                                    
                                     <div class="bd">
                                         <ul class="picList">
-                                            <li class="active"> <span>效果1</span></li> 
-                                            <li><span>效果2</span></li>
-                                            <li><span>效果3</span></li>
+
+                                            <li> <span>8员员员员员员员员</span></li>
+                                            <li><span>7人人人</span></li>
+                                            <li><span>8效果果</span></li>
                                             <li><span>效果4</span></li>
                                             <li><span>效果5</span></li>
+                                            <li><span>效果6</span></li>
+                                            <li><span>效果7</span></li>
+                                            <li><span>效果8</span></li>
+                                            <li><span>效果9</span></li>
                                         </ul>
                                     </div>
                                     <div class="hd">
@@ -107,8 +121,7 @@
                                         <a class="prev"><i class="fa   fa-caret-left fa-color"></i></a>
                                     </div>
                                 </div>
-                                 
-                                 <div class="panel-hd-tip">
+                                <div class="panel-hd-tip">
                                     <i class="fa fa-sitemap select-org"></i>
                                     <span>人员</span>
                                     <i class="fa fa-angle-down member-drop"></i>
@@ -124,7 +137,7 @@
                                     <div class="input-group input-group-sm">
                                         <div class="input-group-btn senior-seachbtn"><a href="javascript:void(0)" class="btn btn-wh-line">高级搜索</a></div>
                                         <label id="searchInpTip" onclick="hidesearchInpTip('queryPersonName')" class="searchInpTip_class" style="display: block;">&nbsp;请输入姓名</label>
-                                        <input type="text" class="form-control form-control-wh-line" id="" >
+                                        <input type="text" class="form-control form-control-wh-line" id="">
                                         <div class="input-group-btn"><a href="javascript:void(0)" class="btn btn-wh-line"><i class="fa fa-search"></i></a></div>
                                     </div>
                                     <!-- 高级搜索下拉框 -->
@@ -268,6 +281,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <!--#include file="include/table-list-contact.html"-->
                             <!-- pagenition -->
                             <div class="panel-footer">
@@ -282,14 +296,6 @@
     <!--#include file="include/idx-modal.html"-->
     <!--#include file="include/idx-popover.html"-->
     <!--#include file="include/detail-modal.html"-->
-    <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js"></script>
-    <script type="text/javascript" src="scripts/static/template.js"></script>
-    <script type="text/javascript" src="scripts/static/template.custom.js"></script>
-    <script type="text/javascript" src="scripts/static/template.extend.js"></script>
-    <script type="text/javascript" src="scripts/plugins/zTree_v3/jquery.ztree.core-3.5.js"></script>
-    <script type="text/javascript" src="scripts/pagejs/view-frame.js?v=20160307"></script>
-
     <script>
     $(function() {
         $("#page").pagination({
@@ -330,9 +336,9 @@
             });
         });
 
-          //移动考勤 
+        //移动考勤 
         $(".move-attendance-a").on("click", function(argument) {
-           layer.open({
+            layer.open({
                 type: 1,
                 title: '移动签到详情',
                 shadeClose: false,
@@ -340,34 +346,34 @@
                 area: ['350px', '320px'],
                 content: $('#move-attendance')
             });
-   
+
 
 
         });
 
 
-    //点击分类管理
-    $(".management-handle").on('click', function() {
-      layer.open({
-        type: 2,
-        title: '分类管理',
-        shadeClose: false,
-        shade: 0.8,
-        area: ['400px','265px', 'auto'],
-         content: "include/panel-iframe-join-group.html"
-      })
-    })
+        //点击分类管理
+        $(".management-handle").on('click', function() {
+            layer.open({
+                type: 2,
+                title: '分类管理',
+                shadeClose: false,
+                shade: 0.8,
+                area: ['400px', '265px', 'auto'],
+                content: "include/panel-iframe-join-group.html"
+            })
+        })
 
         //点击加入群组
         $(".add-group").on("click", function() {
-          layer.open({
-            type: 2,
-            title: '选择分组',
-            shadeClose: false,
-            shade: 0.8,
-            area: ['400px','165px', 'auto'],
-            content: "include/panel-iframe-sort-management.html"
-          })
+            layer.open({
+                type: 2,
+                title: '选择分组',
+                shadeClose: false,
+                shade: 0.8,
+                area: ['400px', '165px', 'auto'],
+                content: "include/panel-iframe-sort-management.html"
+            })
         })
 
 
@@ -506,7 +512,7 @@
     }
 
 
-//新增页签
+    //新增页签
    $(".txl_tab").slide({
                     titCell: ".hd ul",
                     mainCell: ".bd ul",
@@ -518,16 +524,16 @@
                     autoPlay:false,
                 });
 
-$(function() {
+   
+    if ($(".txl_tab .picList").children().length > 4) {
+        $(".txl_tab .hd").css({ "display": "inline-block" })
+    }
 
-  if($(".txl_tab .picList").children().length>4){
-     $(".txl_tab .hd").css({"display":"inline-block"})
-  }
-  });
-
-
-
+     $(".txl_tab .bd ul li").each(function(){
+        $(this).find("span").css({ "margin": "0 18px" }) //解决文字丢失问题
+     });
     </script>
+
 </body>
 
 </html>

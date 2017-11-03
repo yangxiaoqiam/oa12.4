@@ -63,7 +63,13 @@ html.size-small, html.size-small body {
 		}
 		//内容主标题
 		.wh-dtl-tit{
-			h1{
+			.wh-dtl-title{
+				font-size: @size-base*2;
+    line-height:  @size-base*3;
+			}
+			.wh-dtl-fu-title{
+				font-size:@size-base*1.5;
+				line-height:@size-base*2.5;
 			}
 		}
 		//内容正文
@@ -116,7 +122,17 @@ html.size-small, html.size-small body {
 			}
 		}
 
+       /* 新闻图片列表 */
+       .wh-ifo-piclist{
+       	.item{
+       		.title{
+       			font-size:@size-base; 
+       		}
+       	}
+       }
+
 		//结束符
 	}
 }
+
 

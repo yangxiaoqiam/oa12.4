@@ -1,3 +1,4 @@
+
 .wh-detail {
     &.wh-d-contact {
         margin: 15px 0;
@@ -227,10 +228,7 @@
     margin-bottom: 25px;
     word-warp: break-word;
     word-break: break-all;
-    img {
-        display: block;
-        margin: 0 auto;
-    }
+
 }
 
 .wh-dtl-nav {
@@ -1322,3 +1320,88 @@
         }
     }
 }
+
+/*信息右侧目录树 */
+.directory-nav {
+    position: absolute;
+    right: 52px;
+    top: -9px;
+    display: none !important;
+    width: 180px;
+    overflow: hidden;
+    padding: 10px;
+    display:none;
+    z-index:9999;
+    &.open{
+        display:block !important;
+    }
+    .ullist {
+        background: #fff;
+        border: 1px solid #e2dede;
+        padding: 10px;
+        ul {
+            width: 220px;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            position: relative;
+            height: 200px;
+        }
+        li {
+            height: 28px;
+            line-height: 28px;
+            position: relative;
+            width: 150px;
+            overflow: hidden;
+            padding-left: 10px;
+            overflow: hidden;
+            word-break: keep-all;
+            word-wrap: normal;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+
+            &.l1 {
+                font-size: 13px;
+            }
+            &.l2 {
+                text-indent: 10px;
+                font-size: 12px;
+            }
+        }
+        li.on,
+        li:hover {
+            background: #e7e3e3;
+            a {
+                color: #666;
+            }
+        }
+    }
+    .arow {
+        em {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 26px;
+            right: 1px;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            border-left: 10px solid #e6e5e5;
+            z-index: 9999;
+        }
+        i {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 28px;
+            right: 3px;
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            border-left: 8px solid #fff;
+            z-index: 9999;
+        }
+    }
+}
+

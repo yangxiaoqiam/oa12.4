@@ -261,10 +261,6 @@ textarea {
   word-warp: break-word;
   word-break: break-all;
 }
-.wh-dtl-art img {
-  display: block;
-  margin: 0 auto;
-}
 .wh-dtl-nav {
   text-align: center;
 }
@@ -1214,4 +1210,84 @@ textarea {
   width: 23%;
   margin-right: 2%;
   list-style: none;
+}
+/*信息右侧目录树 */
+.directory-nav {
+  position: absolute;
+  right: 52px;
+  top: -9px;
+  display: none !important;
+  width: 180px;
+  overflow: hidden;
+  padding: 10px;
+  display: none;
+  z-index: 9999;
+}
+.directory-nav.open {
+  display: block !important;
+}
+.directory-nav .ullist {
+  background: #fff;
+  border: 1px solid #e2dede;
+  padding: 10px;
+}
+.directory-nav .ullist ul {
+  width: 220px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  height: 200px;
+}
+.directory-nav .ullist li {
+  height: 28px;
+  line-height: 28px;
+  position: relative;
+  width: 150px;
+  padding-left: 10px;
+  overflow: hidden;
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.directory-nav .ullist li.l1 {
+  font-size: 13px;
+}
+.directory-nav .ullist li.l2 {
+  text-indent: 10px;
+  font-size: 12px;
+}
+.directory-nav .ullist li.on,
+.directory-nav .ullist li:hover {
+  background: #e7e3e3;
+}
+.directory-nav .ullist li.on a,
+.directory-nav .ullist li:hover a {
+  color: #666;
+}
+.directory-nav .arow em {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 26px;
+  right: 1px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid #e6e5e5;
+  z-index: 9999;
+}
+.directory-nav .arow i {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 28px;
+  right: 3px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 8px solid #fff;
+  z-index: 9999;
 }

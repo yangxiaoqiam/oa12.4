@@ -24,7 +24,8 @@
 <body>
   <div class="wh-wrapper" >
     <!--#include file="include/idx-global.html"-->
-    <div class="wh-content">
+    <div class="wh-content">er">
+            <div class="view-hdpan
       <span id="switch-l-nav" class="btn-switch-show"><i class="fa fa-caret-right"></i><i class="fa fa-caret-left"></i></span>
       <div class="wh-l-content" switch-tip="true">
         <div class="wh-left-menuList">
@@ -42,8 +43,7 @@
       <!-- "../platform/portal/information.shtml" -->
       <div class="wh-r-content wh-r-bootstrap wh-ios-iframe-bug">
         <div class="wh-view view-lists">
-          <div class="view-container">
-            <div class="view-hdpanel panel panel-whlist">
+          <div class="view-containel panel panel-whlist">
               <div class="panel-heading clearfix">
                 <div class="panel-hd-tip">
                   <i class="fa fa-sitemap"></i>

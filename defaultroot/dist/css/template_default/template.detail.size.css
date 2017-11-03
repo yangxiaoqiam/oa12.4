@@ -1,5 +1,6 @@
 .size-big16 {
   font-size: 16px;
+  /* 新闻图片列表 */
 }
 .size-big16 .fa {
   font-size: 17px;
@@ -43,6 +44,14 @@
   font-size: 16px;
   line-height: 32px;
 }
+.size-big16 .wh-dtl-tit .wh-dtl-title {
+  font-size: 32px;
+  line-height: 48px;
+}
+.size-big16 .wh-dtl-tit .wh-dtl-fu-title {
+  font-size: 24px;
+  line-height: 40px;
+}
 .size-big16 .wh-dtl-con p {
   font-size: 18px;
   margin-bottom: 16px;
@@ -80,8 +89,12 @@
 .size-big16 .detail-fujian .att-modal {
   font-size: 12px;
 }
+.size-big16 .wh-ifo-piclist .item .title {
+  font-size: 16px;
+}
 .size-big {
   font-size: 14px;
+  /* 新闻图片列表 */
 }
 .size-big .fa {
   font-size: 15px;
@@ -125,6 +138,14 @@
   font-size: 14px;
   line-height: 28px;
 }
+.size-big .wh-dtl-tit .wh-dtl-title {
+  font-size: 28px;
+  line-height: 42px;
+}
+.size-big .wh-dtl-tit .wh-dtl-fu-title {
+  font-size: 21px;
+  line-height: 35px;
+}
 .size-big .wh-dtl-con p {
   font-size: 16px;
   margin-bottom: 14px;
@@ -162,8 +183,12 @@
 .size-big .detail-fujian .att-modal {
   font-size: 12px;
 }
+.size-big .wh-ifo-piclist .item .title {
+  font-size: 14px;
+}
 .size-small {
   font-size: 12px;
+  /* 新闻图片列表 */
 }
 .size-small .fa {
   font-size: 13px;
@@ -207,6 +232,14 @@
   font-size: 12px;
   line-height: 24px;
 }
+.size-small .wh-dtl-tit .wh-dtl-title {
+  font-size: 24px;
+  line-height: 36px;
+}
+.size-small .wh-dtl-tit .wh-dtl-fu-title {
+  font-size: 18px;
+  line-height: 30px;
+}
 .size-small .wh-dtl-con p {
   font-size: 14px;
   margin-bottom: 12px;
@@ -242,6 +275,9 @@
   font-size: 12px;
 }
 .size-small .detail-fujian .att-modal {
+  font-size: 12px;
+}
+.size-small .wh-ifo-piclist .item .title {
   font-size: 12px;
 }
 html.size-big,

@@ -5,6 +5,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-blue .bgcolor-acd598 {
   background-color: #acd598;
@@ -191,6 +192,9 @@
 }
 .theme-blue .listbox a:hover {
   background: #0073c6;
+  color: #fff;
+}
+.theme-blue .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-blue .btn-switch-hide,
@@ -1115,6 +1119,38 @@
 .theme-blue .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-blue .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #0073c6;
+}
+.theme-blue .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-blue .wh-calendar .fc-header-title h2 {
+  color: #0073c6;
+}
+.theme-blue .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #0073c6;
+}
+.theme-blue .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-blue .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #0073c6;
+}
+.theme-blue .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #0073c6;
+  background: transparent;
+  color: #333;
+}
+.theme-blue .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #0073c6;
+}
 .theme-violet {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -1122,6 +1158,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-violet .bgcolor-acd598 {
   background-color: #acd598;
@@ -1308,6 +1345,9 @@
 }
 .theme-violet .listbox a:hover {
   background: #4617b5;
+  color: #fff;
+}
+.theme-violet .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-violet .btn-switch-hide,
@@ -2232,6 +2272,38 @@
 .theme-violet .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-violet .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #4617b5;
+}
+.theme-violet .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-violet .wh-calendar .fc-header-title h2 {
+  color: #4617b5;
+}
+.theme-violet .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #4617b5;
+}
+.theme-violet .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-violet .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #4617b5;
+}
+.theme-violet .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #4617b5;
+  background: transparent;
+  color: #333;
+}
+.theme-violet .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #4617b5;
+}
 .theme-purple {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -2239,6 +2311,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-purple .bgcolor-acd598 {
   background-color: #acd598;
@@ -2425,6 +2498,9 @@
 }
 .theme-purple .listbox a:hover {
   background: #8c0095;
+  color: #fff;
+}
+.theme-purple .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-purple .btn-switch-hide,
@@ -3349,6 +3425,38 @@
 .theme-purple .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-purple .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #8c0095;
+}
+.theme-purple .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-purple .wh-calendar .fc-header-title h2 {
+  color: #8c0095;
+}
+.theme-purple .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #8c0095;
+}
+.theme-purple .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-purple .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #8c0095;
+}
+.theme-purple .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #8c0095;
+  background: transparent;
+  color: #333;
+}
+.theme-purple .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #8c0095;
+}
 .theme-indigo {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -3356,6 +3464,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-indigo .bgcolor-acd598 {
   background-color: #acd598;
@@ -3542,6 +3651,9 @@
 }
 .theme-indigo .listbox a:hover {
   background: #004b8c;
+  color: #fff;
+}
+.theme-indigo .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-indigo .btn-switch-hide,
@@ -4466,6 +4578,38 @@
 .theme-indigo .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-indigo .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #004b8c;
+}
+.theme-indigo .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-indigo .wh-calendar .fc-header-title h2 {
+  color: #004b8c;
+}
+.theme-indigo .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #004b8c;
+}
+.theme-indigo .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-indigo .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #004b8c;
+}
+.theme-indigo .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #004b8c;
+  background: transparent;
+  color: #333;
+}
+.theme-indigo .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #004b8c;
+}
 .theme-darkblue {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -4473,6 +4617,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-darkblue .bgcolor-acd598 {
   background-color: #acd598;
@@ -4659,6 +4804,9 @@
 }
 .theme-darkblue .listbox a:hover {
   background: #001941;
+  color: #fff;
+}
+.theme-darkblue .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-darkblue .btn-switch-hide,
@@ -5583,6 +5731,38 @@
 .theme-darkblue .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-darkblue .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #001941;
+}
+.theme-darkblue .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-darkblue .wh-calendar .fc-header-title h2 {
+  color: #001941;
+}
+.theme-darkblue .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #001941;
+}
+.theme-darkblue .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-darkblue .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #001941;
+}
+.theme-darkblue .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #001941;
+  background: transparent;
+  color: #333;
+}
+.theme-darkblue .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #001941;
+}
 .theme-maroon {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -5590,6 +5770,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-maroon .bgcolor-acd598 {
   background-color: #acd598;
@@ -5776,6 +5957,9 @@
 }
 .theme-maroon .listbox a:hover {
   background: #580000;
+  color: #fff;
+}
+.theme-maroon .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-maroon .btn-switch-hide,
@@ -6700,6 +6884,38 @@
 .theme-maroon .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-maroon .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #580000;
+}
+.theme-maroon .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-maroon .wh-calendar .fc-header-title h2 {
+  color: #580000;
+}
+.theme-maroon .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #580000;
+}
+.theme-maroon .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-maroon .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #580000;
+}
+.theme-maroon .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #580000;
+  background: transparent;
+  color: #333;
+}
+.theme-maroon .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #580000;
+}
 .theme-brown {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -6707,6 +6923,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-brown .bgcolor-acd598 {
   background-color: #acd598;
@@ -6893,6 +7110,9 @@
 }
 .theme-brown .listbox a:hover {
   background: #380001;
+  color: #fff;
+}
+.theme-brown .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-brown .btn-switch-hide,
@@ -7817,6 +8037,38 @@
 .theme-brown .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-brown .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #380001;
+}
+.theme-brown .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-brown .wh-calendar .fc-header-title h2 {
+  color: #380001;
+}
+.theme-brown .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #380001;
+}
+.theme-brown .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-brown .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #380001;
+}
+.theme-brown .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #380001;
+  background: transparent;
+  color: #333;
+}
+.theme-brown .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #380001;
+}
 .theme-gray {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -7824,6 +8076,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-gray .bgcolor-acd598 {
   background-color: #acd598;
@@ -8010,6 +8263,9 @@
 }
 .theme-gray .listbox a:hover {
   background: #585858;
+  color: #fff;
+}
+.theme-gray .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-gray .btn-switch-hide,
@@ -8934,6 +9190,38 @@
 .theme-gray .quick-link-a li:hover a p .fa {
   color: #fff;
 }
+.theme-gray .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #585858;
+}
+.theme-gray .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-gray .wh-calendar .fc-header-title h2 {
+  color: #585858;
+}
+.theme-gray .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #585858;
+}
+.theme-gray .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-gray .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #585858;
+}
+.theme-gray .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #585858;
+  background: transparent;
+  color: #333;
+}
+.theme-gray .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #585858;
+}
 .theme-black {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -8941,6 +9229,7 @@
     border-bottom-color: @global-color;
   }
 } */
+  /* portal日程 */
 }
 .theme-black .bgcolor-acd598 {
   background-color: #acd598;
@@ -9127,6 +9416,9 @@
 }
 .theme-black .listbox a:hover {
   background: #333;
+  color: #fff;
+}
+.theme-black .process-list-imgtop .listbox ul li a:hover .fa {
   color: #fff;
 }
 .theme-black .btn-switch-hide,
@@ -10050,6 +10342,38 @@
 }
 .theme-black .quick-link-a li:hover a p .fa {
   color: #fff;
+}
+.theme-black .process-list-imgleft .listbox ul li a:hover {
+  background: transparent;
+  color: #333;
+}
+.theme-black .wh-calendar {
+  /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+}
+.theme-black .wh-calendar .fc-header-title h2 {
+  color: #333;
+}
+.theme-black .wh-calendar .fc-day.fc-today > div .fc-day-number {
+  background: #333;
+}
+.theme-black .wh-calendar .fc-button-next .fc-text-arrow:hover,
+.theme-black .wh-calendar .fc-button-prev .fc-text-arrow:hover {
+  color: #333;
+}
+.theme-black .wh-calendar .fc-week td.on .fc-day-number {
+  border: 1px solid #333;
+  background: transparent;
+  color: #333;
+}
+.theme-black .wh-calendar .fc-day.hasschedule .fc-day-content {
+  background: #333;
 }
 /* theme-green 左侧菜单颜色修改 */
 .theme-blue.theme-default-blue .wh-l-content .wh-left-menuList {

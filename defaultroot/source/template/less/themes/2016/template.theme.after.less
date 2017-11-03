@@ -6,7 +6,8 @@
 @global-color,
 @global-color-l: tint(@global-color, 90%),
 @global-color-deep: shade(@global-color, 18%),
-@global-color-light: tint(@global-color, 60%)) {
+@global-color-light: tint(@global-color, 60%),
+@global-color-light-ric: tint(@global-color, 30%)) {
   .theme-@{colorName} {
 
     //Default 10 color
@@ -217,7 +218,10 @@
         background: @global-color;
         color: #fff;
       }
-    } //切换左侧样式
+    } 
+    .process-list-imgtop .listbox ul li a:hover .fa{ color: #fff;}
+
+    //切换左侧样式
     .btn-switch-hide,
     .btn-switch-show {
       border-color: @global-color;
@@ -1631,6 +1635,50 @@
                 }
             }
         }
+    }
+
+    //流程场景 左右结构字体颜色
+    .process-list-imgleft {
+        .listbox {
+            ul {
+
+                li {
+                    a:hover{
+                      background:transparent;
+                      color:@global-color;
+                    }
+                }
+            }
+        }
+    }
+
+    /* portal日程 */
+    .wh-calendar{
+      .fc-header-title h2{
+        color:@global-color;
+      }
+      .fc-day.fc-today>div .fc-day-number{
+        background:@global-color;
+      }
+ /*       .fc-day.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+  color:#fff;
+       }
+       .fc-day.fc-today.hasschedule>div .fc-day-number{
+  background:@global-color-light-ric;
+   color:#fff;
+       } */
+      .fc-button-next .fc-text-arrow:hover, .fc-button-prev .fc-text-arrow:hover{
+        color:@global-color;
+      }
+      .fc-week td.on .fc-day-number{
+        border:1px solid @global-color;
+        background:transparent;
+        color: #333;
+      }
+      .fc-day.hasschedule .fc-day-content{
+        background:@global-color;
+      }
     }
 
      // }结束符

@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="template/css/template_default/template.portal.size.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />
     <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />
-    <link rel="stylesheet" href="templates/template_default/themes/2015/color_default/template.color.default.css">
-    <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="scripts/plugins/superslide/jquery.SuperSlide.2.1.1.js"></script>
     <script type="text/javascript" src="scripts/plugins/flexslide/jquery.flexslider.js"></script>
     <script type="text/javascript" src="scripts/plugins/foucs/jquery.foucs.js"></script>
@@ -23,13 +22,43 @@
 </head>
 
 <body class="wh-gray-bg">
-    <div class="wh-container wh-portaler">
+    <div class="wh-container wh-portaler" >
         <div id="iframeDiv" class="portalBox">
             <table id="portalMain" cellpadding="0" cellspacing="0" border="0" width="100%" align="center" style="table-layout:fixed;">
                 <tr>
-                    <td width="35%" class="portal-column-td" zone="A">
+                    <td width="28%" class="portal-column-td" zone="A">
+                     <!-- 日历  -->
+                        <div class="wh-portal-info-box">
+                            <div class="wh-portal-info">
+                                <!--#include file="rili.html"-->
+                            </div>
+                        </div>
+                        <div class="wh-portal-info-box wh-portal-nopadding">
+                            <div class="wh-portal-info">
+                                <!-- 左右结构  图片在左  -->
+                                <!--#include file="platform/portal/procss-list-imgleft.html"-->
+                                <br>
+                                <br>
+                                <br>
+                                <!-- 上下结构  -->
+                                <!--#include file="platform/portal/procss-list-imgtop.html"-->
+                                <br>
+                                <br>
+                                <br>
+                                <!-- 弹框 自下而上  -->
+                                <!--#include file="platform/portal/procss-list.html"-->
+                            </div>
+                        </div>
 
-                    <!--新快捷入口 a -->
+                        <!--新文件办理-a -->
+                        <div class="wh-portal-info-box wh-no-whitebg">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/flie-handle-a.html"-->
+                            </div>
+                        </div>
+
+                        <!--新快捷入口 a -->
                         <div class="wh-portal-info-box wh-no-whitebg">
                             <!--#include file="platform/portal/portal-i-tools.html"-->
                             <div class="wh-portal-info">
@@ -37,6 +66,61 @@
                             </div>
                         </div>
 
+                          <!--  单个快捷入口  -->
+                        <div class="wh-portal-info-box  wh-portal-info-box-style-b">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/wh-quick-entry-one.html"-->
+                            </div>
+                        </div>
+
+                        <!--  纯色背景快捷入口  -->
+                        <div class="wh-portal-info-box">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/wh-quick-entry-purbackground.html"-->
+                            </div>
+                        </div>
+                        <!--  单个文件办理提醒  -->
+                        <div class="wh-portal-info-box">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/wh-file-handle-one.html"-->
+                            </div>
+                        </div>
+                        <!--  纯色背景文件办理提醒  -->
+                        <div class="wh-portal-info-box">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/wh-file-handle-purebackground.html"-->
+                            </div>
+                        </div>
+                        <!--快捷入口 大图标版-->
+                        <div class="wh-portal-info-box">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/quick_entry_bigicon_column.html"-->
+                            </div>
+                        </div>
+                        <!--  导航下拉菜单快捷入口  -->
+                        <div class="wh-portal-info-box">
+                            <!--#include file="platform/portal/portal-i-tools.html"-->
+                            <div class="wh-portal-info">
+                                <!--#include file="platform/portal/wh-quick-entry-topnav.html"-->
+                            </div>
+                        </div>
+
+                    </td>
+
+                    <td width="38%" class="portal-column-td" zone="B">
+
+                     <!-- 新增图片轮番 -->
+                        <div class="wh-portal-info-box">
+                            <div class="wh-portal-info wh-portal-nopadding wh-portal-noborder">
+                                <!--#include file="platform/portal/news-pic.html"-->
+                            </div>
+                        </div>
+                       
                         <!--新列表两个栏目 -->
                         <div class="wh-portal-info-box">
                             <!--#include file="platform/portal/portal-i-tools.html"-->
@@ -73,12 +157,7 @@
                                 <!--#include file="platform/portal/news_two_column.html"-->
                             </div>
                         </div>
-                        <!-- 新增图片轮番 -->
-                        <div class="wh-portal-info-box">
-                            <div class="wh-portal-info wh-portal-nopadding wh-portal-noborder">
-                                <!--#include file="platform/portal/news-pic.html"-->
-                            </div>
-                        </div>
+                       
                         <!--我退回的文件-->
                         <div class="wh-portal-info-box">
                             <!--#include file="platform/portal/portal-i-tools.html"-->
@@ -273,56 +352,9 @@
                             </div>
                         </div>
                     </td>
-                    <td width="65%" class="portal-column-td" zone="B">
-                        <!--新文件办理-a -->
-                        <div class="wh-portal-info-box wh-no-whitebg">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/flie-handle-a.html"-->
-                            </div>
-                        </div>
-                        <!--  单个快捷入口  -->
-                        <div class="wh-portal-info-box  wh-portal-info-box-style-b">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/wh-quick-entry-one.html"-->
-                            </div>
-                        </div>
-                        <!--  纯色背景快捷入口  -->
-                        <div class="wh-portal-info-box">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/wh-quick-entry-purbackground.html"-->
-                            </div>
-                        </div>
-                        <!--  单个文件办理提醒  -->
-                        <div class="wh-portal-info-box">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/wh-file-handle-one.html"-->
-                            </div>
-                        </div>
-                        <!--  纯色背景文件办理提醒  -->
-                        <div class="wh-portal-info-box">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/wh-file-handle-purebackground.html"-->
-                            </div>
-                        </div>
-                        <!--快捷入口 大图标版-->
-                        <div class="wh-portal-info-box">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/quick_entry_bigicon_column.html"-->
-                            </div>
-                        </div>
-                        <!--  导航下拉菜单快捷入口  -->
-                        <div class="wh-portal-info-box">
-                            <!--#include file="platform/portal/portal-i-tools.html"-->
-                            <div class="wh-portal-info">
-                                <!--#include file="platform/portal/wh-quick-entry-topnav.html"-->
-                            </div>
-                        </div>
+                    <td width="34%" class="portal-column-td" zone="C">
+                       
+                        
                         <!--领导日程-->
                         <div class="wh-portal-info-box">
                             <!--#include file="platform/portal/portal-i-tools.html"-->

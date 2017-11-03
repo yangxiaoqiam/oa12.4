@@ -2835,6 +2835,16 @@ clearfix:before{content:" ";display:table}.clearfix:after{clear:both;content:" "
     /* 流程列表英文标题换行问题 */
 .wh-process-list .three_column li a{ word-break: break-all;}
 
+.tab-title{margin-bottom:5px;}
+.tab-title  .span{display:none;}
+.phone-style li{width:90px;float:left;list-style:none;text-align:center;margin-right:20px;font-size:0;}
+.phone-style li img{width:100%;margin-right: 50px;}
+.phone-style li p{font-size:14px;margin:3px 0 6px 0}
+.phone-style li .btnButton4font{height:22px;line-height:18px;}
+.tab-title span{ display:inline-block;height:30px;line-height:30px;padding:0 15px;border:1px solid #b7b7b7;float:left;font-size:14px;}
+.tab-title span.first{border-right:0;}
+.tab-title span.on{background:#ededed}
+
 
 
 

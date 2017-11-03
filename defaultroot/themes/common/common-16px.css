@@ -82,3 +82,5 @@ select{
 
 /* 流程列表图标样式 */
 .wh-process-list .three_column .ico{margin-top:1px;}
+.wh-ifo-piclist .item .item_description a.title{font-size:16px}
+
