@@ -28,13 +28,19 @@
               </p>
 	            <div class="form-div">
 	              <label></label>
+	              <div class="fontbox">
 	              <input type="text" class="username" name="" value="" placeholder="请输入OA账户" />
+	              <span>请输入OA账户</span>
+	              </div>
 	            </div>
             </div>
             <div class="formdiv-container formdiv-container2">
 	            <div class="form-div">
 	              <label></label>
+	               <div class="fontbox">
 	              <input type="password" class="password" name="" value="" placeholder="请输入OA密码" />
+	               <span>请输入OA密码</span>
+	              </div>
 	            </div>
           	</div>
             <div class="form-check-code clearfix">
@@ -226,7 +232,7 @@
 
 
 //解决ie8 输入框
-if(!placeholderSupport()){   // 判断浏览器是否支持 placeholder
+/*if(!placeholderSupport()){   // 判断浏览器是否支持 placeholder
     $('[placeholder]').focus(function() {
         var input = $(this);
         if (input.val() == input.attr('placeholder')) {
@@ -241,7 +247,7 @@ if(!placeholderSupport()){   // 判断浏览器是否支持 placeholder
         }
     }).blur();
 };
-
+*/
 function placeholderSupport() {
     return 'placeholder' in document.createElement('input');
 }
