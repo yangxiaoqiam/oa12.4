@@ -2837,7 +2837,7 @@ clearfix:before{content:" ";display:table}.clearfix:after{clear:both;content:" "
 
 .tab-title{margin-bottom:5px;}
 .tab-title  .span{display:none;}
-.phone-style li{width:90px;float:left;list-style:none;text-align:center;margin-right:20px;font-size:0;}
+.phone-style li{width:22%;float:left;list-style:none;text-align:center;margin-right:20px;font-size:0;}
 .phone-style li img{width:100%;margin-right: 50px;}
 .phone-style li p{font-size:14px;margin:3px 0 6px 0}
 .phone-style li .btnButton4font{height:22px;line-height:18px;}
