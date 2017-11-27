@@ -2416,6 +2416,11 @@ gway-switch-btn.wh-wrapper.wh-s-wrapper {
 }
 .wh-left-menuList .wh-l-con .ztree {
   background: #ededed;
+  display: inline-block;
+  min-width: 100%;
+}
+.wh-left-menuList .wh-l-con .ztree li a {
+  padding-right: 35px;
 }
 .wh-left-menuList .wh-l-con.wh-l-noscroll {
   overflow: hidden;

@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="dist/css/template_default/template.logins_12oa.css" />
   <link rel="stylesheet" href="dist/css/template_system/template.fa.css" />
 </head>
-
+<style type="text/css">
+  td{padding:3px 0 !important;}
+</style>
 <body>
   <div class="wh-lg-main">
     <div class="wh-lg-header">
@@ -18,7 +20,22 @@
       <span class="mobile-tip mobile-tip1"></span>
       <form>
         <div id="box1" class="lg-nomal-form" style="display: block;">
-          <div class="lg-form-con">
+          <p class="saoma">
+            <a href="javascript:void(0)" class="sweepcode">
+              <i class="fa fa-qr-code"></i>&nbsp;&nbsp;扫码登录
+              <!-- <i class="fa fa-laptop"></i>&nbsp;&nbsp;账号登录 -->
+            </a>
+          </p>
+          <div class="erweima" id="tab1">
+            <a href="javascript:void(0)" class="ewm">
+              <img src="images/ver113/login/login_03.jpg">
+              <span class="refresh" style="display: none;">点击刷新</span>
+            </a>
+            <p class="success">扫码成功正在进入系统...</p>
+            <p class="smtip">请打开移动办公客户端，点开右上角“扫一扫”</p>
+          </div>
+          <!-- 登录框 -->
+          <div class="lg-form-con" id="tab2">
           	<div class="check-tips formdiv-container error">
           		<p>
                 <span>
@@ -29,7 +46,7 @@
 	            <div class="form-div">
 	              <label></label>
 	              <div class="fontbox">
-	              <input type="text" class="username" name="" value="" placeholder="请输入OA账户" />
+	              <input type="text" class="username" name="" value="" placeholder="" />
 	              <span>请输入OA账户</span>
 	              </div>
 	            </div>
@@ -38,7 +55,7 @@
 	            <div class="form-div">
 	              <label></label>
 	               <div class="fontbox">
-	              <input type="password" class="password" name="" value="" placeholder="请输入OA密码" />
+	              <input type="password" class="password" name="" value="" placeholder="" />
 	               <span>请输入OA密码</span>
 	              </div>
 	            </div>
@@ -163,6 +180,24 @@
     // 记住密码
   $(document).ready(function() { 
 
+    // 扫码登录增加js
+    $(".sweepcode").click(function() {
+      var aaa = $("#tab1");
+      if (aaa.hasClass("openewm")) {
+        aaa.removeClass("openewm");
+        $("#tab2").css("display","block");
+      } else {
+        aaa.addClass("openewm");
+        $("#tab2").css("display","none");
+        setInterval(function(){
+            $(".refresh").css("display","block");
+        }, 60000);
+      }
+    });
+    $(".refresh").click(function() {
+      $(".refresh").css("display","none");
+    });
+
     //改变div的高度
     $(function(){
         
@@ -273,7 +308,7 @@ function placeholderSupport() {
     // 自动滚动
      setInterval(function(){
         $.fn.fullpage.moveSectionDown();
-    }, 3000);
+    }, 9000);
   </script>
 </body>
 </html>
