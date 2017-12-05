@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="wh-gray-bg theme-blue theme-default-blue  size-big">
+
+
+
+<head>
+ <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base url="defaultroot">
+    <title></title>
+    <link rel="stylesheet" href="template/css/template_system/template.reset.min.css" />
+    <link rel="stylesheet" href="template/css/template_system/template.fa.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.media.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.style.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.media.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.style.size.min.css" />
+    <script type="text/javascript" src="scripts/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="scripts/plugins/tjgallery/jquery-tjgallery.min.js"></script>
+   
+    <style>
+    body {
+        margin: 0px;
+        padding: 20px;
+        font-size: 14px;
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+        background: #fafafa;
+    }
+
+    .pictures {
+        font-size: 0px;
+        width: 824px;
+        background: red;
+        padding: 30px;
+    }
+
+    .pictures .item {
+        position: relative;
+        display: inline-block;
+    }
+
+    .pictures .item img {
+        position: relative;
+        z-index: 11;
+    }
+
+    .pictures .item .item_description {
+        position: absolute;
+        z-index: 10;
+        left: -15px;
+        top: -15px;
+        right: -15px;
+        bottom: -60px;
+        -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+        background: #151515;
+        padding: 15px;
+        display: none;
+    }
+
+    .pictures .item .item_description span {
+        color: #ffffff;
+        font-size: 13px;
+        display: block;
+        position: absolute;
+        bottom: 15px;
+        height: 30px;
+    }
+
+    .pictures .item:hover {
+        z-index: 100;
+    }
+
+    .pictures .tjGalleryItem .item:hover .item_description {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>tjGallery jQuery Plugin Demo</h1>
+   
+    <button id="destroy">destroy</button>
+
+    <div class="pictures">
+          <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_17.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/new.gif" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/noliving.gif" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_4.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_5.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_6.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_7.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_8.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_9.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_10.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_11.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_12.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_13.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_14.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_15.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_16.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_17.jpg" alt="" />
+        </div>
+        <div class="item">
+            <div class="item_description"><span>Lorem Ipsum is simply dummy text</span></div>
+            <img src="images/i_17.jpg" alt="" />
+        </div>
+        <div style="clear:both"></div>
+    </div>
+ <script>
+    $(function() {
+
+        // waiting for loading page
+        $(window).load(function() {
+            $('.pictures').tjGallery({
+                selector: '.item',
+                margin: 10
+            });
+        })
+
+        // call desrtoy
+        $('#destroy').click(function() {
+            $('.pictures').tjGallery('destroy');
+            $('#destroy').hide();
+        });
+
+
+    })
+    </script>
+</body>
+
+</html>

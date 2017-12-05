@@ -1,0 +1,394 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>新增统计模板</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript">
+    var whirRootPath = "/defaultroot";
+    var preUrl = "/defaultroot";
+    var whir_browser = "chrome";
+    var whir_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36";
+    var whir_locale = "zh_cn";
+    </script>
+    <script src="scripts/jquery-1.8.0.min.js" type="text/javascript"></script>
+    <script src="scripts/i18n/zh_CN/CommonResource.js" type="text/javascript"></script>
+    <link href="themes/common/common.css" rel="stylesheet" type="text/css">
+    <link href="themes/2015/color_blue/style.css" rel="stylesheet" type="text/css">
+    <script src="scripts/plugins/lhgdialog/lhgdialog.js?skin=idialog" type="text/javascript"></script>
+    <script src="scripts/plugins/form/jquery.form.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.validation.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.application.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.application_new.js" type="text/javascript"></script>
+    <script src="scripts/main/whir.util.js" type="text/javascript"></script>
+    <script src="scripts/plugins/My97DatePicker/WdatePicker.js"></script>
+    <link href="scripts/plugins/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css">
+    <script src="scripts/plugins/powerFloat/jquery-powerFloat.js" type="text/javascript"></script>
+    <link href="scripts/plugins/powerFloat/powerFloat.css" rel="stylesheet" type="text/css">
+    <link href="scripts/plugins/easyui/1.3.2/themes/default/easyui.css" rel="stylesheet" type="text/css">
+    <link href="scripts/plugins/easyui/1.3.2/themes/icon.css" rel="stylesheet" type="text/css">
+    <script src="scripts/plugins/easyui/1.3.2/jquery.easyui.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    /********公共初始化操作**********************/
+    $(document).ready(function() {
+        setInputStyle();
+        digitCheck();
+        $("input[type='hidden'],select").each(function() {
+            $(this).attr("defaultValue", $(this).val());
+        });
+        try { $(document.body).focus(); } catch (e) {}
+    });
+    </script>
+    <script src="/defaultroot/scripts/plugins/poshytip/jquery.poshytip.js" type="text/javascript"></script>
+    <link href="/defaultroot/scripts/plugins/poshytip/tip-yellowsimple/tip-yellowsimple.css" rel="stylesheet" type="text/css">
+    <!--这里可以追加导入模块内私有的js文件或css文件-->
+    <style>
+    .btnButton4font {
+        margin: 2px;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://172.16.2.126:7001/defaultroot/themes/common/style_chrome.css">
+</head>
+<style type="text/css">
+.Table_bottomline.custom_tj .td_lefttitle {
+    width: 126px
+}
+
+.Table_bottomline.custom_tj .source-zd {
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+
+.Table_bottomline.custom_tj .source-zd input {
+    width: 100%;
+}
+
+.Table_bottomline.custom_tj .tjb-zd {
+    float: right;
+    width: 35%;
+    text-align: center;
+}
+
+.Table_bottomline.custom_tj .tjb-zd input {
+    width: 100%;
+}
+
+.Table_bottomline.custom_tj .btnQuery {
+    position: absolute;
+    left: 50%;
+    top: 33px;
+    margin-left: -70px;
+    margin: 1px;
+}
+
+.Table_bottomline.custom_tj .tongji_box>div {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 0 5px 10px 5px;
+}
+
+.Table_bottomline.custom_tj .btnQuery .btnButton4font {
+    display: block;
+    padding: 0;
+    width: 45px;
+    text-align: center;
+}
+
+.Table_bottomline.custom_tj input[type="text"]{ height: 29px;line-height: 29px;    padding: 0px 1px 0px 0px; border: 1px solid #CCC;}
+</style>
+
+<body class="Pupwin" marginwidth="0" marginheight="0">
+    <div class="BodyMargin_10" style="width:90%;margin:0 auto;padding:0 10px;">
+        <div class="docBoxNoPanel">
+            <form id="dataForm" name="dataForm" action="/defaultroot/customtj!save.action" method="post">
+                <input type="hidden" id="_whir_private_param_" value="" defaultvalue="">
+                <input type="hidden" id="verifyCode" name="verifyCode" value="" defaultvalue="">
+                <input type="hidden" id="common_whir_formUserId" name="common_whir_formUserId" value="6687" defaultvalue="6687">
+                <script type="text/javascript">
+                $(document).ready(function() {
+                    $("input").on('keydown', function(event) {
+                        if (event != undefined && event.keyCode == 13) {
+                            $(this).focus();
+                            return false;
+                        }
+                    });
+                });
+                </script>
+                <input type="hidden" name="info.id" value="" id="dataForm_info_id" defaultvalue="">
+                <table width="100%" border="0" cellpadding="2" cellspacing="0" class="Table_bottomline custom_tj">
+                    <tbody>
+                        <tr>
+                            <td for="统计模板名称" width="8%" class="td_lefttitle">统计模板名称<span class="MustFillColor">*</span>：</td>
+                            <td>
+                                <input type="text" name="info.customname" value="" id="customname" class="inputText" whir-options="vtype:['notempty',{'maxLength':100},'spechar3']" style="width:96%;" maxlength="100">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td for="适用范围" class="td_lefttitle" valign="top">适用范围<span class="MustFillColor">*</span>：</td>
+                            <td>
+                                <input type="hidden" name="info.customscopeid" value="" id="customscopeid" defaultvalue="">
+                                <textarea name="info.customscope" cols="" rows="3" readonly="readonly" id="customscope" class="inputTextarea" style="width:96%;" whir-options="vtype:['notempty',{'maxLength':500}]"></textarea><a href="javascript:void(0);" class="selectIco textareaIco" onclick="openSelect({allowId:'stockApplyExtensionId', allowName:'stockApplyExtension', select:'userorggroup', single:'no', show:'userorggroup', range:'*0*'});"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_lefttitle" valign="top">数据表分类： </td>
+                            <td class="tj-fz">
+                                <div style="width:96%;position:relative">
+                                    <div class="fl source-zd">
+                                        <select name="name" style="width:100%" onchange="changeName(this)" class="selectlist" defaultvalue="addUser">
+                                            <option value="addUser">1</option>
+                                            <option value="updateUser">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="tjb-zd">
+                                        <select name="name" style="width:100%" onchange="changeName(this)" class="selectlist" defaultvalue="addUser">
+                                            <option value="addUser">1</option>
+                                            <option value="updateUser">2</option>
+                                        </select>
+                                    </div>
+                                    <span class="td_lefttitle" style="float:right;margin-top: 8px;">数据表：</span>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td nowrap="" class="td_lefttitle" valign="top">统计分组项 <span class="MustFillColor">*</span></td>
+                            <td class="tj-fz">
+                                <div style="width:96%;position:relative">
+                                    <div class="source-zd">
+                                        <p>源字段</p>
+                                        <select size="8" name="field" id="field" multiple="true" style="width:100%;"></select>
+                                    </div>
+                                    <div align="center" valign="center" class="btnQuery btnbox">
+                                        <input type="button" class="btnButton4font" onclick="transferOptions_custom('field','queryField')" value=">">
+                                        <input type="button" class="btnButton4font" onclick="transferOptionsAll_custom('field','queryField')" value=">>">
+                                        <input type="button" class="btnButton4font" onclick="transferOptions_custom('queryField','field')" value="<">
+                                        <input type="button" class="btnButton4font" onclick="transferOptionsAll_custom('queryField','field')" value="<<">
+                                    </div>
+                                    <div class="tjb-zd" style="float:right;width:35%;text-align:center;">
+                                        <p>统计表字段</p>
+                                        <select size="8" name="field" id="field" multiple="true" style="width:100%;"></select>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="8%" nowrap="" class="td_lefttitle" valign="top">统计项<span class="MustFillColor">*</span></td>
+                            <td class="tj-fz">
+                                <div class="tongji_box" style="width: 96%;">
+                                    <div>
+                                        <div style="float:left;width:30%">
+                                            <p style="text-align:center">统计字段</p>
+                                            <select name="name" style="width:100%" onchange="changeName(this)" class="selectlist" defaultvalue="addUser">
+                                                <option value="addUser">1</option>
+                                                <option value="updateUser">2</option>
+                                            </select>
+                                        </div>
+                                        <div style="float:left;width:30%;margin-left:4%;">
+                                            <p style="text-align:center">标题</p>
+                                            <input type="text" name="descriptions " maxlength="300 " value=" " class="inputText selectlist ">
+                                    </div>
+                                    <div style="float:right;width:32% ">
+                                        <p style="text-align:left ">统计类型</p>
+                                        <select name="name " style="width:50% " onchange="changeName(this) " class="selectlist " defaultvalue="addUser ">
+                                            <option value="addUser ">1</option>
+                                            <option value="updateUser ">2</option>
+                                        </select>
+                                        <div style="display: inline-block;position: relative;width: 83px;height:18px; "> <input type="checkbox" style="position: absolute;top:3px;left: 5px; "><span style="position:absolute;top:1px;left: 25px; ">末行合计</span><div style="clear: both "></div></div>
+                                    </div>
+                                    <div style="clear:both "></div>
+                                  </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_lefttitle " valign="top ">报表类型： </td>
+                            <td class="tj-fz ">
+                                <div style="width:96%;position:relative ">
+                                    <div class="fl source-zd" style="text-align: left;margin-top: 9px; ">
+                                         <input type="radio" name="level" value="0" style="width: auto ">普通报表
+                                         <input type="radio" name="level" value="1" checked=" "  style="width: auto ">交叉报表
+                                    </div>
+                                    
+                                       <div class="tjb-zd" style="float:right;width:35%;text-align:center;margin-top: 9px;; ">
+                                        <select name="name" style="width:100% " onchange="changeName(this) " class="selectlist " defaultvalue="addUser ">
+                                            <option value="addUser">1</option>
+                                            <option value="updateUser">2</option>
+                                        </select>
+                                    </div>
+                                    <span class="td_lefttitle" style=" float: right; display: inline-block;line-height: 35px; padding: 6px 2px 6px 5px; " >交叉到：</span>
+                                  
+                                    <div style="clear:both "></div>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td nowrap=" " class="td_lefttitle" valign="top">查询方案：</td>
+                            <td class="tj-fz ">
+                                <div style="width:96%;position:relative ">
+                                    <div class="source-zd">
+                                        <p>统计表字段</p>
+                                        <select size="8 " name="field" id="field" multiple="true" style="width:100%; "></select>
+                                    </div>
+                                    <div align="center" valign="center" class="btnQuery btnbox">
+                                        <input type="button" class="btnButton4font" onclick="transferOptions_custom( 'field', 'queryField') " value=">">
+                                            <input type="button" class="btnButton4font" onclick="transferOptionsAll_custom('field','queryField')" value=">>">
+                                            <input type="button" class="btnButton4font" onclick="transferOptions_custom('queryField','field')" value="<">
+                                            <input type="button" class="btnButton4font" onclick="transferOptionsAll_custom('queryField','field')" value="<<">
+                                        </div>
+                                        <div class="tjb-zd" style="float:right;width:35%;text-align:center;">
+                                            <p>查询字段</p>
+                                            <select size="8" name="field" id="field" multiple="true" style="width:100%;"></select>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_lefttitle" valign="top">统计条件： </td>
+                            <td class="tj-fz">
+                                <div style="width:96%;position:relative">
+                                    <input type="text" name="info.customtjtj" value="" readonly="readonly" id="customtjtj" style="width:100%" whir-options="vtype:['notempty',{'maxLength':200}]">
+                                    <a href="javascript:void(0);" class="selectIco" style="cursor:pointer;position:absolute;top:1px;right:1px;;" onclick="computeFormula(this,'customtjtj');"></a>
+                                </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td for="数据钻取" class="td_lefttitle" nowrap="" valign="top">数据钻取：</td>
+                            <td>
+                                <input type="radio" name="level" value="0">允许钻取
+                                <input type="radio" name="level" value="1" checked="">不允许钻取
+                                <div style="width:96%;position:relative;">
+                                    <div class="source-zd">
+                                        <p>源字段</p>
+                                        <select size="8" name="field" id="field" multiple="true" style="width:100%;"></select>
+                                    </div>
+                                    <div align="center" valign="center" class="btnQuery btnbox">
+                                        <input type="button" class="btnButton4font" onclick="transferOptions_custom('field','queryField')" value=">">
+                                        <input type="button" class="btnButton4font" onclick="transferOptionsAll_custom('field','queryField')" value=">>">
+                                        <input type="button" class="btnButton4font" onclick="transferOptions_custom('queryField','field')" value="<">
+                                        <input type="button" class="btnButton4font" onclick="transferOptionsAll_custom('queryField','field')" value="<<">
+                                    </div>
+                                    <div class="tjb-zd" style="float:right;width:35%;text-align:center;">
+                                        <p>钻取显示字段</p>
+                                        <select size="8" name="field" id="field" multiple="true" style="width:100%;"></select>
+                                    </div>
+                                    <div style="clear:both"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td_lefttitle" valign="top">描述： </td>
+                            <td class="tj-fz">
+                                <div style="width:96%;position:relative">
+                                    <select size="8" name="field" id="field" multiple="true" style="width:100%;"></select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="126px" class="td_lefttitle" for="图表设置">图表设置：</td>
+                            <td>
+                                <table width="96%">
+                                    <tr>
+                                        <td for="x轴名称" width="25%">x轴名称：
+                                            <input type="text" style="width: 65%" name="descriptions" maxlength="300" value="" class="inputText">
+                                        </td>
+                                        <td for="x轴名称" width="25%">x轴字段：
+                                            <select name="name" style="width:65%" onchange="changeName(this)" class="selectlist">
+                                                <option value="addUser">1</option>
+                                                <option value="updateUser">2</option>
+                                            </select>
+                                        </td>
+                                        <td for="x轴名称" width="25%">y轴名称：
+                                            <input type="text" style="width: 65%" name="descriptions" maxlength="300" value="" class="inputText">
+                                        </td>
+                                        <td for="x轴名称" width="25%">y轴字段：
+                                            <select name="name" style="width:65%" onchange="changeName(this)" class="selectlist">
+                                                <option value="addUser">1</option>
+                                                <option value="updateUser">2</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr class="btnButton4font_btnboxs">
+                            <td width="126px" class="td_lefttitle"></td>
+                            <td>
+                                <input id="saveClose_button" type="button" class="btnButton4font" onclick="ok(0,this);" value="保存退出">
+                                <input id="reset_button" type="button" class="btnButton4font" onclick="resetDataForm(this);" value="重　置">
+                                <input id="exit_button" type="button" class="btnButton4font" onclick="closeWindow(null);" value="退　出">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="hidden" id="saveType" name="saveType" value="0" defaultvalue="0">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+    //*************************************下面的函数属于公共的或半自定义的*************************************************//
+
+    //设置表单为异步提交
+    initDataFormToAjax({ "dataForm": 'dataForm', "queryForm": 'queryForm', "tip": '保存' });
+
+    //*************************************下面的函数属于各个模块 完全 自定义的*************************************************//
+
+    function cloneRow(tbl, num) {
+        if (tbl == 'contentTable1') {
+            var contentTable = document.getElementById(tbl);
+            var len = contentTable.rows.length;
+            if (len >= 8) return;
+            var lastRow = contentTable.rows[len - 1];
+            var oClone = lastRow.cloneNode(true);
+            var child = $(oClone).children();
+
+            var s = '<input type="hidden" name="type" value="1">';
+            s += '<select name="name" style="width:100%" onchange="changeName(this)" class="selectlist">';
+            s += '<option value="addUser" selected>1</option>';
+            s += '</select>';
+
+            $(child[0]).html(s); //oClone.childNodes[0].innerHTML=s;
+            s = '<input type="text" id="className" name="className" maxlength="50" value="" style="width:100%" readonly class="inputText"/>';
+
+            $(child[1]).html(s); //oClone.childNodes[2].innerHTML=s;
+
+            s = '<select name="status" style="width:100%" class="selectlist">';
+            s += '<option value="1">是</option>';
+            s += '<option value="0" selected>否</option>';
+            s += '</select>';
+            $(child[2]).html(s); //oClone.childNodes[3].innerHTML=s;
+
+            $(lastRow).after(oClone); //lastRow.parentElement.insertAdjacentElement("beforeEnd", oClone);
+
+        }
+    }
+
+    function delRow(obj, tbl) {
+        if (obj.parentElement.parentElement.parentElement.rows.length > 2) {
+            document.getElementById(tbl).deleteRow(obj.parentElement.parentElement.rowIndex);
+        }
+    }
+
+
+    //设置公式
+    function computeFormula(obj, name) {
+        popup({ content: 'url:' + encodeURI('/defaultroot/platform/custom/custom_tj/computeFormula.jsp?name=' + name + '&val=' + document.getElementById(name).value), title: '设置公式', width: '680px', height: '425px' });
+    }
+    </script>
+    <div class="panel combo-p" style="position: absolute; z-index: 10; display: none; width: 300px;">
+        <div class="combo-panel panel-body panel-body-noheader" title="" style="width: 298px; height: 198px;"></div>
+    </div>
+    <div class="panel combo-p" style="position: absolute; z-index: 10; display: none; width: 300px;">
+        <div class="combo-panel panel-body panel-body-noheader" title="" style="width: 298px; height: 198px;"></div>
+    </div>
+    <div class="panel combo-p" style="position: absolute; z-index: 10; display: none; width: 300px;">
+        <div class="combo-panel panel-body panel-body-noheader" title="" style="width: 298px; height: 198px;"></div>
+    </div>
+</body>
+
+</html>

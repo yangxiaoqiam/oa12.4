@@ -1,0 +1,79 @@
+/* 信息图片列表 */
+.wh-ifo-piclist {
+  font-size: 0px;
+}
+.wh-ifo-piclist .item {
+  position: relative;
+  display: inline-block;
+}
+.wh-ifo-piclist .item:hover .item_description {
+  display: block;
+  z-index: 20;
+}
+.wh-ifo-piclist .item .imgbox {
+  position: relative;
+  z-index: 11;
+  display: block;
+  cursor: pointer;
+}
+.wh-ifo-piclist .item .item_description {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+}
+.wh-ifo-piclist .item .item_description div {
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: alpha(opacity=50);
+  position: static;
+  /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+  *zoom: 1;
+  /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+  height: 40px;
+}
+.wh-ifo-piclist .item .item_description a {
+  display: block;
+  cursor: pointer;
+}
+.wh-ifo-piclist .item .item_description a.title {
+  max-width: 85%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: keep-all;
+  word-wrap: normal;
+  white-space: nowrap;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-indent: 10px;
+  position: relative;
+  font-size:14px;
+}
+.wh-ifo-piclist .item .item_description a.title:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.wh-ifo-piclist .item .item_description a.download {
+  position: absolute;
+  right: 10px;
+  bottom: 13px;
+}
+.wh-ifo-piclist .item .item_description a.download i {
+  color: #fff;
+  font-size: 14px;
+}
+.wh-ifo-piclist .item .item_description span {
+  color: #ffffff;
+  font-size: 13px;
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  height: 30px;
+}
+.wh-ifo-piclist .tjGalleryItem,
+.wh-ifo-piclist .item:hover .item_description {
+  display: block;
+}

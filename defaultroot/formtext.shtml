@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="theme-orange size-big">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base url="defaultroot">
+    <title>表单测试</title>
+    <link rel="stylesheet" href="dist/css/template_system/template.reset.css" />
+    <link rel="stylesheet" href="dist/css/template.bootstrap.css" />
+    <link rel="stylesheet" href="dist/css/template_system/template.fa.css" />
+    <link rel="stylesheet" href="dist/css/template_default/template.detail.css" />
+    <link rel="stylesheet" href="dist/css/template_default/template.media.css" />
+    <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.media.css" />
+    <link rel="stylesheet" href="dist/css/template_default/themes/2016/template.theme.detail.css" />
+    <link rel="stylesheet" href="dist/css/template_default/template.detail.size.css" />
+</head>
+<style type="text/css">
+.form-horizontal .form-group{
+    margin-left: 0;
+    margin-right: 0;
+}
+ .form-horizontal .form-group .control-label {
+    text-align: left;
+}
+
+.form-no-input{
+  width: 0;
+  border:0;
+  display: inline-block;
+  padding-left:0;
+  padding-right: 0;
+  webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    -webkit-transition: inheritl;
+    -o-transition: inheritl;
+    transition: inheritl;
+}
+</style>
+
+<body>
+    <div class="wh-wrapper">
+        <div class="wh-view wh-detail wh-d-contact">
+            <!--单位联系人明细-->
+            <div class="container" style="padding: 30px 0">
+                <div class="details-container text">
+                    <form class="form-horizontal clearfix" role="form">
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">标题<em>*</em>:</label>
+                            <div class="col-wh-10" style="width:86%">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">开始时间<em>*</em>:</label>
+                            <div class="col-wh-4" style="width:36%">
+                                <div class="has-feedback">
+                                    <input id="data-bsday" type="text" class="form-control">
+                                    <i class="fa fa-calendar form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <label class="col-wh-2 control-label" style="width:14%">开始时间<em>*</em>:</label>
+                            <div class="col-wh-4" style="width:36%">
+                                <div class="has-feedback">
+                                    <input id="data-bsday2" type="text" class="form-control">
+                                    <i class="fa fa-calendar form-control-feedback"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">要求<em>*</em>:</label>
+                            <div class="col-wh-10" style="width:86%">
+                                <textarea class="personal-about form-control">123123</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">约稿范围<em>*</em>:</label>
+                            <div class="col-wh-10" style="width:86%">
+                                <textarea class="personal-about form-control">123123</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">相关附件<em>&nbsp;</em>:</label>
+                            <div class="col-wh-10" style="width:86%">
+                                <input type="file" class="db-file">
+                            </div>
+                        </div>
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">备注<em>&nbsp;</em>:</label>
+                            <div class="col-wh-10" style="width:86%">
+                                <textarea class="personal-about form-control">123123</textarea>
+                            </div>
+                        </div>
+                        <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">联系人<em>&nbsp;</em>:</label>
+                            <div class="col-wh-4" style="width:36%">
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-btn"><a href="javascript:void(0)" class="btn btn-wh-line"><i>...</i></a></div>
+                                </div>
+                            </div>
+                            <label class="col-wh-2 control-label" style="width:14%">联系电话<em>&nbsp;</em>:</label>
+                            <div class="col-wh-4" style="width:36%">
+                                <input class="form-control">
+                            </div>
+                        </div>
+                         <div class="form-group col-wh-12">
+                            <label class="col-wh-2 control-label" style="width:14%">创建人<em>&nbsp;</em>:</label>
+                            <div class="col-wh-4" style="width:36%">
+                               <input class="form-control form-no-input">
+                               杨霞
+                            </div>
+                            <label class="col-wh-2 control-label" style="width:14%">创建时间<em>&nbsp;</em>:</label>
+                            <div class="col-wh-4" style="width:36%">
+                                <input class="form-control form-no-input">
+                                2010-09-10
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/static/template.js"></script>
+    <script type="text/javascript" src="scripts/static/template.custom.js"></script>
+    <script type="text/javascript" src="scripts/static/template.extend.js"></script>
+    <script type="text/javascript" src="scripts/plugins/zTree_v3/jquery.ztree.core-3.5.js"></script>
+    <script type="text/javascript" src="scripts/pagejs/view-frame.js?v=20160307"></script>
+    <script>
+    $(function() {
+        $('[data-seltype="single"').selectpicker();
+        laydate({
+            elem: '#data-bsday',
+            format: 'YYYY/MM/DD hh:mm:ss',
+            min: laydate.now(), //设定最小日期为当前日期
+            max: '2099-06-16 23:59:59', //最大日期
+            istime: true
+        });
+        $('#save-demo').on('click', function() {
+            layer.confirm('没有数据？', {
+                btn: ['重要', '奇葩'] //按钮
+            }, function() {
+                layer.msg('的确很重要', {
+                    icon: 1
+                });
+            }, function() {
+                layer.msg('也可以这样', {
+                    time: 20000, //20s后自动关闭
+                    btn: ['明白了', '知道了']
+                });
+            });
+        })
+    })
+    </script>
+</body>
+
+</html>

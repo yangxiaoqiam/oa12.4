@@ -1,0 +1,101 @@
+<!DOCTYPE html >
+<html class="wh-gray-bg theme-blue theme-width-blue size-big16">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="template/css/template_system/template.reset.min.css" />
+    <link rel="stylesheet" href="template/css/template_system/template.fa.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.portal.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.style.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/template.portal.size.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.before.min.css" />
+    <link rel="stylesheet" href="template/css/template_default/themes/2016/template.theme.after.min.css" />
+    <link rel="stylesheet" type="text/css" href="scripts/plugins/fullcalendar/fullcalendar.css">
+    <script type="text/javascript" src="scripts/plugins/fullcalendar/fullcalendar.js"></script>
+</head>
+<div class="eeee" onClick=" aa()">ss</div>
+<script type="text/javascript">
+function aa() {
+    $(".eeee").click(function() {
+        alert("33");
+    })
+}
+$(".eeee").click(function() {
+    e.preventDefault();
+})
+</script>
+<div class="wh-portal-i-content">
+    <div class="wh-calendar">
+        <div id='calendar'></div>
+        <ul class="wh-calendar-list">
+            <li>
+                <a class="clearfix">
+                    <span>全天</span>
+                    <div><em>教师节教师节教师节教师节教师节教师节教师节教师节教师节教师节教师节教师节</em></div> 
+              </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                    <span>09:10~10:00</span>
+                    <div><em>教师节教师节教师节教师节</em></div> 
+               </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script>
+    $(document).ready(function() {
+
+        var date = new Date();
+        var d = date.getDate();
+        var m = date.getMonth();
+        var y = date.getFullYear();
+        $('#calendar').fullCalendar({
+            header: {
+                right: 'prev,next today',
+                left: 'title',
+
+            },
+            editable: true,
+
+            dayClick: function(date, jsEvent, view) {
+
+                // change the day's background color just for fun
+                $(this).addClass("on").siblings().removeClass("on");
+                $(this).parent().siblings().children(".fc-widget-content").removeClass("on");
+            },
+
+        });
+    });
+ 
+    </script>
+</div>
+
+</html>

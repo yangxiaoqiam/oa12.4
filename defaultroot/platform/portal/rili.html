@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/defaultroot/scripts/plugins/fullcalendar/fullcalendar.css">
+    <script type="text/javascript" src="/defaultroot/scripts/plugins/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../defaultroot/scripts/plugins/fullcalendar/fullcalendar.js"></script>
+</head>
+<div class="wh-portal-i-content">
+    <div class="wh-calendar">
+        <div id='calendar'></div>
+        <ul class="wh-calendar-list">
+            <li>
+                <a class="clearfix">
+                    <span>全天</span>
+                    <div><em>教师节教师节教师节教师节教师节教师节教师节教师节教师节教师节教师节教师节</em></div> 
+              </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                    <span>09:10~10:00</span>
+                    <div><em>教师节教师节教师节教师节</em></div> 
+               </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+            <li>
+                <a class="clearfix">
+                     <span>09:10~10:00</span>
+                     <div><em>教师节教师节教师节教师节</em></div> 
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script>
+    $(document).ready(function() {
+
+        var date = new Date();
+        var d = date.getDate();
+        var m = date.getMonth();
+        var y = date.getFullYear();
+
+        var calendar = $('#calendar').fullCalendar({
+            header: {
+                left: 'title',
+                right: 'prev,next today',
+            },
+            selectable: true,
+            selectHelper: true,
+            select: function(start, end, allDay) {
+                var title = prompt('Event Title:');
+                if (title) {
+                    calendar.fullCalendar('renderEvent', {
+                            title: title,
+                            start: start,
+                            end: end,
+                            allDay: allDay
+                        },
+                        true // make the event "stick"
+                    );
+                }
+                calendar.fullCalendar('unselect');
+            },
+            editable: true,
+
+        });
+
+    });
+    $('#calendar').fullCalendar('option', 'height', 200);
+    $(".fc-border-separate td").each(function() {
+        $(this).addClass("sss");
+    })
+    </script>
+</div>
+</html>
