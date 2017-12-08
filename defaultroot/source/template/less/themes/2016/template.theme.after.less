@@ -219,7 +219,18 @@
         color: #fff;
       }
     } 
-    .process-list-imgtop .listbox ul li a:hover .fa{ color: #fff;}
+     .process-list-imgtop {
+         .listbox {
+             ul {
+                 li {
+                     a:hover{
+                        background:none;
+                        color: @global-color;
+                     }
+                 }
+             }
+         }
+     }
 
     //切换左侧样式
     .btn-switch-hide,

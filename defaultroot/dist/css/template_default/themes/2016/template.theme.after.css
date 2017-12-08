@@ -194,8 +194,9 @@
   background: #0073c6;
   color: #fff;
 }
-.theme-blue .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-blue .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #0073c6;
 }
 .theme-blue .btn-switch-hide,
 .theme-blue .btn-switch-show {
@@ -1347,8 +1348,9 @@
   background: #4617b5;
   color: #fff;
 }
-.theme-violet .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-violet .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #4617b5;
 }
 .theme-violet .btn-switch-hide,
 .theme-violet .btn-switch-show {
@@ -2500,8 +2502,9 @@
   background: #8c0095;
   color: #fff;
 }
-.theme-purple .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-purple .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #8c0095;
 }
 .theme-purple .btn-switch-hide,
 .theme-purple .btn-switch-show {
@@ -3653,8 +3656,9 @@
   background: #004b8c;
   color: #fff;
 }
-.theme-indigo .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-indigo .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #004b8c;
 }
 .theme-indigo .btn-switch-hide,
 .theme-indigo .btn-switch-show {
@@ -4806,8 +4810,9 @@
   background: #001941;
   color: #fff;
 }
-.theme-darkblue .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-darkblue .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #001941;
 }
 .theme-darkblue .btn-switch-hide,
 .theme-darkblue .btn-switch-show {
@@ -5959,8 +5964,9 @@
   background: #580000;
   color: #fff;
 }
-.theme-maroon .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-maroon .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #580000;
 }
 .theme-maroon .btn-switch-hide,
 .theme-maroon .btn-switch-show {
@@ -7112,8 +7118,9 @@
   background: #380001;
   color: #fff;
 }
-.theme-brown .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-brown .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #380001;
 }
 .theme-brown .btn-switch-hide,
 .theme-brown .btn-switch-show {
@@ -8265,8 +8272,9 @@
   background: #585858;
   color: #fff;
 }
-.theme-gray .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-gray .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #585858;
 }
 .theme-gray .btn-switch-hide,
 .theme-gray .btn-switch-show {
@@ -9418,8 +9426,9 @@
   background: #333;
   color: #fff;
 }
-.theme-black .process-list-imgtop .listbox ul li a:hover .fa {
-  color: #fff;
+.theme-black .process-list-imgtop .listbox ul li a:hover {
+  background: none;
+  color: #333;
 }
 .theme-black .btn-switch-hide,
 .theme-black .btn-switch-show {

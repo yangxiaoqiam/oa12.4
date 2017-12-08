@@ -7298,14 +7298,14 @@ h5 {
   height: 38px;
   line-height: 38px;
 }
-.process-list-imgtop .listbox ul li a {
-  display: block;
+.process-list-imgtop .listbox ul li p {
   text-overflow: ellipsis;
   overflow: hidden;
   word-break: keep-all;
   word-wrap: normal;
   white-space: nowrap;
-  font-size: 14px;
+}
+.process-list-imgtop .listbox ul li a {
   text-indent: 5px;
 }
 .process-list-imgtop .listbox ul li a .fa {
@@ -7376,7 +7376,6 @@ h5 {
   word-break: keep-all;
   word-wrap: normal;
   white-space: nowrap;
-  font-size: 14px;
 }
 .process-list-imgleft .listbox ul li a .fa {
   font-size: 12px;
