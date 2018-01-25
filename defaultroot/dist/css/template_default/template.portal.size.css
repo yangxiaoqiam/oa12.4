@@ -763,6 +763,7 @@ body.size-big {
 /*16号  大尺寸*/
 .size-big16 {
   /* 新增列表 */
+  /* 流程列表 文字从下面弹出 */
   /* 流程列表 图片在左  */
   /* 流程列表 图片在上  */
 }
@@ -1194,6 +1195,9 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .quick-link-a li a p.title {
+  font-size: 16px;
+}
+.size-big16 .process-list .listbox ul li a {
   font-size: 16px;
 }
 .size-big16 .process-list-imgleft .listbox ul li a {

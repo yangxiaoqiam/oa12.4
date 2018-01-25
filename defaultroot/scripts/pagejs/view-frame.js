@@ -462,6 +462,6 @@ function removeHoverDom(treeId, treeNode) {
 
 
 
-if ($(".ztree>li").children().hasClass(".curSelectedNode")) {
+/*if ($(".ztree>li").children().hasClass(".curSelectedNode")) {
   $(this).addClass("ss");
-}
+}*/

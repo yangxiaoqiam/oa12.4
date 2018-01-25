@@ -633,15 +633,16 @@ table.fc-border-separate {
     display: none;
 }
 
-
 .wh-calendar {
     width: 95%;
     margin: 7px auto 5px auto;
+    .fc-view-month>div{display:none}
     .fc-day {
         position: relative;
+        cursor:pointer;
         .fc-day-content {
             position: absolute;
-             padding:0;
+            padding:0;
             width: 3px;
             height: 3px;
             border-radius: 999px;
@@ -712,3 +713,4 @@ table.fc-border-separate {
         }
     }
 }
+
