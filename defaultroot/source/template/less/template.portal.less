@@ -6156,7 +6156,7 @@ h5 {
     font-size: @pt-font-size12;
   }
   em.time {
-    color: #bcbcbc;
+    color: @portal-time-color;
     font-size: @pt-font-size12;
     position: absolute;
     right: 0;
@@ -6170,7 +6170,7 @@ h5 {
     top:0;
     display: inline-block;
     font-size: @pt-font-size12;
-    color: #202020;
+    color: @portal-title-color;
     cursor: default;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -7392,3 +7392,66 @@ h5 {
 .wh-info-set-tab tr.html-selectbox>td{
   padding-top:0;
 }
+
+
+/* portal自定义模块 */
+.portlet-define-setbox {
+    border: 0;
+    margin: 0;
+    table {
+        table-layout: fixed;
+        tr {
+            td {
+                text-align: left;
+                border-left: 0 none;
+                border-top: 0 none;
+                border-bottom: 1px dashed #e0e0e0;
+                padding: 0;
+                height: auto;
+                a {
+                    color: @portal-title-color;
+                }
+                i {
+                    font-size: 12px;
+                    position: relative;
+                    top: 0;
+                    margin-right: 3px;
+                    height: 40px;
+                    line-height: 42px;
+                    color: #b7b7b7;
+                    float: left;
+                }
+                div {
+                    display: inline-block;
+                    color: #202020;
+                    cursor: default;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    word-break: keep-all;
+                    word-wrap: normal;
+                    white-space: nowrap;
+                    position: relative;
+                    cursor: pointer;
+                    max-width: 82%;
+                    height: 40px;
+                    line-height: 40px;
+                    float: left;
+                }
+            }
+            td.portlet-define-settime {
+                text-align: right;
+                width: 100px;
+                div {
+                    float: right;
+                    max-width: none;
+                    margin-right: 13px;
+                    color: @portal-time-color;
+                    cursor: auto;
+                }
+            }
+        }
+    }
+}
+
+
+

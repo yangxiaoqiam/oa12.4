@@ -13,6 +13,7 @@ body.size-big {
   /* 新增列表 */
   /* 流程列表 图片在左  */
   /* 流程列表 图片在上  */
+  /* portal自定义模块 */
 }
 .size-small .wh-main {
   margin: 0 auto;
@@ -382,11 +383,18 @@ body.size-big {
 .size-small .process-list-imgtop .listbox ul li a {
   font-size: 12px;
 }
+.size-small .portlet-define-setbox td a {
+  font-size: 12px;
+}
+.size-small .portlet-define-setbox td a div {
+  font-size: 12px;
+}
 /*14号  大尺寸*/
 .size-big {
   /* 新增列表 */
   /* 流程列表 图片在左  */
   /* 流程列表 图片在上  */
+  /* portal自定义模块 */
 }
 .size-big .wh-main {
   margin: 0 auto;
@@ -760,12 +768,19 @@ body.size-big {
 .size-big .process-list-imgtop .listbox ul li a {
   font-size: 14px;
 }
+.size-big .portlet-define-setbox td a {
+  font-size: 14px;
+}
+.size-big .portlet-define-setbox td a div {
+  font-size: 14px;
+}
 /*16号  大尺寸*/
 .size-big16 {
   /* 新增列表 */
   /* 流程列表 文字从下面弹出 */
   /* 流程列表 图片在左  */
   /* 流程列表 图片在上  */
+  /* portal自定义模块 */
 }
 .size-big16 .wh-main {
   margin: 0 auto;
@@ -1204,5 +1219,11 @@ body.size-big {
   font-size: 16px;
 }
 .size-big16 .process-list-imgtop .listbox ul li a {
+  font-size: 16px;
+}
+.size-big16 .portlet-define-setbox td a {
+  font-size: 16px;
+}
+.size-big16 .portlet-define-setbox td a div {
   font-size: 16px;
 }

@@ -6,6 +6,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-blue .bgcolor-acd598 {
   background-color: #acd598;
@@ -1152,6 +1153,10 @@
 .theme-blue .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #0073c6;
 }
+.theme-blue .portlet-define-setbox td a:focus,
+.theme-blue .portlet-define-setbox td a:hover {
+  color: #0073c6;
+}
 .theme-violet {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -1160,6 +1165,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-violet .bgcolor-acd598 {
   background-color: #acd598;
@@ -2306,6 +2312,10 @@
 .theme-violet .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #4617b5;
 }
+.theme-violet .portlet-define-setbox td a:focus,
+.theme-violet .portlet-define-setbox td a:hover {
+  color: #4617b5;
+}
 .theme-purple {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -2314,6 +2324,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-purple .bgcolor-acd598 {
   background-color: #acd598;
@@ -3460,6 +3471,10 @@
 .theme-purple .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #8c0095;
 }
+.theme-purple .portlet-define-setbox td a:focus,
+.theme-purple .portlet-define-setbox td a:hover {
+  color: #8c0095;
+}
 .theme-indigo {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -3468,6 +3483,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-indigo .bgcolor-acd598 {
   background-color: #acd598;
@@ -4614,6 +4630,10 @@
 .theme-indigo .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #004b8c;
 }
+.theme-indigo .portlet-define-setbox td a:focus,
+.theme-indigo .portlet-define-setbox td a:hover {
+  color: #004b8c;
+}
 .theme-darkblue {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -4622,6 +4642,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-darkblue .bgcolor-acd598 {
   background-color: #acd598;
@@ -5768,6 +5789,10 @@
 .theme-darkblue .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #001941;
 }
+.theme-darkblue .portlet-define-setbox td a:focus,
+.theme-darkblue .portlet-define-setbox td a:hover {
+  color: #001941;
+}
 .theme-maroon {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -5776,6 +5801,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-maroon .bgcolor-acd598 {
   background-color: #acd598;
@@ -6922,6 +6948,10 @@
 .theme-maroon .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #580000;
 }
+.theme-maroon .portlet-define-setbox td a:focus,
+.theme-maroon .portlet-define-setbox td a:hover {
+  color: #580000;
+}
 .theme-brown {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -6930,6 +6960,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-brown .bgcolor-acd598 {
   background-color: #acd598;
@@ -8076,6 +8107,10 @@
 .theme-brown .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #380001;
 }
+.theme-brown .portlet-define-setbox td a:focus,
+.theme-brown .portlet-define-setbox td a:hover {
+  color: #380001;
+}
 .theme-gray {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -8084,6 +8119,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-gray .bgcolor-acd598 {
   background-color: #acd598;
@@ -9230,6 +9266,10 @@
 .theme-gray .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #585858;
 }
+.theme-gray .portlet-define-setbox td a:focus,
+.theme-gray .portlet-define-setbox td a:hover {
+  color: #585858;
+}
 .theme-black {
   /*     .wh-left-menuList {
   border-top-color: @global-color;
@@ -9238,6 +9278,7 @@
   }
 } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-black .bgcolor-acd598 {
   background-color: #acd598;
@@ -10383,6 +10424,10 @@
 }
 .theme-black .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #333;
+}
+.theme-black .portlet-define-setbox td a:focus,
+.theme-black .portlet-define-setbox td a:hover {
+  color: #333;
 }
 /* theme-green 左侧菜单颜色修改 */
 .theme-blue.theme-default-blue .wh-l-content .wh-left-menuList {

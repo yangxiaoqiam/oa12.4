@@ -6,6 +6,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-red .bgcolor-acd598 {
   background-color: #acd598;
@@ -1152,6 +1153,10 @@
 .theme-red .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #cd2500;
 }
+.theme-red .portlet-define-setbox td a:focus,
+.theme-red .portlet-define-setbox td a:hover {
+  color: #cd2500;
+}
 .theme-pink {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -1160,6 +1165,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-pink .bgcolor-acd598 {
   background-color: #acd598;
@@ -2306,6 +2312,10 @@
 .theme-pink .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #dc4fad;
 }
+.theme-pink .portlet-define-setbox td a:focus,
+.theme-pink .portlet-define-setbox td a:hover {
+  color: #dc4fad;
+}
 .theme-darkred {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -2314,6 +2324,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-darkred .bgcolor-acd598 {
   background-color: #acd598;
@@ -3460,6 +3471,10 @@
 .theme-darkred .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #ad193d;
 }
+.theme-darkred .portlet-define-setbox td a:focus,
+.theme-darkred .portlet-define-setbox td a:hover {
+  color: #ad193d;
+}
 .theme-orange {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -3468,6 +3483,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-orange .bgcolor-acd598 {
   background-color: #acd598;
@@ -4614,6 +4630,10 @@
 .theme-orange .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #F27521;
 }
+.theme-orange .portlet-define-setbox td a:focus,
+.theme-orange .portlet-define-setbox td a:hover {
+  color: #F27521;
+}
 .theme-lightgreen {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -4622,6 +4642,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-lightgreen .bgcolor-acd598 {
   background-color: #acd598;
@@ -5768,6 +5789,10 @@
 .theme-lightgreen .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #82ba01;
 }
+.theme-lightgreen .portlet-define-setbox td a:focus,
+.theme-lightgreen .portlet-define-setbox td a:hover {
+  color: #82ba01;
+}
 .theme-green {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -5776,6 +5801,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-green .bgcolor-acd598 {
   background-color: #acd598;
@@ -6922,6 +6948,10 @@
 .theme-green .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #008b18;
 }
+.theme-green .portlet-define-setbox td a:focus,
+.theme-green .portlet-define-setbox td a:hover {
+  color: #008b18;
+}
 .theme-cyan {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -6930,6 +6960,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-cyan .bgcolor-acd598 {
   background-color: #acd598;
@@ -8076,6 +8107,10 @@
 .theme-cyan .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #03b3b1;
 }
+.theme-cyan .portlet-define-setbox td a:focus,
+.theme-cyan .portlet-define-setbox td a:hover {
+  color: #03b3b1;
+}
 .theme-seablue {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -8084,6 +8119,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-seablue .bgcolor-acd598 {
   background-color: #acd598;
@@ -9230,6 +9266,10 @@
 .theme-seablue .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #00829a;
 }
+.theme-seablue .portlet-define-setbox td a:focus,
+.theme-seablue .portlet-define-setbox td a:hover {
+  color: #00829a;
+}
 .theme-skyblue {
   /*  .wh-left-menuList {
      border-top-color: @global-color;
@@ -9238,6 +9278,7 @@
      }
    } */
   /* portal日程 */
+  /* portal自定义模板 */
 }
 .theme-skyblue .bgcolor-acd598 {
   background-color: #acd598;
@@ -10383,6 +10424,10 @@
 }
 .theme-skyblue .wh-calendar .fc-day.hasschedule .fc-day-content {
   background: #5cb2ff;
+}
+.theme-skyblue .portlet-define-setbox td a:focus,
+.theme-skyblue .portlet-define-setbox td a:hover {
+  color: #5cb2ff;
 }
 /* theme-green 左侧菜单颜色修改 */
 .theme-green.theme-default-green .wh-l-content .wh-left-menuList {
