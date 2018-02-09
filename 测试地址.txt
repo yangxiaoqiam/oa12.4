@@ -1,0 +1,5 @@
+
+sql £ºhttp://192.168.0.77:7240  youmx  .123qwe
+
+oracle:http://192.168.0.21:7240 youmx .123qwe
+
